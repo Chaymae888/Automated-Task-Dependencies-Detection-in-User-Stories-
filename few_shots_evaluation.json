@@ -1,0 +1,82 @@
+{
+  "method": "few_shots",
+  "scores": {
+    "semantic_similarity": 0.0,
+    "coverage_score": 0.0,
+    "task_count_accuracy": 0.0,
+    "overall_score": 0.0
+  },
+  "examples": [
+    {
+      "case_id": 0,
+      "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+      "gt_tasks": [
+        "Set up cloud.gov account and project space",
+        "Configure deployment pipeline",
+        "Deploy beta version to cloud.gov",
+        "Test deployment and verify functionality",
+        "Share access credentials with team members"
+      ],
+      "pred_tasks": [],
+      "similarity_score": 0.0,
+      "coverage_score": 0.0
+    },
+    {
+      "case_id": 1,
+      "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I c...",
+      "gt_tasks": [
+        "Request subdomain creation through NSF IT",
+        "Configure DNS settings for beta.nsf.gov",
+        "Set up SSL certificate for subdomain",
+        "Configure deployment pipeline to use subdomain",
+        "Test subdomain accessibility and routing"
+      ],
+      "pred_tasks": [],
+      "similarity_score": 0.0,
+      "coverage_score": 0.0
+    },
+    {
+      "case_id": 2,
+      "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov ...",
+      "gt_tasks": [
+        "Research FISMA low requirements documentation",
+        "Schedule meeting with cloud.gov support team",
+        "Document current prototype configuration",
+        "Create migration checklist and timeline",
+        "Prepare compliance documentation"
+      ],
+      "pred_tasks": [],
+      "similarity_score": 0.0,
+      "coverage_score": 0.0
+    },
+    {
+      "case_id": 3,
+      "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine t...",
+      "gt_tasks": [
+        "Schedule meeting with DIS and cloud.gov teams",
+        "Prepare list of ATO-related questions",
+        "Document ATO requirements and timeline",
+        "Create compliance action plan",
+        "Assign responsibility for ATO tasks"
+      ],
+      "pred_tasks": [],
+      "similarity_score": 0.0,
+      "coverage_score": 0.0
+    },
+    {
+      "case_id": 4,
+      "user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregato...",
+      "gt_tasks": [
+        "Evaluate current blog aggregator functionality",
+        "Test aggregator with NSF content requirements",
+        "Document pros and cons of aggregator approach",
+        "Research alternative blog solutions",
+        "Present recommendation with rationale"
+      ],
+      "pred_tasks": [],
+      "similarity_score": 0.0,
+      "coverage_score": 0.0
+    }
+  ],
+  "total_cases": 73
+}

@@ -1,0 +1,65 @@
+============================================================
+FEW-SHOTS METHOD EVALUATION REPORT
+============================================================
+
+📊 OVERALL SCORES:
+  Semantic Similarity: 0.000
+  Coverage Score: 0.000
+  Task Count Accuracy: 0.000
+  Overall Score: 0.000
+
+📈 ANALYSIS:
+  Total Cases: 73
+  Performance Level: Needs improvement
+
+🔍 SAMPLE COMPARISONS:
+
+Case 0:
+  Story: As a team member, I want to see the first iteration of beta up on cloud.gov...
+  GT Tasks (5):
+    • Set up cloud.gov account and project space
+    • Configure deployment pipeline
+    • ... and 3 more
+  Predicted Tasks (0):
+  Similarity: 0.000
+  Coverage: 0.000
+
+Case 1:
+  Story: As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I c...
+  GT Tasks (5):
+    • Request subdomain creation through NSF IT
+    • Configure DNS settings for beta.nsf.gov
+    • ... and 3 more
+  Predicted Tasks (0):
+  Similarity: 0.000
+  Coverage: 0.000
+
+Case 2:
+  Story: As an NSF employee, I want to understand the process of switching the cloud.gov ...
+  GT Tasks (5):
+    • Research FISMA low requirements documentation
+    • Schedule meeting with cloud.gov support team
+    • ... and 3 more
+  Predicted Tasks (0):
+  Similarity: 0.000
+  Coverage: 0.000
+
+Case 3:
+  Story: As a team member, I want to meet with DIS / cloud.gov, so that I can determine t...
+  GT Tasks (5):
+    • Schedule meeting with DIS and cloud.gov teams
+    • Prepare list of ATO-related questions
+    • ... and 3 more
+  Predicted Tasks (0):
+  Similarity: 0.000
+  Coverage: 0.000
+
+Case 4:
+  Story: As a stakeholder, I want to have a decision on whether or not the blog aggregato...
+  GT Tasks (5):
+    • Evaluate current blog aggregator functionality
+    • Test aggregator with NSF content requirements
+    • ... and 3 more
+  Predicted Tasks (0):
+  Similarity: 0.000
+  Coverage: 0.000

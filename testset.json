@@ -1,0 +1,732 @@
+[
+  {
+    "input": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+    "output": [
+      "Set up cloud.gov account and project space",
+      "Configure deployment pipeline",
+      "Deploy beta version to cloud.gov",
+      "Test deployment and verify functionality",
+      "Share access credentials with team members"
+    ]
+  },
+  {
+    "input": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta site to it",
+    "output": [
+      "Request subdomain creation through NSF IT",
+      "Configure DNS settings for beta.nsf.gov",
+      "Set up SSL certificate for subdomain",
+      "Configure deployment pipeline to use subdomain",
+      "Test subdomain accessibility and routing"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over from prototype to FISMA low",
+    "output": [
+      "Research FISMA low requirements documentation",
+      "Schedule meeting with cloud.gov support team",
+      "Document current prototype configuration",
+      "Create migration checklist and timeline",
+      "Prepare compliance documentation"
+    ]
+  },
+  {
+    "input": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for the beta.nsf.gov ATO",
+    "output": [
+      "Schedule meeting with DIS and cloud.gov teams",
+      "Prepare list of ATO-related questions",
+      "Document ATO requirements and timeline",
+      "Create compliance action plan",
+      "Assign responsibility for ATO tasks"
+    ]
+  },
+  {
+    "input": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta, and if not what will",
+    "output": [
+      "Evaluate current blog aggregator functionality",
+      "Test aggregator with NSF content requirements",
+      "Document pros and cons of aggregator approach",
+      "Research alternative blog solutions",
+      "Present recommendation with rationale"
+    ]
+  },
+  {
+    "input": "As a content editor, I want to be able to easily find content, so that I can edit it",
+    "output": [
+      "Design content search interface",
+      "Implement content filtering and categorization",
+      "Add content tagging system",
+      "Create content organization hierarchy",
+      "Add bulk content management tools"
+    ]
+  },
+  {
+    "input": "As a user, I want to add a video to my article",
+    "output": [
+      "Design video upload interface",
+      "Integrate with video hosting service",
+      "Add video embed functionality",
+      "Implement video preview in editor",
+      "Add video metadata management"
+    ]
+  },
+  {
+    "input": "As a content editor, I want to be able to add videos from Brightcove",
+    "output": [
+      "Integrate Brightcove API",
+      "Create Brightcove video browser interface",
+      "Add video selection and embed functionality",
+      "Implement video preview and metadata display",
+      "Add video management and organization tools"
+    ]
+  },
+  {
+    "input": "As an author, I want to be able to indent / outdent content",
+    "output": [
+      "Add indent/outdent buttons to editor toolbar",
+      "Implement keyboard shortcuts for indentation",
+      "Create nested content structure support",
+      "Add visual indentation indicators",
+      "Ensure proper HTML output formatting"
+    ]
+  },
+  {
+    "input": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is right for me",
+    "output": [
+      "Compile user research findings into report",
+      "Create executive summary of key insights",
+      "Develop CMS recommendation based on research",
+      "Present findings to stakeholders",
+      "Document decision rationale"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to test the user research plan, so that I make sure the in-person interviews are effective and capturing the right information",
+    "output": [
+      "Conduct pilot interview sessions",
+      "Refine interview questions and script",
+      "Test interview recording and note-taking process",
+      "Validate research methodology",
+      "Update research plan based on pilot results"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing with internal users",
+    "output": [
+      "Review and refine OLPA task scenarios",
+      "Create step-by-step task instructions",
+      "Develop success criteria for each task",
+      "Prepare interview materials and forms",
+      "Schedule internal user testing sessions"
+    ]
+  },
+  {
+    "input": "As a research participant, I want to make sure that the appearance of the prototype does not distract from the workflow, so that I can complete the user interview",
+    "output": [
+      "Create neutral, minimal prototype styling",
+      "Remove distracting visual elements",
+      "Focus on functional workflow elements",
+      "Test prototype clarity with sample users",
+      "Refine prototype based on feedback"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task script",
+    "output": [
+      "Complete WIG prototype development",
+      "Test prototype functionality and usability",
+      "Create task scenarios based on prototype features",
+      "Develop second task script questions",
+      "Prepare materials for prototype testing"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so that I can make sure we're capturing the priority areas",
+    "output": [
+      "Interview stakeholders about critical workflows",
+      "Document current workflow processes",
+      "Prioritize workflows by importance and frequency",
+      "Create workflow testing scenarios",
+      "Validate priority list with team"
+    ]
+  },
+  {
+    "input": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can begin testing against a CMS prototype",
+    "output": [
+      "Define research objectives and questions",
+      "Create workflow testing scenarios",
+      "Develop interview guide and scripts",
+      "Design data collection methods",
+      "Create analysis framework for results"
+    ]
+  },
+  {
+    "input": "As a researcher, I want to recruit for the last round of user research, so that we can summarize findings and synthesize results",
+    "output": [
+      "Identify target participant criteria",
+      "Create recruitment materials and outreach plan",
+      "Schedule and confirm participant sessions",
+      "Prepare final research session materials",
+      "Plan results synthesis methodology"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be prepared to test our first prototype",
+    "output": [
+      "Identify participants for hypothesis testing",
+      "Schedule interview sessions",
+      "Prepare prototype testing materials",
+      "Create data collection templates",
+      "Confirm logistics and technology setup"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to begin identifying interview participants, so that I can understand what educators and science influencers need from a future nsf.gov website",
+    "output": [
+      "Create participant persona profiles",
+      "Develop recruitment criteria and screening questions",
+      "Identify recruitment channels and networks",
+      "Create outreach materials and templates",
+      "Begin participant recruitment outreach"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recruit users in real time from the website",
+    "output": [
+      "Design recruitment widget or popup",
+      "Create recruitment landing page",
+      "Implement tracking and analytics",
+      "Test recruitment flow and conversion rates",
+      "Optimize recruitment messaging and placement"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so that they can observe the interviews and make recommendations accordingly",
+    "output": [
+      "Identify relevant NSF stakeholders for each interview type",
+      "Create interview observation guidelines",
+      "Schedule stakeholder availability",
+      "Prepare observation materials and note-taking templates",
+      "Brief observers on interview protocols"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting participants",
+    "output": [
+      "Define research objectives and questions",
+      "Identify target user groups and criteria",
+      "Create research methodology and timeline",
+      "Develop participant recruitment strategy",
+      "Prepare research materials and templates"
+    ]
+  },
+  {
+    "input": "As a potential research participant, I want to learn about the research and leave my contact information",
+    "output": [
+      "Create research information page",
+      "Design contact information form",
+      "Implement form submission and storage",
+      "Add privacy notice and consent information",
+      "Set up automated confirmation responses"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better prepare them and the team for future research work",
+    "output": [
+      "Design workshop agenda and activities",
+      "Create user persona templates and exercises",
+      "Prepare workshop materials and supplies",
+      "Schedule and coordinate NSF participant attendance",
+      "Plan workshop documentation and follow-up"
+    ]
+  },
+  {
+    "input": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+    "output": [
+      "Research social media design patterns",
+      "Create wireframe layouts for social features",
+      "Define user interactions and flows",
+      "Review wireframes with stakeholders",
+      "Prepare wireframes for development handoff"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have a prioritized list of features and elements of a future social element page, so that I can work with the engineers to determine feasibility",
+    "output": [
+      "Brainstorm social feature requirements",
+      "Research competitor social implementations",
+      "Prioritize features by user value and complexity",
+      "Create technical feasibility assessment",
+      "Document feature specifications for development"
+    ]
+  },
+  {
+    "input": "As a team member, I want to determine a design direction for the beta social page, so that we can implement a beta site quickly without established brand guidelines",
+    "output": [
+      "Create multiple design concept options",
+      "Evaluate designs against project constraints",
+      "Test design concepts with stakeholders",
+      "Select design direction and document rationale",
+      "Create implementation guidelines for development"
+    ]
+  },
+  {
+    "input": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can discuss different design concepts with stakeholders",
+    "output": [
+      "Research NSF brand and visual identity",
+      "Create multiple visual design concepts",
+      "Develop style variations and themes",
+      "Prepare design presentation materials",
+      "Schedule stakeholder review sessions"
+    ]
+  },
+  {
+    "input": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov website, so that we can discuss different design concepts with stakeholders",
+    "output": [
+      "Collect visual inspiration and references",
+      "Organize mood board themes and categories",
+      "Create digital mood board presentations",
+      "Align mood boards with project goals",
+      "Present mood boards to stakeholders for feedback"
+    ]
+  },
+  {
+    "input": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so that visual design is an integral part of a redesign",
+    "output": [
+      "Create before/after design comparisons",
+      "Research visual design impact on user experience",
+      "Prepare business case for design investment",
+      "Create design value demonstration materials",
+      "Present design value proposition to team"
+    ]
+  },
+  {
+    "input": "As a designer, I want to have a style guide / design guide / content guide, so that we have a uniform way of delivering product",
+    "output": [
+      "Document visual design standards",
+      "Create component library and specifications",
+      "Define content style and tone guidelines",
+      "Create implementation guidelines",
+      "Build style guide documentation system"
+    ]
+  },
+  {
+    "input": "As a site administrator, I want to understand how other similar organizations are handling visual design, so that I can make informed decisions about what appears to work well and what doesn't",
+    "output": [
+      "Identify comparable organizations and websites",
+      "Conduct visual design audit and analysis",
+      "Document design patterns and best practices",
+      "Create competitive analysis report",
+      "Extract actionable insights and recommendations"
+    ]
+  },
+  {
+    "input": "As a site administrator, I want to understand how other similar organizations are handling content, so that I can make informed decisions about what appears to work well and what doesn't",
+    "output": [
+      "Analyze content strategies of similar organizations",
+      "Document content types and organizational approaches",
+      "Evaluate content effectiveness and user engagement",
+      "Create content strategy recommendations",
+      "Present competitive content analysis findings"
+    ]
+  },
+  {
+    "input": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+    "output": [
+      "Define user role types and permissions",
+      "Create role management interface",
+      "Implement role assignment functionality",
+      "Add role-based access controls",
+      "Test role permissions and security"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key considerations for getting to the next step",
+    "output": [
+      "Research available CMS platforms",
+      "Create evaluation criteria and scoring matrix",
+      "Assess CMS options against requirements",
+      "Document pros and cons of top candidates",
+      "Create CMS recommendation report"
+    ]
+  },
+  {
+    "input": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might impact current direction",
+    "output": [
+      "Complete webmaster workflow analysis",
+      "Document current workflow processes and pain points",
+      "Identify workflow improvement opportunities",
+      "Assess impact on CMS selection criteria",
+      "Update CMS requirements based on workflow findings"
+    ]
+  },
+  {
+    "input": "As a team member, I want to understand what the MVP should look like, so that I can begin understanding workflow needs as they pertain to any CMS decision",
+    "output": [
+      "Define MVP scope and core features",
+      "Map workflows to MVP requirements",
+      "Create MVP user stories and acceptance criteria",
+      "Assess CMS capability requirements for MVP",
+      "Document MVP specification and rationale"
+    ]
+  },
+  {
+    "input": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototype is developed further",
+    "output": [
+      "Schedule regular CMS development shadowing sessions",
+      "Create learning objectives and documentation templates",
+      "Set up development environment access",
+      "Plan hands-on learning activities",
+      "Document lessons learned and insights"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have an updated acquisitions roadmap, so that I can plan accordingly",
+    "output": [
+      "Review current acquisition status and timeline",
+      "Update roadmap with latest project developments",
+      "Identify upcoming acquisition milestones",
+      "Coordinate with procurement team",
+      "Communicate roadmap updates to stakeholders"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to have an updated roadmap document, so that I can see prioritized areas to focus on for the next few months and beyond",
+    "output": [
+      "Review and update project timeline",
+      "Reprioritize tasks based on current status",
+      "Identify dependencies and critical path items",
+      "Create visual roadmap presentation",
+      "Distribute updated roadmap to team"
+    ]
+  },
+  {
+    "input": "As a team member, I want to understand how time off overlaps with plans around the user research",
+    "output": [
+      "Collect team member vacation schedules",
+      "Map time off against research timeline",
+      "Identify potential scheduling conflicts",
+      "Adjust research schedule as needed",
+      "Create backup plans for key activities"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the content management system decision",
+    "output": [
+      "Design workshop agenda and objectives",
+      "Prepare workshop materials and activities",
+      "Schedule stakeholder participation",
+      "Facilitate workshop sessions",
+      "Document workshop outcomes and decisions"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to understand work performed, so that I can understand when and what I can use later",
+    "output": [
+      "Create comprehensive project documentation",
+      "Organize deliverables and work products",
+      "Document reusable components and processes",
+      "Create knowledge transfer materials",
+      "Plan handoff and transition activities"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction with the new CMS",
+    "output": [
+      "Analyze project findings and insights",
+      "Develop strategic recommendations",
+      "Create implementation roadmap",
+      "Identify resource and budget requirements",
+      "Present strategy recommendations to leadership"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how they might impact an eventual CMS / future web presence",
+    "output": [
+      "Analyze current editorial processes",
+      "Identify editorial planning improvements",
+      "Assess CMS impact on editorial workflows",
+      "Create editorial strategy recommendations",
+      "Document implementation considerations"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can incorporate them throughout the project",
+    "output": [
+      "Research brand guideline development processes",
+      "Document NSF brand requirements and constraints",
+      "Create brand implementation checklist",
+      "Plan brand guideline integration approach",
+      "Coordinate with NSF brand/communications team"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to know how visual design directions were developed, so that I can make better design decisions in the future",
+    "output": [
+      "Document design decision-making process",
+      "Create design rationale documentation",
+      "Identify design success factors and lessons learned",
+      "Create design decision framework",
+      "Build design knowledge base for future use"
+    ]
+  },
+  {
+    "input": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prototype to test",
+    "output": [
+      "Define and document first hypothesis",
+      "Create hypothesis testing plan",
+      "Identify prototype requirements",
+      "Plan prototype development approach",
+      "Set success criteria for hypothesis testing"
+    ]
+  },
+  {
+    "input": "As a content designer, I want to develop a better understanding of NSF's content types and editorial plan, so that I can make more informed recommendations going forward",
+    "output": [
+      "Audit existing content types and categories",
+      "Interview content creators and editors",
+      "Map content workflows and approval processes",
+      "Analyze content performance and effectiveness",
+      "Document content strategy recommendations"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have a prototype strategy, so that I understand how we will gain understandings from tests that will drive recommendations",
+    "output": [
+      "Define prototype objectives and success metrics",
+      "Create prototype testing methodology",
+      "Plan prototype iteration and refinement process",
+      "Design feedback collection and analysis approach",
+      "Document prototype-to-recommendation workflow"
+    ]
+  },
+  {
+    "input": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it's an integral part of our recommendations",
+    "output": [
+      "Create content design value proposition",
+      "Develop before/after content examples",
+      "Research content design impact on user experience",
+      "Present content design business case",
+      "Integrate content design into project recommendations"
+    ]
+  },
+  {
+    "input": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around development of prototypes",
+    "output": [
+      "Document all three initial hypotheses",
+      "Define prototype requirements for each hypothesis",
+      "Create development timeline and resource plan",
+      "Identify technical dependencies and constraints",
+      "Plan prototype development sequence"
+    ]
+  },
+  {
+    "input": "As a designer, I want to know what early indications of hypotheses might be, so that I can start planning for the first prototype",
+    "output": [
+      "Analyze early research findings",
+      "Identify emerging hypothesis indicators",
+      "Create design planning framework",
+      "Prepare prototype design concepts",
+      "Plan design iteration approach"
+    ]
+  },
+  {
+    "input": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a new release to the next listserv on the priority list",
+    "output": [
+      "Set up outreach tracking and analytics",
+      "Define success metrics for listserv outreach",
+      "Monitor response rates and engagement",
+      "Create listserv prioritization criteria",
+      "Plan sequential outreach campaign strategy"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to communicate the goals of the project with our stakeholders",
+    "output": [
+      "Identify key stakeholders for regular check-ins",
+      "Schedule recurring meeting series",
+      "Create check-in agenda templates",
+      "Prepare project status and goals materials",
+      "Plan stakeholder communication strategy"
+    ]
+  },
+  {
+    "input": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our next steps and how they apply to me",
+    "output": [
+      "Document workshop key findings and insights",
+      "Create personalized action items for attendees",
+      "Develop workshop summary report",
+      "Plan follow-up communications",
+      "Schedule next steps coordination meetings"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem with the rest of the team on a more regular basis",
+    "output": [
+      "Survey team availability and preferences",
+      "Create coworking schedule template",
+      "Book regular coworking time slots",
+      "Set up coworking collaboration tools",
+      "Plan coworking session agendas and objectives"
+    ]
+  },
+  {
+    "input": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and the type of user that will be interviewed",
+    "output": [
+      "Create interview schedule and calendar",
+      "Document participant types and profiles",
+      "Set up stakeholder notification system",
+      "Prepare interview observation guidelines",
+      "Coordinate stakeholder attendance logistics"
+    ]
+  },
+  {
+    "input": "As an NSF member of the team, I want to have a place where I can access all the related reports and documentation, so that I can refer to it easily now and in the future",
+    "output": [
+      "Set up centralized document repository",
+      "Organize documents by category and date",
+      "Create search and navigation functionality",
+      "Set up access permissions and security",
+      "Train team members on document system use"
+    ]
+  },
+  {
+    "input": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I can plan accordingly",
+    "output": [
+      "Schedule mid-point check-in meeting",
+      "Create check-in agenda and objectives",
+      "Prepare project status and progress materials",
+      "Identify key discussion topics and decisions",
+      "Communicate check-in logistics to team"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+    "output": [
+      "Create NSF employee Github accounts",
+      "Set up repository access and permissions",
+      "Provide Github orientation and training",
+      "Create issue assignment and workflow processes",
+      "Set up notifications and communication preferences"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to learn about how Github is used, so that I can participate in the issues as assigned",
+    "output": [
+      "Create Github usage guide and documentation",
+      "Provide hands-on Github training sessions",
+      "Set up practice repository for learning",
+      "Create issue management workflow documentation",
+      "Provide ongoing Github support and assistance"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan on attending",
+    "output": [
+      "Confirm meeting location and logistics",
+      "Send location details and directions",
+      "Coordinate travel arrangements if needed",
+      "Plan meeting agenda and materials",
+      "Set up meeting room and technology requirements"
+    ]
+  },
+  {
+    "input": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+    "output": [
+      "Create master meeting calendar",
+      "Set up recurring meeting schedules",
+      "Send calendar invitations to all participants",
+      "Set up meeting reminders and notifications",
+      "Coordinate across time zones and schedules"
+    ]
+  },
+  {
+    "input": "As a team member, I want to understand how work moves between UX/content > visual design > front end dev for a sprint cycle",
+    "output": [
+      "Document workflow handoff processes",
+      "Create workflow timeline and dependencies",
+      "Define deliverables and quality gates",
+      "Set up workflow tracking and monitoring",
+      "Train team on workflow processes and tools"
+    ]
+  },
+  {
+    "input": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly on Science360.gov",
+    "output": [
+      "Test recruiter functionality on Science360.gov",
+      "Verify data collection and storage",
+      "Check analytics and reporting",
+      "Test user experience and conversion flow",
+      "Document any issues and needed fixes"
+    ]
+  },
+  {
+    "input": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly, so that I can deploy it on more pages",
+    "output": [
+      "Complete recruiter testing and validation",
+      "Create deployment checklist and process",
+      "Identify additional pages for deployment",
+      "Plan phased rollout strategy",
+      "Set up monitoring and performance tracking"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas",
+    "output": [
+      "Research rapid prototyping tools and platforms",
+      "Set up prototyping environment and accounts",
+      "Create prototyping templates and components",
+      "Train team on prototyping tools usage",
+      "Establish prototyping workflow and standards"
+    ]
+  },
+  {
+    "input": "As an NSF employee, I want to see how the user recruitment form looks and behaves on a sample page, so that I can understand the impact the recruitment will have on the NSF page",
+    "output": [
+      "Create sample page with recruitment form",
+      "Test form functionality and user experience",
+      "Analyze impact on page performance and design",
+      "Gather feedback on form placement and appearance",
+      "Optimize form based on testing results"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have a high-level sense of the project timeline, so that I can plan my work",
+    "output": [
+      "Create high-level project timeline",
+      "Identify major milestones and deliverables",
+      "Show dependencies and critical path",
+      "Create visual timeline presentation",
+      "Update timeline regularly and communicate changes"
+    ]
+  },
+  {
+    "input": "As a team member, I want to know what visual design related tasks we might need to plan for this sprint, so that I can assign tasks as necessary",
+    "output": [
+      "Review sprint objectives and requirements",
+      "Identify visual design task dependencies",
+      "Estimate design task effort and timeline",
+      "Coordinate with design team availability",
+      "Create sprint design task assignments"
+    ]
+  },
+  {
+    "input": "As a team member, I want to have recruiting-email templates ready to go, so that I can start recruiting interviewees ASAP",
+    "output": [
+      "Create email template variations for different audiences",
+      "Include project context and participation details",
+      "Add scheduling and logistics information",
+      "Review templates for tone and clarity",
+      "Set up email template system for easy use"
+    ]
+  },
+  {
+    "input": "As a workshop attendee, I want to see a summary on major findings from the event",
+    "output": [
+      "Compile workshop notes and key insights",
+      "Identify major themes and findings",
+      "Create visual summary presentation",
+      "Highlight actionable recommendations",
+      "Distribute summary to all attendees"
+    ]
+  }
+]

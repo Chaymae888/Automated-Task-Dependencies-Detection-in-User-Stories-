@@ -495,7 +495,7 @@ async def process_multiple_user_stories(user_stories: List[str]) -> Dict[str, An
         return {
             "error": str(e),
             "user_stories": user_stories
-        }
+        } 
 
 def format_output(result: Dict[str, Any]) -> str:
     """Format the output in a clean, structured way"""

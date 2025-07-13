@@ -13,8 +13,6 @@ client = Groq(api_key=os.getenv('GROQ_API_KEY'))
 
 class TokenTracker:
     def __init__(self):
-        # For Llama models, we'll use cl100k_base as an approximation
-        # Note: This is not exact for Llama but gives a reasonable estimate
         try:
             self.tokenizer = tiktoken.get_encoding("cl100k_base")
         except:

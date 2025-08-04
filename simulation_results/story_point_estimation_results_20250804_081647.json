@@ -1,0 +1,156 @@
+{
+  "zero_shot": {
+    "estimator_name": "zero_shot",
+    "overall_metrics": {
+      "mean_absolute_error": 3.094170152624207,
+      "root_mean_squared_error": 4.1757854160851515,
+      "r2_score": 0.477682008692172,
+      "mean_relative_error": 0.6188340305248414
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 10,
+      "close_predictions": 35,
+      "acceptable_predictions": 64,
+      "perfect_percentage": 10.97822203529466,
+      "close_percentage": 35.51321951182969,
+      "acceptable_percentage": 64.73756031801244
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 87,
+      "compliance_percentage": 87.10013746479099,
+      "non_compliant_values": [
+        4,
+        6,
+        7,
+        9,
+        10
+      ]
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_points": 5.039577833784092,
+      "mean_predicted_points": 4.9908845664231585,
+      "prediction_bias": 1.0043843865496853
+    }
+  },
+  "few_shot": {
+    "estimator_name": "few_shot",
+    "overall_metrics": {
+      "mean_absolute_error": 1.9033874023985644,
+      "root_mean_squared_error": 2.7160249065906066,
+      "r2_score": 0.7011288003439476,
+      "mean_relative_error": 0.3806774804797129
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 30,
+      "close_predictions": 54,
+      "acceptable_predictions": 83,
+      "perfect_percentage": 30.926972739577863,
+      "close_percentage": 54.08720527377875,
+      "acceptable_percentage": 83.8670502105521
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 97,
+      "compliance_percentage": 97.65953797422314,
+      "non_compliant_values": [
+        7
+      ]
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_points": 5.063900329098947,
+      "mean_predicted_points": 5.357478943763993,
+      "prediction_bias": -0.29939159078364697
+    }
+  },
+  "chain_of_thought": {
+    "estimator_name": "chain_of_thought",
+    "overall_metrics": {
+      "mean_absolute_error": 2.214665046666366,
+      "root_mean_squared_error": 3.5118943840941643,
+      "r2_score": 0.4846858255963889,
+      "mean_relative_error": 0.4429330093332732
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 19,
+      "close_predictions": 41,
+      "acceptable_predictions": 68,
+      "perfect_percentage": 19.131878349652577,
+      "close_percentage": 41.68453031601064,
+      "acceptable_percentage": 68.58320663700685
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 97,
+      "compliance_percentage": 97.0758754090283,
+      "non_compliant_values": [
+        7
+      ]
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_points": 4.959596919998972,
+      "mean_predicted_points": 5.1373495677106265,
+      "prediction_bias": 0.5110775347658925
+    }
+  },
+  "tree_of_thought": {
+    "estimator_name": "tree_of_thought",
+    "overall_metrics": {
+      "mean_absolute_error": 2.2487433681996047,
+      "root_mean_squared_error": 3.1967429818615565,
+      "r2_score": 0.46152466133874215,
+      "mean_relative_error": 0.44974867363992094
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 16,
+      "close_predictions": 31,
+      "acceptable_predictions": 58,
+      "perfect_percentage": 16.25241112008471,
+      "close_percentage": 31.324319509935645,
+      "acceptable_percentage": 58.40272897542019
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 92,
+      "compliance_percentage": 92.64972148733456,
+      "non_compliant_values": [
+        7
+      ]
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_points": 4.826960131244123,
+      "mean_predicted_points": 4.625130366442415,
+      "prediction_bias": -1.0587029594968238
+    }
+  },
+  "self_consistency": {
+    "estimator_name": "self_consistency",
+    "overall_metrics": {
+      "mean_absolute_error": 2.1427072495752455,
+      "root_mean_squared_error": 3.3275241442929175,
+      "r2_score": 0.6054927503952656,
+      "mean_relative_error": 0.4285414499150491
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 28,
+      "close_predictions": 45,
+      "acceptable_predictions": 70,
+      "perfect_percentage": 28.233525658809707,
+      "close_percentage": 45.66349808276695,
+      "acceptable_percentage": 70.39322751221289
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 92,
+      "compliance_percentage": 92.4907514463717,
+      "non_compliant_values": [
+        7
+      ]
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_points": 4.837730318596753,
+      "mean_predicted_points": 5.127186199611731,
+      "prediction_bias": -0.22305609243375213
+    }
+  }
+}

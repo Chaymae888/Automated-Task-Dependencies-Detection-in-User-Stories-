@@ -1,0 +1,1187 @@
+{
+  "agent_name": "self_consistency",
+  "dependency_accuracy": {
+    "total_expected_dependencies": 258,
+    "total_predicted_dependencies": 0,
+    "correct_dependencies": 0,
+    "missing_dependencies": 258,
+    "false_dependencies": 0,
+    "overall_precision": 0,
+    "overall_recall": 0.0,
+    "overall_f1_score": 0,
+    "accuracy": 0.0,
+    "detection_rate": 0.0,
+    "detailed_comparisons": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Configure deployment pipeline": "{'Set up cloud.gov account and project space'}",
+          "Deploy beta version to cloud.gov": "{'Configure deployment pipeline'}",
+          "Test deployment and verify functionality": "{'Deploy beta version to cloud.gov'}",
+          "Share access credentials with team members": "{'Test deployment and verify functionality'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Configure DNS settings for beta.nsf.gov": "{'Request subdomain creation through NSF IT'}",
+          "Set up SSL certificate for subdomain": "{'Configure DNS settings for beta.nsf.gov'}",
+          "Configure deployment pipeline to use subdomain": "{'Set up SSL certificate for subdomain'}",
+          "Test subdomain accessibility and routing": "{'Configure deployment pipeline to use subdomain'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create migration checklist and timeline": "{'Research FISMA low requirements documentation', 'Document current prototype configuration', 'Schedule meeting with cloud.gov support team'}",
+          "Prepare compliance documentation": "{'Create migration checklist and timeline'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document ATO requirements and timeline": "{'Schedule meeting with DIS and cloud.gov teams', 'Prepare list of ATO-related questions'}",
+          "Create compliance action plan": "{'Document ATO requirements and timeline'}",
+          "Assign responsibility for ATO tasks": "{'Create compliance action plan'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Test aggregator with NSF content requirements": "{'Evaluate current blog aggregator functionality'}",
+          "Document pros and cons of aggregator approach": "{'Test aggregator with NSF content requirements'}",
+          "Present recommendation with rationale": "{'Document pros and cons of aggregator approach', 'Research alternative blog solutions'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a content editor, I want to be able to easily find content, so that I can edit it",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Implement content filtering and categorization": "{'Design content search interface'}",
+          "Add content tagging system": "{'Implement content filtering and categorization'}",
+          "Create content organization hierarchy": "{'Add content tagging system'}",
+          "Add bulk content management tools": "{'Create content organization hierarchy'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user, I want to add a video to my article",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Add video embed functionality": "{'Design video upload interface', 'Integrate with video hosting service'}",
+          "Implement video preview in editor": "{'Add video embed functionality'}",
+          "Add video metadata management": "{'Integrate with video hosting service'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a content editor, I want to be able to add videos from Brightcove",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create Brightcove video browser interface": "{'Integrate Brightcove API'}",
+          "Add video selection and embed functionality": "{'Create Brightcove video browser interface'}",
+          "Implement video preview and metadata display": "{'Add video selection and embed functionality'}",
+          "Add video management and organization tools": "{'Implement video preview and metadata display'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an author, I want to be able to indent / outdent content",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create nested content structure support": "{'Implement keyboard shortcuts for indentation', 'Add indent/outdent buttons to editor toolbar'}",
+          "Add visual indentation indicators": "{'Create nested content structure support'}",
+          "Ensure proper HTML output formatting": "{'Create nested content structure support'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create executive summary of key insights": "{'Compile user research findings into report'}",
+          "Develop CMS recommendation based on research": "{'Compile user research findings into report'}",
+          "Present findings to stakeholders": "{'Develop CMS recommendation based on research', 'Create executive summary of key insights'}",
+          "Document decision rationale": "{'Present findings to stakeholders'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to test the user research plan, so that I make sure the in-person inter...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Refine interview questions and script": "{'Conduct pilot interview sessions'}",
+          "Test interview recording and note-taking process": "{'Conduct pilot interview sessions'}",
+          "Validate research methodology": "{'Test interview recording and note-taking process', 'Refine interview questions and script'}",
+          "Update research plan based on pilot results": "{'Validate research methodology'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing wit...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create step-by-step task instructions": "{'Review and refine OLPA task scenarios'}",
+          "Develop success criteria for each task": "{'Create step-by-step task instructions'}",
+          "Prepare interview materials and forms": "{'Develop success criteria for each task'}",
+          "Schedule internal user testing sessions": "{'Prepare interview materials and forms'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a research participant, I want to make sure that the appearance of the prototype does not distrac...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Remove distracting visual elements": "{'Create neutral, minimal prototype styling'}",
+          "Focus on functional workflow elements": "{'Remove distracting visual elements'}",
+          "Test prototype clarity with sample users": "{'Focus on functional workflow elements'}",
+          "Refine prototype based on feedback": "{'Test prototype clarity with sample users'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task scrip...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Test prototype functionality and usability": "{'Complete WIG prototype development'}",
+          "Create task scenarios based on prototype features": "{'Test prototype functionality and usability'}",
+          "Develop second task script questions": "{'Create task scenarios based on prototype features'}",
+          "Prepare materials for prototype testing": "{'Develop second task script questions'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so t...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document current workflow processes": "{'Interview stakeholders about critical workflows'}",
+          "Prioritize workflows by importance and frequency": "{'Document current workflow processes'}",
+          "Create workflow testing scenarios": "{'Prioritize workflows by importance and frequency'}",
+          "Validate priority list with team": "{'Create workflow testing scenarios'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create workflow testing scenarios": "{'Define research objectives and questions'}",
+          "Develop interview guide and scripts": "{'Create workflow testing scenarios'}",
+          "Design data collection methods": "{'Define research objectives and questions'}",
+          "Create analysis framework for results": "{'Develop interview guide and scripts', 'Design data collection methods'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a researcher, I want to recruit for the last round of user research, so that we can summarize fin...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create recruitment materials and outreach plan": "{'Identify target participant criteria'}",
+          "Schedule and confirm participant sessions": "{'Create recruitment materials and outreach plan'}",
+          "Prepare final research session materials": "{'Schedule and confirm participant sessions'}",
+          "Plan results synthesis methodology": "{'Prepare final research session materials'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be p...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Schedule interview sessions": "{'Identify participants for hypothesis testing'}",
+          "Create data collection templates": "{'Prepare prototype testing materials'}",
+          "Confirm logistics and technology setup": "{'Create data collection templates', 'Schedule interview sessions'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to begin identifying interview participants, so that I can understand w...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Develop recruitment criteria and screening questions": "{'Create participant persona profiles'}",
+          "Identify recruitment channels and networks": "{'Create participant persona profiles'}",
+          "Create outreach materials and templates": "{'Develop recruitment criteria and screening questions', 'Identify recruitment channels and networks'}",
+          "Begin participant recruitment outreach": "{'Create outreach materials and templates'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recru...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Implement tracking and analytics": "{'Design recruitment widget or popup', 'Create recruitment landing page'}",
+          "Test recruitment flow and conversion rates": "{'Implement tracking and analytics'}",
+          "Optimize recruitment messaging and placement": "{'Test recruitment flow and conversion rates'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Schedule stakeholder availability": "{'Identify relevant NSF stakeholders for each interview type'}",
+          "Prepare observation materials and note-taking templates": "{'Create interview observation guidelines'}",
+          "Brief observers on interview protocols": "{'Schedule stakeholder availability', 'Prepare observation materials and note-taking templates'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting parti...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Identify target user groups and criteria": "{'Define research objectives and questions'}",
+          "Create research methodology and timeline": "{'Define research objectives and questions'}",
+          "Develop participant recruitment strategy": "{'Identify target user groups and criteria', 'Create research methodology and timeline'}",
+          "Prepare research materials and templates": "{'Develop participant recruitment strategy'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a potential research participant, I want to learn about the research and leave my contact informa...",
+        "expected_dependencies": 3,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 3,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Implement form submission and storage": "{'Design contact information form'}",
+          "Add privacy notice and consent information": "{'Create research information page'}",
+          "Set up automated confirmation responses": "{'Implement form submission and storage'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better pr...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create user persona templates and exercises": "{'Design workshop agenda and activities'}",
+          "Prepare workshop materials and supplies": "{'Create user persona templates and exercises'}",
+          "Plan workshop documentation and follow-up": "{'Prepare workshop materials and supplies', 'Schedule and coordinate NSF participant attendance'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create wireframe layouts for social features": "{'Research social media design patterns'}",
+          "Define user interactions and flows": "{'Create wireframe layouts for social features'}",
+          "Review wireframes with stakeholders": "{'Define user interactions and flows'}",
+          "Prepare wireframes for development handoff": "{'Review wireframes with stakeholders'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to have a prioritized list of features and elements of a future social elem...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Prioritize features by user value and complexity": "{'Brainstorm social feature requirements', 'Research competitor social implementations'}",
+          "Create technical feasibility assessment": "{'Prioritize features by user value and complexity'}",
+          "Document feature specifications for development": "{'Create technical feasibility assessment'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to determine a design direction for the beta social page, so that we can im...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Evaluate designs against project constraints": "{'Create multiple design concept options'}",
+          "Test design concepts with stakeholders": "{'Evaluate designs against project constraints'}",
+          "Select design direction and document rationale": "{'Test design concepts with stakeholders'}",
+          "Create implementation guidelines for development": "{'Select design direction and document rationale'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can disc...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create multiple visual design concepts": "{'Research NSF brand and visual identity'}",
+          "Develop style variations and themes": "{'Create multiple visual design concepts'}",
+          "Prepare design presentation materials": "{'Develop style variations and themes'}",
+          "Schedule stakeholder review sessions": "{'Prepare design presentation materials'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Organize mood board themes and categories": "{'Collect visual inspiration and references'}",
+          "Create digital mood board presentations": "{'Organize mood board themes and categories'}",
+          "Align mood boards with project goals": "{'Create digital mood board presentations'}",
+          "Present mood boards to stakeholders for feedback": "{'Align mood boards with project goals'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so th...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Prepare business case for design investment": "{'Create before/after design comparisons', 'Research visual design impact on user experience'}",
+          "Create design value demonstration materials": "{'Prepare business case for design investment'}",
+          "Present design value proposition to team": "{'Create design value demonstration materials'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a designer, I want to have a style guide / design guide / content guide, so that we have a unifor...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create component library and specifications": "{'Document visual design standards'}",
+          "Create implementation guidelines": "{'Create component library and specifications', 'Define content style and tone guidelines'}",
+          "Build style guide documentation system": "{'Create implementation guidelines'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling visual de...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Conduct visual design audit and analysis": "{'Identify comparable organizations and websites'}",
+          "Document design patterns and best practices": "{'Conduct visual design audit and analysis'}",
+          "Create competitive analysis report": "{'Document design patterns and best practices'}",
+          "Extract actionable insights and recommendations": "{'Create competitive analysis report'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling content, ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document content types and organizational approaches": "{'Analyze content strategies of similar organizations'}",
+          "Evaluate content effectiveness and user engagement": "{'Document content types and organizational approaches'}",
+          "Create content strategy recommendations": "{'Evaluate content effectiveness and user engagement'}",
+          "Present competitive content analysis findings": "{'Create content strategy recommendations'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create role management interface": "{'Define user role types and permissions'}",
+          "Implement role assignment functionality": "{'Create role management interface'}",
+          "Add role-based access controls": "{'Implement role assignment functionality'}",
+          "Test role permissions and security": "{'Add role-based access controls'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key co...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create evaluation criteria and scoring matrix": "{'Research available CMS platforms'}",
+          "Assess CMS options against requirements": "{'Create evaluation criteria and scoring matrix'}",
+          "Document pros and cons of top candidates": "{'Assess CMS options against requirements'}",
+          "Create CMS recommendation report": "{'Document pros and cons of top candidates'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might i...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document current workflow processes and pain points": "{'Complete webmaster workflow analysis'}",
+          "Identify workflow improvement opportunities": "{'Document current workflow processes and pain points'}",
+          "Assess impact on CMS selection criteria": "{'Identify workflow improvement opportunities'}",
+          "Update CMS requirements based on workflow findings": "{'Assess impact on CMS selection criteria'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to understand what the MVP should look like, so that I can begin understand...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Map workflows to MVP requirements": "{'Define MVP scope and core features'}",
+          "Create MVP user stories and acceptance criteria": "{'Map workflows to MVP requirements'}",
+          "Assess CMS capability requirements for MVP": "{'Create MVP user stories and acceptance criteria'}",
+          "Document MVP specification and rationale": "{'Assess CMS capability requirements for MVP'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Set up development environment access": "{'Schedule regular CMS development shadowing sessions'}",
+          "Plan hands-on learning activities": "{'Set up development environment access', 'Create learning objectives and documentation templates'}",
+          "Document lessons learned and insights": "{'Plan hands-on learning activities'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to understand how time off overlaps with plans around the user research",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Map time off against research timeline": "{'Collect team member vacation schedules'}",
+          "Identify potential scheduling conflicts": "{'Map time off against research timeline'}",
+          "Adjust research schedule as needed": "{'Identify potential scheduling conflicts'}",
+          "Create backup plans for key activities": "{'Adjust research schedule as needed'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the con...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Prepare workshop materials and activities": "{'Design workshop agenda and objectives'}",
+          "Facilitate workshop sessions": "{'Prepare workshop materials and activities', 'Schedule stakeholder participation'}",
+          "Document workshop outcomes and decisions": "{'Facilitate workshop sessions'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Organize deliverables and work products": "{'Create comprehensive project documentation'}",
+          "Document reusable components and processes": "{'Organize deliverables and work products'}",
+          "Create knowledge transfer materials": "{'Document reusable components and processes'}",
+          "Plan handoff and transition activities": "{'Create knowledge transfer materials'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction w...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Develop strategic recommendations": "{'Analyze project findings and insights'}",
+          "Create implementation roadmap": "{'Develop strategic recommendations'}",
+          "Identify resource and budget requirements": "{'Create implementation roadmap'}",
+          "Present strategy recommendations to leadership": "{'Identify resource and budget requirements'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Identify editorial planning improvements": "{'Analyze current editorial processes'}",
+          "Assess CMS impact on editorial workflows": "{'Identify editorial planning improvements'}",
+          "Create editorial strategy recommendations": "{'Assess CMS impact on editorial workflows'}",
+          "Document implementation considerations": "{'Create editorial strategy recommendations'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document NSF brand requirements and constraints": "{'Research brand guideline development processes'}",
+          "Create brand implementation checklist": "{'Document NSF brand requirements and constraints'}",
+          "Plan brand guideline integration approach": "{'Create brand implementation checklist'}",
+          "Coordinate with NSF brand/communications team": "{'Plan brand guideline integration approach'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how visual design directions were developed, so that I can make b...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create design rationale documentation": "{'Document design decision-making process'}",
+          "Identify design success factors and lessons learned": "{'Create design rationale documentation'}",
+          "Create design decision framework": "{'Identify design success factors and lessons learned'}",
+          "Build design knowledge base for future use": "{'Create design decision framework'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prot...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create hypothesis testing plan": "{'Define and document first hypothesis'}",
+          "Identify prototype requirements": "{'Create hypothesis testing plan'}",
+          "Plan prototype development approach": "{'Identify prototype requirements'}",
+          "Set success criteria for hypothesis testing": "{'Create hypothesis testing plan'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a content designer, I want to develop a better understanding of NSF's content types and editorial...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Map content workflows and approval processes": "{'Interview content creators and editors'}",
+          "Analyze content performance and effectiveness": "{'Audit existing content types and categories'}",
+          "Document content strategy recommendations": "{'Map content workflows and approval processes', 'Analyze content performance and effectiveness'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to have a prototype strategy, so that I understand how we will gain underst...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create prototype testing methodology": "{'Define prototype objectives and success metrics'}",
+          "Plan prototype iteration and refinement process": "{'Create prototype testing methodology'}",
+          "Design feedback collection and analysis approach": "{'Create prototype testing methodology'}",
+          "Document prototype-to-recommendation workflow": "{'Plan prototype iteration and refinement process', 'Design feedback collection and analysis approach'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it'...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Develop before/after content examples": "{'Create content design value proposition'}",
+          "Present content design business case": "{'Research content design impact on user experience', 'Develop before/after content examples'}",
+          "Integrate content design into project recommendations": "{'Present content design business case'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Define prototype requirements for each hypothesis": "{'Document all three initial hypotheses'}",
+          "Create development timeline and resource plan": "{'Define prototype requirements for each hypothesis'}",
+          "Identify technical dependencies and constraints": "{'Define prototype requirements for each hypothesis'}",
+          "Plan prototype development sequence": "{'Create development timeline and resource plan', 'Identify technical dependencies and constraints'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a designer, I want to know what early indications of hypotheses might be, so that I can start pla...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Identify emerging hypothesis indicators": "{'Analyze early research findings'}",
+          "Create design planning framework": "{'Identify emerging hypothesis indicators'}",
+          "Prepare prototype design concepts": "{'Create design planning framework'}",
+          "Plan design iteration approach": "{'Prepare prototype design concepts'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a n...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Monitor response rates and engagement": "{'Define success metrics for listserv outreach', 'Set up outreach tracking and analytics'}",
+          "Create listserv prioritization criteria": "{'Define success metrics for listserv outreach'}",
+          "Plan sequential outreach campaign strategy": "{'Monitor response rates and engagement', 'Create listserv prioritization criteria'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to commu...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Schedule recurring meeting series": "{'Identify key stakeholders for regular check-ins'}",
+          "Prepare project status and goals materials": "{'Create check-in agenda templates'}",
+          "Plan stakeholder communication strategy": "{'Prepare project status and goals materials', 'Schedule recurring meeting series'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our ne...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create personalized action items for attendees": "{'Document workshop key findings and insights'}",
+          "Develop workshop summary report": "{'Document workshop key findings and insights'}",
+          "Plan follow-up communications": "{'Develop workshop summary report', 'Create personalized action items for attendees'}",
+          "Schedule next steps coordination meetings": "{'Plan follow-up communications'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem wi...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create coworking schedule template": "{'Survey team availability and preferences'}",
+          "Book regular coworking time slots": "{'Create coworking schedule template'}",
+          "Plan coworking session agendas and objectives": "{'Set up coworking collaboration tools', 'Book regular coworking time slots'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Set up stakeholder notification system": "{'Create interview schedule and calendar', 'Document participant types and profiles'}",
+          "Prepare interview observation guidelines": "{'Document participant types and profiles'}",
+          "Coordinate stakeholder attendance logistics": "{'Prepare interview observation guidelines', 'Set up stakeholder notification system'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF member of the team, I want to have a place where I can access all the related reports and ...",
+        "expected_dependencies": 5,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 5,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Organize documents by category and date": "{'Set up centralized document repository'}",
+          "Create search and navigation functionality": "{'Organize documents by category and date'}",
+          "Set up access permissions and security": "{'Set up centralized document repository'}",
+          "Train team members on document system use": "{'Create search and navigation functionality', 'Set up access permissions and security'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I c...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Prepare project status and progress materials": "{'Create check-in agenda and objectives'}",
+          "Identify key discussion topics and decisions": "{'Create check-in agenda and objectives'}",
+          "Communicate check-in logistics to team": "{'Identify key discussion topics and decisions', 'Schedule mid-point check-in meeting'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "expected_dependencies": 0,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 0,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0,
+        "expected_detailed": {},
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Set up repository access and permissions": "{'Create NSF employee Github accounts'}",
+          "Provide Github orientation and training": "{'Set up repository access and permissions'}",
+          "Create issue assignment and workflow processes": "{'Provide Github orientation and training'}",
+          "Set up notifications and communication preferences": "{'Create issue assignment and workflow processes'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan o...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Send location details and directions": "{'Confirm meeting location and logistics'}",
+          "Coordinate travel arrangements if needed": "{'Confirm meeting location and logistics'}",
+          "Set up meeting room and technology requirements": "{'Confirm meeting location and logistics', 'Plan meeting agenda and materials'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Set up recurring meeting schedules": "{'Create master meeting calendar'}",
+          "Send calendar invitations to all participants": "{'Set up recurring meeting schedules'}",
+          "Set up meeting reminders and notifications": "{'Send calendar invitations to all participants'}",
+          "Coordinate across time zones and schedules": "{'Set up recurring meeting schedules'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to understand how work moves between UX/content > visual design > front end...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create workflow timeline and dependencies": "{'Document workflow handoff processes'}",
+          "Define deliverables and quality gates": "{'Create workflow timeline and dependencies'}",
+          "Set up workflow tracking and monitoring": "{'Define deliverables and quality gates'}",
+          "Train team on workflow processes and tools": "{'Set up workflow tracking and monitoring'}"
+        },
+        "predicted_detailed": {}
+      }
+    ]
+  },
+  "detection_statistics": {
+    "total_stories": 63,
+    "stories_with_dependencies": 62,
+    "stories_detected_dependencies": 0,
+    "avg_dependencies_per_story": 4.095238095238095,
+    "avg_predicted_dependencies_per_story": 0.0,
+    "dependency_distribution": {
+      "4": 50,
+      "5": 11,
+      "3": 1
+    },
+    "predicted_distribution": {},
+    "detection_coverage": 0.0,
+    "rework_effort_stats": {
+      "mean": 1.9844961240310077,
+      "median": 2.0,
+      "std": 0.43995236042364994,
+      "min": "1",
+      "max": "3"
+    }
+  },
+  "precision_recall": {
+    "mean_precision": 0.0,
+    "mean_recall": 0.0,
+    "mean_f1_score": 0.0,
+    "median_precision": 0.0,
+    "median_recall": 0.0,
+    "median_f1_score": 0.0,
+    "perfect_matches": 0,
+    "partial_matches": 0,
+    "no_matches": 63,
+    "perfect_match_percentage": 0.0,
+    "partial_match_percentage": 0.0,
+    "no_match_percentage": 100.0
+  },
+  "detailed_comparisons": [],
+  "summary": {
+    "agent_name": "self_consistency",
+    "dataset_info": {
+      "total_test_stories": 63,
+      "processed_stories": 62,
+      "coverage": 0.9841269841269841,
+      "stories_with_dependencies": 62
+    },
+    "detection_performance": {
+      "overall_precision": 0,
+      "overall_recall": 0.0,
+      "overall_f1_score": 0,
+      "accuracy": 0.0,
+      "detection_rate": 0.0
+    },
+    "dependency_counts": {
+      "total_expected": 258,
+      "total_predicted": 0,
+      "correct_predictions": 0,
+      "missing_dependencies": 258,
+      "false_dependencies": 0
+    },
+    "match_quality": {
+      "perfect_matches": 0,
+      "partial_matches": 0,
+      "no_matches": 63,
+      "perfect_match_percentage": 0.0
+    }
+  }
+}

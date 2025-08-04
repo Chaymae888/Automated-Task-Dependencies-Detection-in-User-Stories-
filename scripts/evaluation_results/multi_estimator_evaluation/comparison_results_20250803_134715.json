@@ -1,0 +1,215 @@
+{
+  "ranking": {
+    "overall": [
+      [
+        "agent_specific_evaluation",
+        0.0
+      ],
+      [
+        "chain_of_thought",
+        0.0
+      ],
+      [
+        "few_shots2",
+        0.0
+      ],
+      [
+        "few_shot_cot",
+        0.0
+      ],
+      [
+        "meta_prompting",
+        0.0
+      ],
+      [
+        "reflexion",
+        0.0
+      ],
+      [
+        "self_consistency",
+        0.0
+      ],
+      [
+        "storypointestimator_evaluation",
+        0.0
+      ],
+      [
+        "tree_of_thought",
+        0.0
+      ],
+      [
+        "zero_shots",
+        0.0
+      ]
+    ]
+  },
+  "best_performers": {
+    "lowest_mae": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "highest_r2": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "highest_perfect_rate": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "best_fibonacci_compliance": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "best_task_distribution": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ]
+  },
+  "metrics_comparison": {
+    "agent_specific_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "chain_of_thought": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "few_shots2": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "few_shot_cot": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "meta_prompting": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "reflexion": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "self_consistency": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "storypointestimator_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "tree_of_thought": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "zero_shots": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    }
+  }
+}

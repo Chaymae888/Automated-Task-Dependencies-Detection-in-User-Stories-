@@ -1,0 +1,172 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 10
+  • Techniques: few_shots, meta_prompting, chain_of_thought, evaluating, few_shot_cot, fine_tuning, reflexion, self_consistency, tree_of_thought, zero_shots
+  • Test Stories: 71
+  • Coverage: 98.6%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 FEW_SHOTS:
+  🧠 Semantic Similarity:
+    • Mean: 0.509
+    • Excellent: 0.0%
+    • Good: 19.7%
+    • Poor: 8.5%
+  📝 Overlap Metrics:
+    • BLEU: 0.054
+    • ROUGE: 0.349
+    • METEOR: 0.246
+    • Word Overlap: 0.145
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 8.9
+    • Count Ratio: 1.78
+    • Exact Predictions: 1
+    • Over-predictions: 70
+    • Under-predictions: 0
+
+🔍 META_PROMPTING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 CHAIN_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 EVALUATING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FEW_SHOT_COT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FINE_TUNING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 REFLEXION:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 SELF_CONSISTENCY:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 TREE_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 ZERO_SHOTS:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use few_shots
+    (Semantic similarity: 0.509)
+  • For task count accuracy: Use few_shots
+    (Count ratio: 1.783, deviation from ideal: 0.783)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

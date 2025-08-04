@@ -1,0 +1,139 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 8
+  • Techniques: chain_of_thought, few_shots2, few_shot_cot, meta_prompting, reflexion, self_consistency, tree_of_thought, zero_shots
+  • Test Stories: 71
+  • Coverage: 98.6%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 CHAIN_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FEW_SHOTS2:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FEW_SHOT_COT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 META_PROMPTING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 REFLEXION:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 SELF_CONSISTENCY:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 TREE_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 ZERO_SHOTS:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use chain_of_thought
+    (Semantic similarity: 0.000)
+  • For task count accuracy: Use chain_of_thought
+    (Count ratio: 0.000, deviation from ideal: 1.000)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

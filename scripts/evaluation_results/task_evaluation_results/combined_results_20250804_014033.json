@@ -1,0 +1,2341 @@
+{
+  "chain_of_thought": {
+    "estimator_name": "chain_of_thought",
+    "overall_metrics": {
+      "mean_absolute_error": 1.45,
+      "mean_squared_error": 3.15,
+      "root_mean_squared_error": 1.7748239349298849,
+      "r2_score": -3.7727272727272734,
+      "mean_relative_error": 0.5583333333333333,
+      "median_relative_error": 0.5
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 3,
+      "close_predictions": 3,
+      "acceptable_predictions": 12,
+      "perfect_percentage": 15.0,
+      "close_percentage": 15.0,
+      "acceptable_percentage": 60.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "1": 3,
+        "2": 6,
+        "3": 4,
+        "5": 6,
+        "8": 1
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 2.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 2.5,
+          "mean_error": 1.5,
+          "perfect_predictions": 1
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.5555555555555554,
+          "mean_error": 1.2222222222222223,
+          "perfect_predictions": 2
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 4.0,
+          "mean_error": 2.0,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 8,
+        "absolute_error": 4,
+        "relative_error": 1.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 1.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 3.25,
+      "prediction_bias": 0.4500000000000002
+    }
+  },
+  "few_shots2": {
+    "estimator_name": "few_shots2",
+    "overall_metrics": {
+      "mean_absolute_error": 0.5,
+      "mean_squared_error": 0.5,
+      "root_mean_squared_error": 0.7071067811865476,
+      "r2_score": 0.24242424242424243,
+      "mean_relative_error": 0.2,
+      "median_relative_error": 0.125
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 10,
+      "close_predictions": 10,
+      "acceptable_predictions": 20,
+      "perfect_percentage": 50.0,
+      "close_percentage": 50.0,
+      "acceptable_percentage": 100.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "1": 1,
+        "3": 19
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 1.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 1
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 3.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 9
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 3.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499963, Requested 396. Please try again in 1m2.005799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499969, Requested 398. Please try again in 1m3.398999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 1,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499977, Requested 407. Please try again in 1m6.2746s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499946, Requested 406. Please try again in 1m0.740799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499985, Requested 408. Please try again in 1m7.8078s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499959, Requested 411. Please try again in 1m3.864599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 409. Please try again in 1m15.9766s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500000, Requested 407. Please try again in 1m10.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "error",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 408. Please try again in 1m4.9568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 2.9,
+      "prediction_bias": 0.10000000000000009
+    }
+  },
+  "few_shot_cot": {
+    "estimator_name": "few_shot_cot",
+    "overall_metrics": {
+      "mean_absolute_error": 1.3,
+      "mean_squared_error": 2.5,
+      "root_mean_squared_error": 1.5811388300841898,
+      "r2_score": -2.787878787878788,
+      "mean_relative_error": 0.4749999999999999,
+      "median_relative_error": 0.41666666666666663
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 4,
+      "close_predictions": 4,
+      "acceptable_predictions": 14,
+      "perfect_percentage": 20.0,
+      "close_percentage": 20.0,
+      "acceptable_percentage": 70.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "1": 3,
+        "2": 8,
+        "3": 1,
+        "5": 8
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 1.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 1
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 2.6666666666666665,
+          "mean_error": 1.3333333333333333,
+          "perfect_predictions": 2
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.4444444444444446,
+          "mean_error": 1.3333333333333333,
+          "perfect_predictions": 1
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 3.5,
+          "mean_error": 1.5,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 5,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 1,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 5,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 3.1,
+      "prediction_bias": 0.30000000000000027
+    }
+  },
+  "meta_prompting": {
+    "estimator_name": "meta_prompting",
+    "overall_metrics": {
+      "mean_absolute_error": 1.5,
+      "mean_squared_error": 3.2,
+      "root_mean_squared_error": 1.7888543819998317,
+      "r2_score": -3.8484848484848486,
+      "mean_relative_error": 0.575,
+      "median_relative_error": 0.5
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 2,
+      "close_predictions": 2,
+      "acceptable_predictions": 12,
+      "perfect_percentage": 10.0,
+      "close_percentage": 10.0,
+      "acceptable_percentage": 60.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "1": 2,
+        "2": 7,
+        "3": 3,
+        "5": 7,
+        "8": 1
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 2.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 2.8333333333333335,
+          "mean_error": 1.5,
+          "perfect_predictions": 1
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.4444444444444446,
+          "mean_error": 1.3333333333333333,
+          "perfect_predictions": 1
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 4.5,
+          "mean_error": 2.0,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 8,
+        "absolute_error": 4,
+        "relative_error": 1.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 1.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 5,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 3.4,
+      "prediction_bias": 0.6000000000000001
+    }
+  },
+  "reflexion": {
+    "estimator_name": "reflexion",
+    "overall_metrics": {
+      "mean_absolute_error": 0.65,
+      "mean_squared_error": 0.85,
+      "root_mean_squared_error": 0.9219544457292888,
+      "r2_score": -0.28787878787878785,
+      "mean_relative_error": 0.30833333333333335,
+      "median_relative_error": 0.25
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 9,
+      "close_predictions": 9,
+      "acceptable_predictions": 18,
+      "perfect_percentage": 45.0,
+      "close_percentage": 45.0,
+      "acceptable_percentage": 90.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "2": 1,
+        "3": 18,
+        "5": 1
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 3.0,
+          "mean_error": 2.0,
+          "perfect_predictions": 0
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 2.8333333333333335,
+          "mean_error": 0.8333333333333334,
+          "perfect_predictions": 1
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.2222222222222223,
+          "mean_error": 0.2222222222222222,
+          "perfect_predictions": 8
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 3.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 3,
+        "absolute_error": 2,
+        "relative_error": 2.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 3.05,
+      "prediction_bias": 0.25
+    }
+  },
+  "self_consistency": {
+    "estimator_name": "self_consistency",
+    "overall_metrics": {
+      "mean_absolute_error": 0.55,
+      "mean_squared_error": 0.75,
+      "root_mean_squared_error": 0.8660254037844386,
+      "r2_score": -0.13636363636363646,
+      "mean_relative_error": 0.2625,
+      "median_relative_error": 0.0
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 11,
+      "close_predictions": 11,
+      "acceptable_predictions": 19,
+      "perfect_percentage": 55.00000000000001,
+      "close_percentage": 55.00000000000001,
+      "acceptable_percentage": 95.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "2": 3,
+        "3": 17
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 3.0,
+          "mean_error": 2.0,
+          "perfect_predictions": 0
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 2.6666666666666665,
+          "mean_error": 0.6666666666666666,
+          "perfect_predictions": 2
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 9
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 2.75,
+          "mean_error": 1.25,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 3,
+        "absolute_error": 2,
+        "relative_error": 2.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 2.85,
+      "prediction_bias": 0.050000000000000266
+    }
+  },
+  "tree_of_thought": {
+    "estimator_name": "tree_of_thought",
+    "overall_metrics": {
+      "mean_absolute_error": 0.6,
+      "mean_squared_error": 0.7,
+      "root_mean_squared_error": 0.8366600265340756,
+      "r2_score": -0.06060606060606055,
+      "mean_relative_error": 0.3,
+      "median_relative_error": 0.25
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 9,
+      "close_predictions": 9,
+      "acceptable_predictions": 19,
+      "perfect_percentage": 45.0,
+      "close_percentage": 45.0,
+      "acceptable_percentage": 95.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "3": 20
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 3.0,
+          "mean_error": 2.0,
+          "perfect_predictions": 0
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 3.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 3.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 9
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 3.0,
+          "mean_error": 1.0,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 3,
+        "absolute_error": 2,
+        "relative_error": 2.0,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 3.0,
+      "prediction_bias": 0.20000000000000018
+    }
+  },
+  "zero_shots": {
+    "estimator_name": "zero_shots",
+    "overall_metrics": {
+      "mean_absolute_error": 0.95,
+      "mean_squared_error": 1.55,
+      "root_mean_squared_error": 1.2449899597988732,
+      "r2_score": -1.3484848484848486,
+      "mean_relative_error": 0.35,
+      "median_relative_error": 0.3333333333333333
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 6,
+      "close_predictions": 6,
+      "acceptable_predictions": 18,
+      "perfect_percentage": 30.0,
+      "close_percentage": 30.0,
+      "acceptable_percentage": 90.0
+    },
+    "fibonacci_compliance": {
+      "compliant_predictions": 20,
+      "compliance_percentage": 100.0,
+      "non_compliant_values": []
+    },
+    "distribution_analysis": {
+      "prediction_distribution": {
+        "1": 5,
+        "2": 7,
+        "3": 5,
+        "5": 3
+      },
+      "actual_distribution": {
+        "1": 1,
+        "2": 6,
+        "3": 9,
+        "4": 4
+      },
+      "by_point_analysis": {
+        "1": {
+          "count": 1,
+          "mean_predicted": 1.0,
+          "mean_error": 0.0,
+          "perfect_predictions": 1
+        },
+        "2": {
+          "count": 6,
+          "mean_predicted": 1.8333333333333333,
+          "mean_error": 1.1666666666666667,
+          "perfect_predictions": 1
+        },
+        "3": {
+          "count": 9,
+          "mean_predicted": 2.7777777777777777,
+          "mean_error": 0.6666666666666666,
+          "perfect_predictions": 4
+        },
+        "4": {
+          "count": 4,
+          "mean_predicted": 3.0,
+          "mean_error": 1.5,
+          "perfect_predictions": 0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_points": 4,
+        "predicted_points": 5,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_points": 3,
+        "predicted_points": 5,
+        "absolute_error": 2,
+        "relative_error": 0.6666666666666666,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_points": 2,
+        "predicted_points": 5,
+        "absolute_error": 3,
+        "relative_error": 1.5,
+        "accuracy_category": "poor",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_points": 1,
+        "predicted_points": 1,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_points": 2,
+        "predicted_points": 2,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_points": 4,
+        "predicted_points": 3,
+        "absolute_error": 1,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_points": 3,
+        "predicted_points": 2,
+        "absolute_error": 1,
+        "relative_error": 0.3333333333333333,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_points": 4,
+        "predicted_points": 2,
+        "absolute_error": 2,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_points": 3,
+        "predicted_points": 3,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_points": 2,
+        "predicted_points": 1,
+        "absolute_error": 1,
+        "relative_error": 0.5,
+        "accuracy_category": "acceptable",
+        "fibonacci_compliant": true,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_points": 2.8,
+      "mean_predicted_points": 2.45,
+      "prediction_bias": -0.34999999999999964
+    }
+  }
+}

@@ -1,0 +1,83 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 4
+  • Techniques: few_shots, evaluating, fine_tuning, agent_specific_evaluation
+  • Test Stories: 71
+  • Coverage: 0.0%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 FEW_SHOTS:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 EVALUATING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FINE_TUNING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 AGENT_SPECIFIC_EVALUATION:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use few_shots
+    (Semantic similarity: 0.000)
+  • For task count accuracy: Use few_shots
+    (Count ratio: 0.000, deviation from ideal: 1.000)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

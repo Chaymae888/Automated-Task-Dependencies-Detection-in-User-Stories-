@@ -1,0 +1,103 @@
+{
+  "ranking": {
+    "overall": [
+      [
+        "agent_specific_evaluation",
+        0.0
+      ],
+      [
+        "storypointestimator_evaluation",
+        0.0
+      ]
+    ]
+  },
+  "best_performers": {
+    "lowest_mae": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "highest_r2": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "highest_perfect_rate": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "best_fibonacci_compliance": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ],
+    "best_task_distribution": [
+      "agent_specific_evaluation",
+      {
+        "mae": 13.914285714285715,
+        "relative_error": 1.0,
+        "r2_score": -79.96257585974377,
+        "perfect_percentage": 0.0,
+        "acceptable_percentage": 0.0,
+        "task_error": 1.0,
+        "distribution_similarity": 0.0,
+        "fibonacci_compliance": 0
+      }
+    ]
+  },
+  "metrics_comparison": {
+    "agent_specific_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "storypointestimator_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    }
+  }
+}

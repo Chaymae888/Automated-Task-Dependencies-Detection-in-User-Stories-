@@ -1,0 +1,6199 @@
+{
+  "chain_of_thought": {
+    "agent_name": "chain_of_thought",
+    "overall_metrics": {
+      "mean_f1_score": 0.038571428571428576,
+      "mean_precision": 0.03214285714285714,
+      "mean_recall": 0.05,
+      "mean_jaccard_similarity": 0.025555555555555554,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.12976430753563972,
+      "median_f1_score": 0.0,
+      "min_f1_score": 0.0,
+      "max_f1_score": 0.5714285714285715
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 1,
+      "poor_predictions": 19,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 5.0,
+      "poor_percentage": 95.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 10,
+      "skills_intersection": 3,
+      "skills_union": 45,
+      "skill_coverage_rate": 0.07894736842105263,
+      "skill_precision_rate": 0.3,
+      "missing_skills": [
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "deployment",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "domain_configuration",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [
+        "infrastructure_management",
+        "technical_skills",
+        "cloud_computing",
+        "general_development",
+        "project_management_basic_level",
+        "nontechnical_skills",
+        "backend_development"
+      ],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "general_development",
+          17
+        ],
+        [
+          "communication",
+          3
+        ],
+        [
+          "nontechnical_skills",
+          3
+        ],
+        [
+          "technical_skills",
+          2
+        ],
+        [
+          "cloud_computing",
+          2
+        ],
+        [
+          "devops",
+          2
+        ],
+        [
+          "stakeholder_management",
+          2
+        ],
+        [
+          "infrastructure_management",
+          1
+        ],
+        [
+          "backend_development",
+          1
+        ],
+        [
+          "project_management_basic_level",
+          1
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.010146803383242515,
+        "std": 0.037349331006523816,
+        "median": 0.0,
+        "scores": [
+          0,
+          0.033031643180138064,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16990442448471224,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rouge": {
+        "mean": 0.05,
+        "std": 0.15898986690282424,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.6666666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.02804851635260992,
+        "std": 0.10390544407285429,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.08771929824561403,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.4732510288065844,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": "0.20626256",
+      "std_similarity": "0.111833684",
+      "median_similarity": "0.1775404",
+      "similarities": [
+        "0.17962484",
+        "0.34669912",
+        "0.17728701",
+        "0.17989829",
+        "0.13372442",
+        "0.16836804",
+        "0.114822716",
+        "0.15753771",
+        "0.16365846",
+        "0.0680874",
+        "0.15248802",
+        "0.5992099",
+        "0.20055076",
+        "0.24757029",
+        "0.12551932",
+        "0.2050163",
+        "0.1777938",
+        "0.31217194",
+        "0.28583556",
+        "0.1293876"
+      ]
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.13333333333333333,
+        "mean_precision": 0.2,
+        "mean_recall": 0.1,
+        "std_f1": 0.26666666666666666,
+        "tasks_with_category": 5,
+        "excellent_performance": 0,
+        "good_performance": 1,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 1.7,
+        "std": 1.7349351572897473,
+        "median": 1.0,
+        "min": "1",
+        "max": "7"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "technical_skills",
+          "devops",
+          "infrastructure_management",
+          "cloud_computing",
+          "nontechnical_skills",
+          "communication",
+          "stakeholder_management"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.2,
+        "jaccard_similarity": 0.1111111111111111,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 7,
+        "num_matched_skills": 1,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [
+          "technical_skills",
+          "backend_development",
+          "devops",
+          "nontechnical_skills",
+          "communication",
+          "cloud_computing"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 6,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "nontechnical_skills",
+          "communication",
+          "stakeholder_management",
+          "project_management_basic_level"
+        ],
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.5714285714285715,
+        "jaccard_similarity": 0.4,
+        "exact_match": false,
+        "accuracy_category": "acceptable",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 4,
+        "num_matched_skills": 2,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 1.7,
+      "prediction_bias": -1.3
+    }
+  },
+  "few_shots2": {
+    "agent_name": "few_shots2",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": 0.0,
+      "max_f1_score": 0.0
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 0,
+      "skills_intersection": 0,
+      "skills_union": 38,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": []
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "error": "No semantic similarities computed"
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": "0",
+        "max": "0"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 0.0,
+      "prediction_bias": -3.0
+    }
+  },
+  "few_shot_cot": {
+    "agent_name": "few_shot_cot",
+    "overall_metrics": {
+      "mean_f1_score": 0.02,
+      "mean_precision": 0.025,
+      "mean_recall": 0.016666666666666666,
+      "mean_jaccard_similarity": 0.0125,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.08717797887081348,
+      "median_f1_score": 0.0,
+      "min_f1_score": 0.0,
+      "max_f1_score": 0.4
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 1,
+      "poor_predictions": 19,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 5.0,
+      "poor_percentage": 95.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 3,
+      "skills_intersection": 1,
+      "skills_union": 40,
+      "skill_coverage_rate": 0.02631578947368421,
+      "skill_precision_rate": 0.3333333333333333,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [
+        "infrastructure_management",
+        "general_development"
+      ],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "general_development",
+          19
+        ],
+        [
+          "infrastructure_management",
+          1
+        ],
+        [
+          "devops",
+          1
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.004534874413872948,
+        "std": 0.019767059291720422,
+        "median": 0.0,
+        "scores": [
+          0,
+          0.09069748827745895,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rouge": {
+        "mean": 0.016666666666666666,
+        "std": 0.0726483157256779,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.005208333333333333,
+        "std": 0.022702598664274345,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.10416666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": "0.18687102",
+      "std_similarity": "0.08802173",
+      "median_similarity": "0.1775404",
+      "similarities": [
+        "0.17962484",
+        "0.46044344",
+        "0.17728701",
+        "0.17989829",
+        "0.13372442",
+        "0.16836804",
+        "0.114822716",
+        "0.05058631",
+        "0.16365846",
+        "0.0680874",
+        "0.15248802",
+        "0.20458612",
+        "0.20055076",
+        "0.24757029",
+        "0.12551932",
+        "0.2050163",
+        "0.1777938",
+        "0.31217194",
+        "0.28583556",
+        "0.1293876"
+      ]
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.16666666666666666,
+        "mean_precision": 0.25,
+        "mean_recall": 0.125,
+        "std_f1": 0.2886751345948129,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 1,
+        "poor_performance": 3
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 1.05,
+        "std": 0.21794494717703372,
+        "median": 1.0,
+        "min": "1",
+        "max": "2"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "devops",
+          "infrastructure_management"
+        ],
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.4,
+        "jaccard_similarity": 0.25,
+        "exact_match": false,
+        "accuracy_category": "poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 1,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 1.05,
+      "prediction_bias": -1.95
+    }
+  },
+  "meta_prompting": {
+    "agent_name": "meta_prompting",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": "0",
+      "max_f1_score": "0"
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 7,
+      "skills_intersection": 0,
+      "skills_union": 45,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0.0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [
+        "database_management",
+        "security_implementation",
+        "devops_deployment",
+        "research",
+        "integration_development",
+        "backend_development",
+        "testing_qa"
+      ],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "devops_deployment",
+          16
+        ],
+        [
+          "security_implementation",
+          11
+        ],
+        [
+          "testing_qa",
+          9
+        ],
+        [
+          "integration_development",
+          4
+        ],
+        [
+          "backend_development",
+          4
+        ],
+        [
+          "database_management",
+          2
+        ],
+        [
+          "research",
+          1
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.08309333529650105,
+        "std": 0.11380195903929458,
+        "median": 0.041666666666666664,
+        "scores": [
+          0.10204081632653061,
+          0.09803921568627452,
+          0.2380952380952381,
+          0.44642857142857145,
+          0.0,
+          0.0,
+          0.0,
+          0.10204081632653061,
+          0.25,
+          0.15151515151515152,
+          0.10416666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.08620689655172413,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.08333333333333333
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": "0.3274784",
+      "std_similarity": "0.17480122",
+      "median_similarity": "0.24940667",
+      "similarities": [
+        "0.5372807",
+        "0.48836836",
+        "0.59504867",
+        "0.5068808",
+        "0.24689105",
+        "0.19057888",
+        "0.1705296",
+        "0.3094377",
+        "0.74845046",
+        "0.19401851",
+        "0.57086384",
+        "0.13071287",
+        "0.22837995",
+        "0.22516382",
+        "0.33928278",
+        "0.17978413",
+        "0.25192228",
+        "0.26787698",
+        "0.21237037",
+        "0.15572667"
+      ]
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 2.35,
+        "std": 0.5722761571129799,
+        "median": 2.0,
+        "min": "1",
+        "max": "3"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "integration_development",
+          "testing_qa"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "backend_development",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [
+          "testing_qa",
+          "devops_deployment",
+          "backend_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "security_implementation",
+          "devops_deployment"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "integration_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [
+          "testing_qa",
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [
+          "security_implementation",
+          "research"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "devops_deployment"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "testing_qa",
+          "devops_deployment",
+          "backend_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [
+          "devops_deployment",
+          "database_management",
+          "testing_qa"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [
+          "security_implementation",
+          "testing_qa"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "integration_development",
+          "devops_deployment"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [
+          "testing_qa",
+          "integration_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "testing_qa",
+          "devops_deployment",
+          "security_implementation"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [
+          "security_implementation",
+          "testing_qa"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [
+          "backend_development",
+          "database_management",
+          "devops_deployment"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 2.35,
+      "prediction_bias": -0.6499999999999999
+    }
+  },
+  "reflexion": {
+    "agent_name": "reflexion",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": "0",
+      "max_f1_score": "0"
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 1,
+      "skills_intersection": 0,
+      "skills_union": 39,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0.0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [
+        "general_development"
+      ],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "general_development",
+          20
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": "0.16919431",
+      "std_similarity": "0.063347936",
+      "median_similarity": "0.17282753",
+      "similarities": [
+        "0.17962484",
+        "0.10690905",
+        "0.17728701",
+        "0.17989829",
+        "0.13372442",
+        "0.16836804",
+        "0.114822716",
+        "0.05058631",
+        "0.16365846",
+        "0.0680874",
+        "0.15248802",
+        "0.20458612",
+        "0.20055076",
+        "0.24757029",
+        "0.12551932",
+        "0.2050163",
+        "0.1777938",
+        "0.31217194",
+        "0.28583556",
+        "0.1293876"
+      ]
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": "1",
+        "max": "1"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 1.0,
+      "prediction_bias": -2.0
+    }
+  },
+  "self_consistency": {
+    "agent_name": "self_consistency",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": "0",
+      "max_f1_score": "0"
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 10,
+      "skills_intersection": 0,
+      "skills_union": 48,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0.0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "deployment",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "domain_configuration",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [
+        "url_handling",
+        "scheduling",
+        "availability_coordination",
+        "guideline_development",
+        "general_development",
+        "organizational_knowledge",
+        "error_handling",
+        "api_integration",
+        "protocol_briefing",
+        "interview_planning"
+      ],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "general_development",
+          16
+        ],
+        [
+          "guideline_development",
+          4
+        ],
+        [
+          "organizational_knowledge",
+          3
+        ],
+        [
+          "url_handling",
+          1
+        ],
+        [
+          "api_integration",
+          1
+        ],
+        [
+          "error_handling",
+          1
+        ],
+        [
+          "scheduling",
+          1
+        ],
+        [
+          "availability_coordination",
+          1
+        ],
+        [
+          "interview_planning",
+          1
+        ],
+        [
+          "protocol_briefing",
+          1
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.004464285714285715,
+        "std": 0.019459370283663725,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0892857142857143,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": "0.18878612",
+      "std_similarity": "0.091841675",
+      "median_similarity": "0.17845592",
+      "similarities": [
+        "0.17962484",
+        "0.10690905",
+        "0.17728701",
+        "0.17989829",
+        "0.13372442",
+        "0.16836804",
+        "0.114822716",
+        "0.05058631",
+        "0.16365846",
+        "0.0762129",
+        "0.23023993",
+        "0.20458612",
+        "0.20055076",
+        "0.3912009",
+        "0.12551932",
+        "0.2050163",
+        "0.20473829",
+        "0.31217194",
+        "0.42121944",
+        "0.1293876"
+      ]
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 1.5,
+        "std": 1.161895003862225,
+        "median": 1.0,
+        "min": "1",
+        "max": "6"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [
+          "url_handling",
+          "api_integration",
+          "error_handling"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 3,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [
+          "guideline_development",
+          "organizational_knowledge"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [
+          "scheduling",
+          "organizational_knowledge",
+          "availability_coordination",
+          "general_development",
+          "interview_planning",
+          "guideline_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 6,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [
+          "guideline_development",
+          "organizational_knowledge"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [
+          "protocol_briefing",
+          "guideline_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 2,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [
+          "general_development"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "very_poor",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 1,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 1.5,
+      "prediction_bias": -1.5
+    }
+  },
+  "tree_of_thought": {
+    "agent_name": "tree_of_thought",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": 0.0,
+      "max_f1_score": 0.0
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 0,
+      "skills_intersection": 0,
+      "skills_union": 38,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": []
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "error": "No semantic similarities computed"
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": "0",
+        "max": "0"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 0.0,
+      "prediction_bias": -3.0
+    }
+  },
+  "zero_shots": {
+    "agent_name": "zero_shots",
+    "overall_metrics": {
+      "mean_f1_score": 0.0,
+      "mean_precision": 0.0,
+      "mean_recall": 0.0,
+      "mean_jaccard_similarity": 0.0,
+      "exact_match_rate": 0.0,
+      "std_f1_score": 0.0,
+      "median_f1_score": 0.0,
+      "min_f1_score": 0.0,
+      "max_f1_score": 0.0
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 0,
+      "excellent_predictions": 0,
+      "good_predictions": 0,
+      "acceptable_predictions": 0,
+      "poor_predictions": 20,
+      "perfect_percentage": 0.0,
+      "excellent_percentage": 0.0,
+      "good_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "poor_percentage": 100.0
+    },
+    "skill_analysis": {
+      "total_actual_skills": 38,
+      "total_predicted_skills": 0,
+      "skills_intersection": 0,
+      "skills_union": 38,
+      "skill_coverage_rate": 0.0,
+      "skill_precision_rate": 0,
+      "missing_skills": [
+        "communication",
+        "requirement_gathering",
+        "migration_planning",
+        "compliance_documentation",
+        "compliance",
+        "functional_testing",
+        "action_planning",
+        "troubleshooting",
+        "security_protocols",
+        "project_management",
+        "dns_management",
+        "domain_configuration",
+        "devops",
+        "security",
+        "project_planning",
+        "configuration_management",
+        "responsibility_matrix",
+        "ci_cd",
+        "certificate_management",
+        "task_assignment",
+        "pipeline_configuration",
+        "account_management",
+        "documentation",
+        "it_coordination",
+        "networking",
+        "ssl_certificates",
+        "cloud_platforms",
+        "team_management",
+        "meeting_coordination",
+        "access_management",
+        "qa",
+        "documentation_review",
+        "testing",
+        "stakeholder_management",
+        "deployment",
+        "security_frameworks",
+        "system_analysis",
+        "technical_writing"
+      ],
+      "extra_skills": [],
+      "most_common_actual": [
+        [
+          "compliance",
+          5
+        ],
+        [
+          "devops",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "documentation",
+          4
+        ],
+        [
+          "cloud_platforms",
+          2
+        ],
+        [
+          "pipeline_configuration",
+          2
+        ],
+        [
+          "deployment",
+          2
+        ],
+        [
+          "testing",
+          2
+        ],
+        [
+          "networking",
+          2
+        ],
+        [
+          "security_frameworks",
+          2
+        ]
+      ],
+      "most_common_predicted": []
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "rouge": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meteor": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "semantic_similarity": {
+      "error": "No semantic similarities computed"
+    },
+    "category_analysis": {
+      "frontend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "backend": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "devops": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 4,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 4
+      },
+      "security": {
+        "mean_f1": 0.0,
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "std_f1": 0.0,
+        "tasks_with_category": 1,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 1
+      },
+      "data": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "mobile": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      },
+      "design": {
+        "mean_f1": 0,
+        "mean_precision": 0,
+        "mean_recall": 0,
+        "std_f1": 0,
+        "tasks_with_category": 0,
+        "excellent_performance": 0,
+        "good_performance": 0,
+        "poor_performance": 0
+      }
+    },
+    "task_statistics": {
+      "skills_per_task_actual": {
+        "mean": 3.0,
+        "std": 0.0,
+        "median": 3.0,
+        "min": "3",
+        "max": "3"
+      },
+      "skills_per_task_predicted": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": "0",
+        "max": "0"
+      },
+      "total_tasks_evaluated": 20
+    },
+    "detailed_results": [
+      {
+        "task_description": "Set up cloud.gov account and project space",
+        "task_id": "CLD_001",
+        "actual_skills": [
+          "devops",
+          "account_management",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline",
+        "task_id": "CLD_002",
+        "actual_skills": [
+          "devops",
+          "ci_cd",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Deploy beta version to cloud.gov",
+        "task_id": "CLD_003",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "cloud_platforms"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test deployment and verify functionality",
+        "task_id": "CLD_004",
+        "actual_skills": [
+          "testing",
+          "functional_testing",
+          "qa"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Share access credentials with team members",
+        "task_id": "CLD_005",
+        "actual_skills": [
+          "communication",
+          "access_management",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Request subdomain creation through NSF IT",
+        "task_id": "SUB_001",
+        "actual_skills": [
+          "communication",
+          "it_coordination",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure DNS settings for beta.nsf.gov",
+        "task_id": "SUB_002",
+        "actual_skills": [
+          "domain_configuration",
+          "networking",
+          "dns_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Set up SSL certificate for subdomain",
+        "task_id": "SUB_003",
+        "actual_skills": [
+          "security",
+          "certificate_management",
+          "ssl_certificates"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Configure deployment pipeline to use subdomain",
+        "task_id": "SUB_004",
+        "actual_skills": [
+          "deployment",
+          "devops",
+          "pipeline_configuration"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Test subdomain accessibility and routing",
+        "task_id": "SUB_005",
+        "actual_skills": [
+          "testing",
+          "networking",
+          "troubleshooting"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Research FISMA low requirements documentation",
+        "task_id": "FIS_001",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "documentation_review"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with cloud.gov support team",
+        "task_id": "FIS_002",
+        "actual_skills": [
+          "meeting_coordination",
+          "communication",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document current prototype configuration",
+        "task_id": "FIS_003",
+        "actual_skills": [
+          "configuration_management",
+          "system_analysis",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create migration checklist and timeline",
+        "task_id": "FIS_004",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "migration_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare compliance documentation",
+        "task_id": "FIS_005",
+        "actual_skills": [
+          "compliance_documentation",
+          "security_protocols",
+          "technical_writing"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Schedule meeting with DIS and cloud.gov teams",
+        "task_id": "ATO_001",
+        "actual_skills": [
+          "communication",
+          "meeting_coordination",
+          "stakeholder_management"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Prepare list of ATO-related questions",
+        "task_id": "ATO_002",
+        "actual_skills": [
+          "compliance",
+          "security_frameworks",
+          "requirement_gathering"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Document ATO requirements and timeline",
+        "task_id": "ATO_003",
+        "actual_skills": [
+          "compliance",
+          "project_planning",
+          "documentation"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Create compliance action plan",
+        "task_id": "ATO_004",
+        "actual_skills": [
+          "project_management",
+          "compliance",
+          "action_planning"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      },
+      {
+        "task_description": "Assign responsibility for ATO tasks",
+        "task_id": "ATO_005",
+        "actual_skills": [
+          "team_management",
+          "responsibility_matrix",
+          "task_assignment"
+        ],
+        "predicted_skills": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "jaccard_similarity": 0.0,
+        "exact_match": false,
+        "accuracy_category": "error",
+        "num_actual_skills": 3,
+        "num_predicted_skills": 0,
+        "num_matched_skills": 0,
+        "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "error": "'RequiredSkillsAgent' object has no attribute 'map_skills'"
+      }
+    ],
+    "summary_stats": {
+      "total_tasks_evaluated": 20,
+      "mean_actual_skills_per_task": 3.0,
+      "mean_predicted_skills_per_task": 0.0,
+      "prediction_bias": -3.0
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "ranking": {
+    "overall": [
+      [
+        "tree_of_thought",
+        0.5183678856644166
+      ],
+      [
+        "self_consistency",
+        0.5144787306648493
+      ],
+      [
+        "reflexion",
+        0.44789217242285695
+      ],
+      [
+        "few_shots2",
+        0.43804101881547086
+      ],
+      [
+        "chain_of_thought",
+        0.3626998195818749
+      ],
+      [
+        "few_shot_cot",
+        0.36048881376305164
+      ],
+      [
+        "meta_prompting",
+        0.29340692137338986
+      ],
+      [
+        "zero_shots",
+        0.0
+      ]
+    ]
+  },
+  "best_performers": {
+    "lowest_mae": [
+      "tree_of_thought",
+      {
+        "mae": 1.5,
+        "relative_error": 0.11745150857545816,
+        "r2_score": -0.4455495616992582,
+        "perfect_percentage": 17.142857142857142,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.21519047619047618,
+        "distribution_similarity": 0.9772144758580155,
+        "fibonacci_compliance": 83.33333333333334
+      }
+    ],
+    "highest_r2": [
+      "tree_of_thought",
+      {
+        "mae": 1.5,
+        "relative_error": 0.11745150857545816,
+        "r2_score": -0.4455495616992582,
+        "perfect_percentage": 17.142857142857142,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.21519047619047618,
+        "distribution_similarity": 0.9772144758580155,
+        "fibonacci_compliance": 83.33333333333334
+      }
+    ],
+    "highest_perfect_rate": [
+      "tree_of_thought",
+      {
+        "mae": 1.5,
+        "relative_error": 0.11745150857545816,
+        "r2_score": -0.4455495616992582,
+        "perfect_percentage": 17.142857142857142,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.21519047619047618,
+        "distribution_similarity": 0.9772144758580155,
+        "fibonacci_compliance": 83.33333333333334
+      }
+    ],
+    "best_fibonacci_compliance": [
+      "few_shots2",
+      {
+        "mae": 4.057142857142857,
+        "relative_error": 0.29491067056193104,
+        "r2_score": -10.753202966958867,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 82.85714285714286,
+        "task_error": 0.45219047619047625,
+        "distribution_similarity": 0.9326141697020658,
+        "fibonacci_compliance": 86.3849765258216
+      }
+    ],
+    "best_task_distribution": [
+      "self_consistency",
+      {
+        "mae": 1.542857142857143,
+        "relative_error": 0.12059544796939754,
+        "r2_score": -0.5104517869184086,
+        "perfect_percentage": 15.714285714285714,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.2170952380952381,
+        "distribution_similarity": 0.9774772520513756,
+        "fibonacci_compliance": 83.33333333333334
+      }
+    ]
+  },
+  "metrics_comparison": {
+    "chain_of_thought": {
+      "mae": 6.714285714285714,
+      "relative_error": 0.48659711437022374,
+      "r2_score": -33.752191503708694,
+      "perfect_percentage": 5.714285714285714,
+      "acceptable_percentage": 64.28571428571429,
+      "task_error": 0.6140952380952381,
+      "distribution_similarity": 0.9373817616658865,
+      "fibonacci_compliance": 85.68075117370893
+    },
+    "few_shots2": {
+      "mae": 4.057142857142857,
+      "relative_error": 0.29491067056193104,
+      "r2_score": -10.753202966958867,
+      "perfect_percentage": 10.0,
+      "acceptable_percentage": 82.85714285714286,
+      "task_error": 0.45219047619047625,
+      "distribution_similarity": 0.9326141697020658,
+      "fibonacci_compliance": 86.3849765258216
+    },
+    "few_shot_cot": {
+      "mae": 6.714285714285714,
+      "relative_error": 0.4845508273239367,
+      "r2_score": -35.5222521915037,
+      "perfect_percentage": 5.714285714285714,
+      "acceptable_percentage": 61.42857142857143,
+      "task_error": 0.6335238095238096,
+      "distribution_similarity": 0.9296839763948581,
+      "fibonacci_compliance": 84.97652582159625
+    },
+    "meta_prompting": {
+      "mae": 9.17142857142857,
+      "relative_error": 0.6649314900785489,
+      "r2_score": -54.98111935266352,
+      "perfect_percentage": 1.4285714285714286,
+      "acceptable_percentage": 45.714285714285715,
+      "task_error": 0.7852857142857144,
+      "distribution_similarity": 0.9420957736093194,
+      "fibonacci_compliance": 85.68075117370893
+    },
+    "reflexion": {
+      "mae": 4.014285714285714,
+      "relative_error": 0.2909423524654617,
+      "r2_score": -24.16436277815239,
+      "perfect_percentage": 12.857142857142856,
+      "acceptable_percentage": 84.28571428571429,
+      "task_error": 0.3864761904761904,
+      "distribution_similarity": 0.9694823567291739,
+      "fibonacci_compliance": 84.74178403755869
+    },
+    "self_consistency": {
+      "mae": 1.542857142857143,
+      "relative_error": 0.12059544796939754,
+      "r2_score": -0.5104517869184086,
+      "perfect_percentage": 15.714285714285714,
+      "acceptable_percentage": 100.0,
+      "task_error": 0.2170952380952381,
+      "distribution_similarity": 0.9774772520513756,
+      "fibonacci_compliance": 83.33333333333334
+    },
+    "tree_of_thought": {
+      "mae": 1.5,
+      "relative_error": 0.11745150857545816,
+      "r2_score": -0.4455495616992582,
+      "perfect_percentage": 17.142857142857142,
+      "acceptable_percentage": 100.0,
+      "task_error": 0.21519047619047618,
+      "distribution_similarity": 0.9772144758580155,
+      "fibonacci_compliance": 83.33333333333334
+    },
+    "zero_shots": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    }
+  }
+}

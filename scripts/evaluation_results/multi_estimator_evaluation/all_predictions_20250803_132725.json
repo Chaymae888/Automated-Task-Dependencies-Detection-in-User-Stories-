@@ -1,0 +1,13 @@
+{
+  "agent_specific_evaluation": {},
+  "chain_of_thought": {},
+  "few_shots": {},
+  "few_shots2": {},
+  "few_shot_cot": {},
+  "meta_prompting": {},
+  "reflexion": {},
+  "self_consistency": {},
+  "storypointestimator_evaluation": {},
+  "tree_of_thought": {},
+  "zero_shots": {}
+}

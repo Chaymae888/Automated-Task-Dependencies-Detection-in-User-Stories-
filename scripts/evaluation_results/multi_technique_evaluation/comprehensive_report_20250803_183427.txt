@@ -1,0 +1,74 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 3
+  • Techniques: few_shots, evaluating, fine_tuning
+  • Test Stories: 71
+  • Coverage: 98.6%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 FEW_SHOTS:
+  🧠 Semantic Similarity:
+    • Mean: 0.519
+    • Excellent: 0.0%
+    • Good: 20.0%
+    • Poor: 10.0%
+  📝 Overlap Metrics:
+    • BLEU: 0.057
+    • ROUGE: 0.442
+    • METEOR: 0.252
+    • Word Overlap: 0.203
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 1.3
+    • Count Ratio: 0.25
+    • Exact Predictions: 0
+    • Over-predictions: 10
+    • Under-predictions: 61
+
+🔍 EVALUATING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+🔍 FINE_TUNING:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 71
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use few_shots
+    (Semantic similarity: 0.519)
+  • For task count accuracy: Use few_shots
+    (Count ratio: 0.251, deviation from ideal: 0.749)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

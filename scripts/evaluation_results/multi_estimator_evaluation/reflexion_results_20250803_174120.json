@@ -1,0 +1,1945 @@
+{
+  "estimator_name": "reflexion",
+  "total_story_points_accuracy": {
+    "mean_absolute_error": 4.014285714285714,
+    "mean_squared_error": 60.92857142857143,
+    "root_mean_squared_error": 7.8056755907846584,
+    "r2_score": -24.16436277815239,
+    "mean_relative_error": 0.2909423524654617,
+    "median_relative_error": 0.15384615384615385,
+    "perfect_predictions": 9,
+    "close_predictions": 46,
+    "acceptable_predictions": 59,
+    "perfect_percentage": 12.857142857142856,
+    "close_percentage": 65.71428571428571,
+    "acceptable_percentage": 84.28571428571429,
+    "total_comparisons": 70,
+    "detailed_comparisons": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "expected_total": 13,
+        "predicted_total": 19,
+        "absolute_error": 6,
+        "relative_error": 0.46153846153846156,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "expected_total": 13,
+        "predicted_total": 12,
+        "absolute_error": 1,
+        "relative_error": 0.07692307692307693,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "expected_total": 16,
+        "predicted_total": 12,
+        "absolute_error": 4,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "expected_total": 14,
+        "predicted_total": 14,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,...",
+        "expected_total": 15,
+        "predicted_total": 17,
+        "absolute_error": 2,
+        "relative_error": 0.13333333333333333,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a content editor, I want to be able to easily find content, so that I can edit it",
+        "expected_total": 14,
+        "predicted_total": 34,
+        "absolute_error": 20,
+        "relative_error": 1.4285714285714286,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a user, I want to add a video to my article",
+        "expected_total": 14,
+        "predicted_total": 34,
+        "absolute_error": 20,
+        "relative_error": 1.4285714285714286,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a content editor, I want to be able to add videos from Brightcove",
+        "expected_total": 16,
+        "predicted_total": 63,
+        "absolute_error": 47,
+        "relative_error": 2.9375,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As an author, I want to be able to indent / outdent content",
+        "expected_total": 11,
+        "predicted_total": 20,
+        "absolute_error": 9,
+        "relative_error": 0.8181818181818182,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ...",
+        "expected_total": 14,
+        "predicted_total": 16,
+        "absolute_error": 2,
+        "relative_error": 0.14285714285714285,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a user researcher, I want to test the user research plan, so that I make sure the in-person inter...",
+        "expected_total": 15,
+        "predicted_total": 14,
+        "absolute_error": 1,
+        "relative_error": 0.06666666666666667,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing wit...",
+        "expected_total": 14,
+        "predicted_total": 13,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a research participant, I want to make sure that the appearance of the prototype does not distrac...",
+        "expected_total": 12,
+        "predicted_total": 17,
+        "absolute_error": 5,
+        "relative_error": 0.4166666666666667,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task scrip...",
+        "expected_total": 15,
+        "predicted_total": 27,
+        "absolute_error": 12,
+        "relative_error": 0.8,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so t...",
+        "expected_total": 16,
+        "predicted_total": 14,
+        "absolute_error": 2,
+        "relative_error": 0.125,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can...",
+        "expected_total": 17,
+        "predicted_total": 24,
+        "absolute_error": 7,
+        "relative_error": 0.4117647058823529,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a researcher, I want to recruit for the last round of user research, so that we can summarize fin...",
+        "expected_total": 16,
+        "predicted_total": 18,
+        "absolute_error": 2,
+        "relative_error": 0.125,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be p...",
+        "expected_total": 13,
+        "predicted_total": 13,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a user researcher, I want to begin identifying interview participants, so that I can understand w...",
+        "expected_total": 15,
+        "predicted_total": 23,
+        "absolute_error": 8,
+        "relative_error": 0.5333333333333333,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recru...",
+        "expected_total": 14,
+        "predicted_total": 28,
+        "absolute_error": 14,
+        "relative_error": 1.0,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so ...",
+        "expected_total": 14,
+        "predicted_total": 13,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting parti...",
+        "expected_total": 16,
+        "predicted_total": 19,
+        "absolute_error": 3,
+        "relative_error": 0.1875,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a potential research participant, I want to learn about the research and leave my contact informa...",
+        "expected_total": 11,
+        "predicted_total": 16,
+        "absolute_error": 5,
+        "relative_error": 0.45454545454545453,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better pr...",
+        "expected_total": 16,
+        "predicted_total": 18,
+        "absolute_error": 2,
+        "relative_error": 0.125,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+        "expected_total": 12,
+        "predicted_total": 22,
+        "absolute_error": 10,
+        "relative_error": 0.8333333333333334,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a team member, I want to have a prioritized list of features and elements of a future social elem...",
+        "expected_total": 15,
+        "predicted_total": 24,
+        "absolute_error": 9,
+        "relative_error": 0.6,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a team member, I want to determine a design direction for the beta social page, so that we can im...",
+        "expected_total": 13,
+        "predicted_total": 26,
+        "absolute_error": 13,
+        "relative_error": 1.0,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can disc...",
+        "expected_total": 14,
+        "predicted_total": 23,
+        "absolute_error": 9,
+        "relative_error": 0.6428571428571429,
+        "accuracy_category": "poor"
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "absolute_error": 3,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so th...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a designer, I want to have a style guide / design guide / content guide, so that we have a unifor...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling visual de...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling content, ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "absolute_error": 3,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key co...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might i...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a team member, I want to understand what the MVP should look like, so that I can begin understand...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a team member, I want to understand how time off overlaps with plans around the user research",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "absolute_error": 4,
+        "relative_error": 0.36363636363636365,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the con...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction w...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how visual design directions were developed, so that I can make b...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prot...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a content designer, I want to develop a better understanding of NSF's content types and editorial...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a team member, I want to have a prototype strategy, so that I understand how we will gain underst...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.0625,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it'...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a designer, I want to know what early indications of hypotheses might be, so that I can start pla...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a n...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to commu...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our ne...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem wi...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "absolute_error": 3,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As an NSF member of the team, I want to have a place where I can access all the related reports and ...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I c...",
+        "expected_total": 11,
+        "predicted_total": 13,
+        "absolute_error": 2,
+        "relative_error": 0.18181818181818182,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "absolute_error": 3,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan o...",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "absolute_error": 4,
+        "relative_error": 0.36363636363636365,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "absolute_error": 4,
+        "relative_error": 0.36363636363636365,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a team member, I want to understand how work moves between UX/content > visual design > front end...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly on Scienc...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly, so that ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "absolute_error": 0,
+        "relative_error": 0.0,
+        "accuracy_category": "perfect"
+      },
+      {
+        "user_story": "As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As an NSF employee, I want to see how the user recruitment form looks and behaves on a sample page, ...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a team member, I want to have a high-level sense of the project timeline, so that I can plan my w...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "absolute_error": 1,
+        "relative_error": 0.07142857142857142,
+        "accuracy_category": "excellent"
+      },
+      {
+        "user_story": "As a team member, I want to know what visual design related tasks we might need to plan for this spr...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      },
+      {
+        "user_story": "As a team member, I want to have recruiting-email templates ready to go, so that I can start recruit...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "absolute_error": 3,
+        "relative_error": 0.25,
+        "accuracy_category": "acceptable"
+      },
+      {
+        "user_story": "As a workshop attendee, I want to see a summary on major findings from the event",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "absolute_error": 2,
+        "relative_error": 0.15384615384615385,
+        "accuracy_category": "good"
+      }
+    ]
+  },
+  "task_distribution_accuracy": {
+    "mean_task_level_error": 0.3864761904761904,
+    "median_task_level_error": 0.25,
+    "mean_distribution_similarity": 0.9694823567291739,
+    "mean_sum_consistency_error": 0.0,
+    "perfect_sum_consistency": 70,
+    "sum_consistency_percentage": 100.0,
+    "total_task_comparisons": 350,
+    "detailed_task_comparisons": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "expected_total": 13,
+        "predicted_total": 19,
+        "expected_sum": 13,
+        "predicted_sum": 19,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.5
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "expected_total": 13,
+        "predicted_total": 12,
+        "expected_sum": 13,
+        "predicted_sum": 12,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.26666666666666666
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "expected_total": 16,
+        "predicted_total": 12,
+        "expected_sum": 16,
+        "predicted_sum": 12,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.26666666666666666
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "expected_total": 14,
+        "predicted_total": 14,
+        "expected_sum": 14,
+        "predicted_sum": 14,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.45
+      },
+      {
+        "user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,...",
+        "expected_total": 15,
+        "predicted_total": 17,
+        "expected_sum": 15,
+        "predicted_sum": 17,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As a content editor, I want to be able to easily find content, so that I can edit it",
+        "expected_total": 14,
+        "predicted_total": 34,
+        "expected_sum": 14,
+        "predicted_sum": 34,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 1.5666666666666667
+      },
+      {
+        "user_story": "As a user, I want to add a video to my article",
+        "expected_total": 14,
+        "predicted_total": 34,
+        "expected_sum": 14,
+        "predicted_sum": 34,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 1.6666666666666665
+      },
+      {
+        "user_story": "As a content editor, I want to be able to add videos from Brightcove",
+        "expected_total": 16,
+        "predicted_total": 63,
+        "expected_sum": 16,
+        "predicted_sum": 63,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 3.2833333333333337
+      },
+      {
+        "user_story": "As an author, I want to be able to indent / outdent content",
+        "expected_total": 11,
+        "predicted_total": 20,
+        "expected_sum": 11,
+        "predicted_sum": 20,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.7333333333333334
+      },
+      {
+        "user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ...",
+        "expected_total": 14,
+        "predicted_total": 16,
+        "expected_sum": 14,
+        "predicted_sum": 16,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2833333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to test the user research plan, so that I make sure the in-person inter...",
+        "expected_total": 15,
+        "predicted_total": 14,
+        "expected_sum": 15,
+        "predicted_sum": 14,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.05
+      },
+      {
+        "user_story": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing wit...",
+        "expected_total": 14,
+        "predicted_total": 13,
+        "expected_sum": 14,
+        "predicted_sum": 13,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.06666666666666667
+      },
+      {
+        "user_story": "As a research participant, I want to make sure that the appearance of the prototype does not distrac...",
+        "expected_total": 12,
+        "predicted_total": 17,
+        "expected_sum": 12,
+        "predicted_sum": 17,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4333333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task scrip...",
+        "expected_total": 15,
+        "predicted_total": 27,
+        "expected_sum": 15,
+        "predicted_sum": 27,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.6533333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so t...",
+        "expected_total": 16,
+        "predicted_total": 14,
+        "expected_sum": 16,
+        "predicted_sum": 14,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3833333333333333
+      },
+      {
+        "user_story": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can...",
+        "expected_total": 17,
+        "predicted_total": 24,
+        "expected_sum": 17,
+        "predicted_sum": 24,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4333333333333334
+      },
+      {
+        "user_story": "As a researcher, I want to recruit for the last round of user research, so that we can summarize fin...",
+        "expected_total": 16,
+        "predicted_total": 18,
+        "expected_sum": 16,
+        "predicted_sum": 18,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3666666666666666
+      },
+      {
+        "user_story": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be p...",
+        "expected_total": 13,
+        "predicted_total": 13,
+        "expected_sum": 13,
+        "predicted_sum": 13,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.16666666666666666
+      },
+      {
+        "user_story": "As a user researcher, I want to begin identifying interview participants, so that I can understand w...",
+        "expected_total": 15,
+        "predicted_total": 23,
+        "expected_sum": 15,
+        "predicted_sum": 23,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.5333333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recru...",
+        "expected_total": 14,
+        "predicted_total": 28,
+        "expected_sum": 14,
+        "predicted_sum": 28,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 1.0333333333333332
+      },
+      {
+        "user_story": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so ...",
+        "expected_total": 14,
+        "predicted_total": 13,
+        "expected_sum": 14,
+        "predicted_sum": 13,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2333333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting parti...",
+        "expected_total": 16,
+        "predicted_total": 19,
+        "expected_sum": 16,
+        "predicted_sum": 19,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3333333333333333
+      },
+      {
+        "user_story": "As a potential research participant, I want to learn about the research and leave my contact informa...",
+        "expected_total": 11,
+        "predicted_total": 16,
+        "expected_sum": 11,
+        "predicted_sum": 16,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.6333333333333333
+      },
+      {
+        "user_story": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better pr...",
+        "expected_total": 16,
+        "predicted_total": 18,
+        "expected_sum": 16,
+        "predicted_sum": 18,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2333333333333333
+      },
+      {
+        "user_story": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+        "expected_total": 12,
+        "predicted_total": 22,
+        "expected_sum": 12,
+        "predicted_sum": 22,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 1.3166666666666667
+      },
+      {
+        "user_story": "As a team member, I want to have a prioritized list of features and elements of a future social elem...",
+        "expected_total": 15,
+        "predicted_total": 24,
+        "expected_sum": 15,
+        "predicted_sum": 24,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.8166666666666668
+      },
+      {
+        "user_story": "As a team member, I want to determine a design direction for the beta social page, so that we can im...",
+        "expected_total": 13,
+        "predicted_total": 26,
+        "expected_sum": 13,
+        "predicted_sum": 26,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 1.0333333333333332
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can disc...",
+        "expected_total": 14,
+        "predicted_total": 23,
+        "expected_sum": 14,
+        "predicted_sum": 23,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.5666666666666667
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "expected_sum": 12,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so th...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a designer, I want to have a style guide / design guide / content guide, so that we have a unifor...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling visual de...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.25
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling content, ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "expected_sum": 12,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.5
+      },
+      {
+        "user_story": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key co...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might i...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As a team member, I want to understand what the MVP should look like, so that I can begin understand...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As a team member, I want to understand how time off overlaps with plans around the user research",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "expected_sum": 11,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4
+      },
+      {
+        "user_story": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the con...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.05
+      },
+      {
+        "user_story": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction w...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how visual design directions were developed, so that I can make b...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.0
+      },
+      {
+        "user_story": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prot...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a content designer, I want to develop a better understanding of NSF's content types and editorial...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.05
+      },
+      {
+        "user_story": "As a team member, I want to have a prototype strategy, so that I understand how we will gain underst...",
+        "expected_total": 16,
+        "predicted_total": 15,
+        "expected_sum": 16,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.05
+      },
+      {
+        "user_story": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it'...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As a designer, I want to know what early indications of hypotheses might be, so that I can start pla...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a n...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to commu...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our ne...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem wi...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "expected_sum": 12,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3
+      },
+      {
+        "user_story": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As an NSF member of the team, I want to have a place where I can access all the related reports and ...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I c...",
+        "expected_total": 11,
+        "predicted_total": 13,
+        "expected_sum": 11,
+        "predicted_sum": 13,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.6
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "expected_sum": 12,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3
+      },
+      {
+        "user_story": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan o...",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "expected_sum": 11,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4
+      },
+      {
+        "user_story": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+        "expected_total": 11,
+        "predicted_total": 15,
+        "expected_sum": 11,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.4
+      },
+      {
+        "user_story": "As a team member, I want to understand how work moves between UX/content > visual design > front end...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly on Scienc...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly, so that ...",
+        "expected_total": 15,
+        "predicted_total": 15,
+        "expected_sum": 15,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.15
+      },
+      {
+        "user_story": "As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As an NSF employee, I want to see how the user recruitment form looks and behaves on a sample page, ...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a team member, I want to have a high-level sense of the project timeline, so that I can plan my w...",
+        "expected_total": 14,
+        "predicted_total": 15,
+        "expected_sum": 14,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.1
+      },
+      {
+        "user_story": "As a team member, I want to know what visual design related tasks we might need to plan for this spr...",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      },
+      {
+        "user_story": "As a team member, I want to have recruiting-email templates ready to go, so that I can start recruit...",
+        "expected_total": 12,
+        "predicted_total": 15,
+        "expected_sum": 12,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.3
+      },
+      {
+        "user_story": "As a workshop attendee, I want to see a summary on major findings from the event",
+        "expected_total": 13,
+        "predicted_total": 15,
+        "expected_sum": 13,
+        "predicted_sum": 15,
+        "sum_consistency_error": 0,
+        "matched_tasks": 5,
+        "total_expected_tasks": 5,
+        "mean_task_error": 0.2
+      }
+    ]
+  },
+  "fibonacci_compliance": {
+    "fibonacci_compliance_rate": 0.8474178403755869,
+    "fibonacci_compliance_percentage": 84.74178403755869,
+    "total_predictions_checked": 426,
+    "fibonacci_compliant_count": 361,
+    "non_fibonacci_count": 65,
+    "most_common_violations": [
+      [
+        15,
+        42
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        17,
+        2
+      ]
+    ],
+    "unique_non_fibonacci_values": 15,
+    "compliance_details": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "total_compliant": false,
+        "total_value": 19,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "total_compliant": false,
+        "total_value": 12,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "total_compliant": false,
+        "total_value": 12,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "total_compliant": false,
+        "total_value": 14,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,...",
+        "total_compliant": false,
+        "total_value": 17,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a content editor, I want to be able to easily find content, so that I can edit it",
+        "total_compliant": true,
+        "total_value": 34,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user, I want to add a video to my article",
+        "total_compliant": true,
+        "total_value": 34,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a content editor, I want to be able to add videos from Brightcove",
+        "total_compliant": false,
+        "total_value": 63,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an author, I want to be able to indent / outdent content",
+        "total_compliant": false,
+        "total_value": 20,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ...",
+        "total_compliant": false,
+        "total_value": 16,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to test the user research plan, so that I make sure the in-person inter...",
+        "total_compliant": false,
+        "total_value": 14,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing wit...",
+        "total_compliant": true,
+        "total_value": 13,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a research participant, I want to make sure that the appearance of the prototype does not distrac...",
+        "total_compliant": false,
+        "total_value": 17,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task scrip...",
+        "total_compliant": false,
+        "total_value": 27,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so t...",
+        "total_compliant": false,
+        "total_value": 14,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can...",
+        "total_compliant": false,
+        "total_value": 24,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a researcher, I want to recruit for the last round of user research, so that we can summarize fin...",
+        "total_compliant": false,
+        "total_value": 18,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be p...",
+        "total_compliant": true,
+        "total_value": 13,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to begin identifying interview participants, so that I can understand w...",
+        "total_compliant": false,
+        "total_value": 23,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recru...",
+        "total_compliant": false,
+        "total_value": 28,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so ...",
+        "total_compliant": true,
+        "total_value": 13,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting parti...",
+        "total_compliant": false,
+        "total_value": 19,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a potential research participant, I want to learn about the research and leave my contact informa...",
+        "total_compliant": false,
+        "total_value": 16,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better pr...",
+        "total_compliant": false,
+        "total_value": 18,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+        "total_compliant": false,
+        "total_value": 22,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have a prioritized list of features and elements of a future social elem...",
+        "total_compliant": false,
+        "total_value": 24,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to determine a design direction for the beta social page, so that we can im...",
+        "total_compliant": false,
+        "total_value": 26,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can disc...",
+        "total_compliant": false,
+        "total_value": 23,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so th...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a designer, I want to have a style guide / design guide / content guide, so that we have a unifor...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling visual de...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a site administrator, I want to understand how other similar organizations are handling content, ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key co...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might i...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to understand what the MVP should look like, so that I can begin understand...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to understand how time off overlaps with plans around the user research",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the con...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction w...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how visual design directions were developed, so that I can make b...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prot...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a content designer, I want to develop a better understanding of NSF's content types and editorial...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have a prototype strategy, so that I understand how we will gain underst...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it'...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a designer, I want to know what early indications of hypotheses might be, so that I can start pla...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a n...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to commu...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our ne...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem wi...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF member of the team, I want to have a place where I can access all the related reports and ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I c...",
+        "total_compliant": true,
+        "total_value": 13,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan o...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to understand how work moves between UX/content > visual design > front end...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly on Scienc...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a web recruiter manager, I want to confirm the recruiter is set up and working properly, so that ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As an NSF employee, I want to see how the user recruitment form looks and behaves on a sample page, ...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have a high-level sense of the project timeline, so that I can plan my w...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to know what visual design related tasks we might need to plan for this spr...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a team member, I want to have recruiting-email templates ready to go, so that I can start recruit...",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      },
+      {
+        "user_story": "As a workshop attendee, I want to see a summary on major findings from the event",
+        "total_compliant": false,
+        "total_value": 15,
+        "task_compliance_rate": 1.0,
+        "num_tasks": 5
+      }
+    ]
+  },
+  "prediction_statistics": {
+    "total_points_statistics": {
+      "mean": 17.408450704225352,
+      "median": 15.0,
+      "std": 7.0302714967483615,
+      "min": "12",
+      "max": "63",
+      "mode": 15
+    },
+    "task_points_statistics": {
+      "mean": 3.4816901408450702,
+      "median": 3.0,
+      "std": 1.7703592266292305,
+      "min": "1",
+      "max": "21"
+    },
+    "prediction_ranges": {
+      "1-3": 0,
+      "4-8": 0,
+      "9-21": 60,
+      "22+": 11
+    },
+    "total_stories_predicted": 71,
+    "total_tasks_predicted": 355
+  },
+  "summary": {
+    "estimator_name": "reflexion",
+    "dataset_info": {
+      "total_test_stories": 71,
+      "processed_stories": 70,
+      "coverage": 0.9859154929577465
+    },
+    "accuracy_summary": {
+      "mean_absolute_error": 4.014285714285714,
+      "mean_relative_error": 0.2909423524654617,
+      "r2_score": -24.16436277815239,
+      "perfect_percentage": 12.857142857142856,
+      "acceptable_percentage": 84.28571428571429
+    },
+    "distribution_summary": {
+      "mean_task_error": 0.3864761904761904,
+      "distribution_similarity": 0.9694823567291739,
+      "sum_consistency_percentage": 100.0
+    },
+    "fibonacci_summary": {
+      "compliance_percentage": 84.74178403755869,
+      "total_violations": 65
+    },
+    "prediction_summary": {
+      "mean_total_points": 17.408450704225352,
+      "mean_task_points": 3.4816901408450702,
+      "stories_predicted": 71,
+      "tasks_predicted": 355
+    }
+  }
+}

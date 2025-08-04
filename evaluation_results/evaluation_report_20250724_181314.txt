@@ -1,0 +1,49 @@
+================================================================================
+TASK DECOMPOSITION EVALUATION REPORT
+================================================================================
+
+📊 DATASET OVERVIEW:
+  • Total Test Stories: 73
+  • Processed Stories: 73
+  • Coverage: 100.00%
+
+🧠 SEMANTIC SIMILARITY:
+  • Mean Similarity: 0.515
+  • Standard Deviation: 0.094
+
+  📈 Quality Distribution:
+    • Excellent (>0.8): 0.0%
+    • Good (0.6-0.8): 19.2%
+    • Fair (0.4-0.6): 71.2%
+    • Poor (<0.4): 9.6%
+
+📝 OVERLAP METRICS:
+  • BLEU Score: 0.052
+  • ROUGE Score: 0.368
+  • METEOR Score: 0.247
+  • Word Overlap: 0.151
+
+🏆 BEST PREDICTIONS:
+  1. Similarity: 0.715 | Quality: good
+     Story: As a CMS administrator, I want to have roles, so that I can assign them to my users
+  2. Similarity: 0.696 | Quality: good
+     Story: As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better pr...
+  3. Similarity: 0.690 | Quality: good
+     Story: As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...
+
+💔 WORST PREDICTIONS:
+  1. Similarity: 0.309 | Quality: poor
+     Story: As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...
+  2. Similarity: 0.272 | Quality: poor
+     Story: As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas
+  3. Similarity: 0.271 | Quality: poor
+     Story: As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...
+
+================================================================================
+EVALUATION TECHNIQUES USED:
+✅ Semantic Similarity - Meaning comparison using embeddings
+✅ BLEU Score - Precision-focused n-gram overlap
+✅ ROUGE Score - Recall-focused word overlap
+✅ METEOR Score - Balanced overlap with stemming
+✅ Word Overlap - Jaccard similarity
+================================================================================

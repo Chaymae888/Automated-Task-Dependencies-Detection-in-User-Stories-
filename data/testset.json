@@ -1,0 +1,3934 @@
+[
+  {
+    "input": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Set up cloud.gov account and project space",
+          "id": "CLD_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["devops", "cloud_platforms", "account_management"]
+        },
+        {
+          "description": "Configure deployment pipeline",
+          "id": "CLD_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "CLD_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["devops", "ci_cd", "pipeline_configuration"]
+        },
+        {
+          "description": "Deploy beta version to cloud.gov",
+          "id": "CLD_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CLD_002",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["devops", "deployment", "cloud_platforms"]
+        },
+        {
+          "description": "Test deployment and verify functionality",
+          "id": "CLD_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "CLD_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["testing", "qa", "functional_testing"]
+        },
+        {
+          "description": "Share access credentials with team members",
+          "id": "CLD_005",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "CLD_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["access_management", "documentation", "communication"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta site to it",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Request subdomain creation through NSF IT",
+          "id": "SUB_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["communication", "it_coordination", "documentation"]
+        },
+        {
+          "description": "Configure DNS settings for beta.nsf.gov",
+          "id": "SUB_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SUB_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["dns_management", "networking", "domain_configuration"]
+        },
+        {
+          "description": "Set up SSL certificate for subdomain",
+          "id": "SUB_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SUB_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["ssl_certificates", "security", "certificate_management"]
+        },
+        {
+          "description": "Configure deployment pipeline to use subdomain",
+          "id": "SUB_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SUB_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["devops", "pipeline_configuration", "deployment"]
+        },
+        {
+          "description": "Test subdomain accessibility and routing",
+          "id": "SUB_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "SUB_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["testing", "networking", "troubleshooting"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over from prototype to FISMA low",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Research FISMA low requirements documentation",
+          "id": "FIS_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["compliance", "security_frameworks", "documentation_review"]
+        },
+        {
+          "description": "Schedule meeting with cloud.gov support team",
+          "id": "FIS_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["communication", "meeting_coordination", "stakeholder_management"]
+        },
+        {
+          "description": "Document current prototype configuration",
+          "id": "FIS_003",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["documentation", "system_analysis", "configuration_management"]
+        },
+        {
+          "description": "Create migration checklist and timeline",
+          "id": "FIS_004",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "FIS_001",
+              "reward_effort": 3
+            },
+            {
+              "task_id": "FIS_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "FIS_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["project_planning", "compliance", "migration_planning"]
+        },
+        {
+          "description": "Prepare compliance documentation",
+          "id": "FIS_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "FIS_004",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["compliance_documentation", "security_protocols", "technical_writing"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for the beta.nsf.gov ATO",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Schedule meeting with DIS and cloud.gov teams",
+          "id": "ATO_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["meeting_coordination", "stakeholder_management", "communication"]
+        },
+        {
+          "description": "Prepare list of ATO-related questions",
+          "id": "ATO_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["compliance", "security_frameworks", "requirement_gathering"]
+        },
+        {
+          "description": "Document ATO requirements and timeline",
+          "id": "ATO_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "ATO_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "ATO_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["documentation", "compliance", "project_planning"]
+        },
+        {
+          "description": "Create compliance action plan",
+          "id": "ATO_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "ATO_003",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["action_planning", "compliance", "project_management"]
+        },
+        {
+          "description": "Assign responsibility for ATO tasks",
+          "id": "ATO_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "ATO_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["task_assignment", "team_management", "responsibility_matrix"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta, and if not what will",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Evaluate current blog aggregator functionality",
+          "id": "BLG_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["system_evaluation", "functional_testing", "analysis"]
+        },
+        {
+          "description": "Test aggregator with NSF content requirements",
+          "id": "BLG_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "BLG_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["content_testing", "requirement_validation", "system_testing"]
+        },
+        {
+          "description": "Document pros and cons of aggregator approach",
+          "id": "BLG_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BLG_002",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["analysis", "documentation", "comparative_evaluation"]
+        },
+        {
+          "description": "Research alternative blog solutions",
+          "id": "BLG_004",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["research", "solution_analysis", "market_evaluation"]
+        },
+        {
+          "description": "Present recommendation with rationale",
+          "id": "BLG_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "BLG_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "BLG_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "decision_support", "stakeholder_communication"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a content editor, I want to be able to easily find content, so that I can edit it",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Design content search interface",
+          "id": "CNT_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["ui_design", "search_interface", "user_experience"]
+        },
+        {
+          "description": "Implement content filtering and categorization",
+          "id": "CNT_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "CNT_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["backend", "filtering_systems", "content_management"]
+        },
+        {
+          "description": "Add content tagging system",
+          "id": "CNT_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CNT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["tagging_systems", "metadata_management", "content_organization"]
+        },
+        {
+          "description": "Create content organization hierarchy",
+          "id": "CNT_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "CNT_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["information_architecture", "content_structure", "taxonomy"]
+        },
+        {
+          "description": "Add bulk content management tools",
+          "id": "CNT_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "CNT_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["bulk_operations", "content_management", "workflow_tools"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user, I want to add a video to my article",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Design video upload interface",
+          "id": "VID_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["ui_design", "file_upload", "user_interface"]
+        },
+        {
+          "description": "Integrate with video hosting service",
+          "id": "VID_002",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["api_integration", "video_services", "backend_development"]
+        },
+        {
+          "description": "Add video embed functionality",
+          "id": "VID_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VID_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "VID_002",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["frontend", "video_embedding", "media_integration"]
+        },
+        {
+          "description": "Implement video preview in editor",
+          "id": "VID_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "VID_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["editor_integration", "preview_functionality", "frontend"]
+        },
+        {
+          "description": "Add video metadata management",
+          "id": "VID_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "VID_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["metadata_management", "content_management", "data_modeling"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a content editor, I want to be able to add videos from Brightcove",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Integrate Brightcove API",
+          "id": "BCO_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["api_integration", "brightcove", "backend_development"]
+        },
+        {
+          "description": "Create Brightcove video browser interface",
+          "id": "BCO_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "BCO_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["frontend", "ui_design", "video_browsing"]
+        },
+        {
+          "description": "Add video selection and embed functionality",
+          "id": "BCO_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BCO_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["video_embedding", "selection_interface", "integration"]
+        },
+        {
+          "description": "Implement video preview and metadata display",
+          "id": "BCO_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BCO_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["preview_functionality", "metadata_display", "frontend"]
+        },
+        {
+          "description": "Add video management and organization tools",
+          "id": "BCO_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "BCO_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["content_management", "organization_tools", "video_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an author, I want to be able to indent / outdent content",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Add indent/outdent buttons to editor toolbar",
+          "id": "IND_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["ui_design", "editor_customization", "toolbar_development"]
+        },
+        {
+          "description": "Implement keyboard shortcuts for indentation",
+          "id": "IND_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["keyboard_shortcuts", "event_handling", "user_interface"]
+        },
+        {
+          "description": "Create nested content structure support",
+          "id": "IND_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "IND_001",
+              "reward_effort": 1
+            },
+            {
+              "task_id": "IND_002",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["content_structure", "html_manipulation", "nested_elements"]
+        },
+        {
+          "description": "Add visual indentation indicators",
+          "id": "IND_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "IND_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["visual_indicators", "css_styling", "user_feedback"]
+        },
+        {
+          "description": "Ensure proper HTML output formatting",
+          "id": "IND_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "IND_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["html_generation", "content_formatting", "output_validation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is right for me",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Compile user research findings into report",
+          "id": "RES_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["research_analysis", "data_compilation", "report_writing"]
+        },
+        {
+          "description": "Create executive summary of key insights",
+          "id": "RES_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "RES_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["executive_communication", "synthesis", "key_insights"]
+        },
+        {
+          "description": "Develop CMS recommendation based on research",
+          "id": "RES_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "RES_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["cms_evaluation", "recommendation_development", "decision_support"]
+        },
+        {
+          "description": "Present findings to stakeholders",
+          "id": "RES_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "RES_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "RES_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "stakeholder_communication", "visual_communication"]
+        },
+        {
+          "description": "Document decision rationale",
+          "id": "RES_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "RES_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["documentation", "decision_tracking", "rationale_documentation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to test the user research plan, so that I make sure the in-person interviews are effective and capturing the right information",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Conduct pilot interview sessions",
+          "id": "PIL_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["user_research", "interview_facilitation", "pilot_testing"]
+        },
+        {
+          "description": "Refine interview questions and script",
+          "id": "PIL_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PIL_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["question_design", "script_writing", "interview_optimization"]
+        },
+        {
+          "description": "Test interview recording and note-taking process",
+          "id": "PIL_003",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "PIL_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["recording_setup", "documentation_process", "data_capture"]
+        },
+        {
+          "description": "Validate research methodology",
+          "id": "PIL_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PIL_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "PIL_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["methodology_validation", "research_design", "quality_assurance"]
+        },
+        {
+          "description": "Update research plan based on pilot results",
+          "id": "PIL_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PIL_004",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["plan_iteration", "research_planning", "process_improvement"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing with internal users",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Review and refine OLPA task scenarios",
+          "id": "OLP_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["task_design", "scenario_development", "olpa_knowledge"]
+        },
+        {
+          "description": "Create step-by-step task instructions",
+          "id": "OLP_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OLP_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["instruction_writing", "task_documentation", "clarity_optimization"]
+        },
+        {
+          "description": "Develop success criteria for each task",
+          "id": "OLP_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OLP_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["criteria_definition", "measurement_design", "success_metrics"]
+        },
+        {
+          "description": "Prepare interview materials and forms",
+          "id": "OLP_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "OLP_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "form_design", "documentation"]
+        },
+        {
+          "description": "Schedule internal user testing sessions",
+          "id": "OLP_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OLP_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scheduling", "participant_coordination", "session_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a research participant, I want to make sure that the appearance of the prototype does not distract from the workflow, so that I can complete the user interview",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Create neutral, minimal prototype styling",
+          "id": "PRO_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["ui_design", "minimal_design", "prototype_styling"]
+        },
+        {
+          "description": "Remove distracting visual elements",
+          "id": "PRO_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "PRO_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["visual_optimization", "distraction_removal", "focus_design"]
+        },
+        {
+          "description": "Focus on functional workflow elements",
+          "id": "PRO_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PRO_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workflow_design", "functional_focus", "essential_elements"]
+        },
+        {
+          "description": "Test prototype clarity with sample users",
+          "id": "PRO_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "PRO_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["user_testing", "clarity_assessment", "feedback_collection"]
+        },
+        {
+          "description": "Refine prototype based on feedback",
+          "id": "PRO_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "PRO_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["iteration", "feedback_implementation", "prototype_refinement"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to have the WIG prototype, so that I can finalize the second task script",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Complete WIG prototype development",
+          "id": "WIG_001",
+          "story_points": 5,
+          "depends_on": [],
+          "required_skills": ["prototype_development", "wig_requirements", "frontend_development"]
+        },
+        {
+          "description": "Test prototype functionality and usability",
+          "id": "WIG_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WIG_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["usability_testing", "functional_testing", "prototype_validation"]
+        },
+        {
+          "description": "Create task scenarios based on prototype features",
+          "id": "WIG_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WIG_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scenario_development", "task_design", "feature_mapping"]
+        },
+        {
+          "description": "Develop second task script questions",
+          "id": "WIG_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WIG_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["question_design", "script_writing", "interview_preparation"]
+        },
+        {
+          "description": "Prepare materials for prototype testing",
+          "id": "WIG_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WIG_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "testing_setup", "documentation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to have a list of priority workflow candidates that we might test, so that I can make sure we're capturing the priority areas",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Interview stakeholders about critical workflows",
+          "id": "WKF_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["stakeholder_interviews", "workflow_analysis", "requirement_gathering"]
+        },
+        {
+          "description": "Document current workflow processes",
+          "id": "WKF_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WKF_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["process_documentation", "workflow_mapping", "current_state_analysis"]
+        },
+        {
+          "description": "Prioritize workflows by importance and frequency",
+          "id": "WKF_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WKF_002",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["prioritization", "impact_assessment", "frequency_analysis"]
+        },
+        {
+          "description": "Create workflow testing scenarios",
+          "id": "WKF_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WKF_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scenario_development", "testing_design", "workflow_scenarios"]
+        },
+        {
+          "description": "Validate priority list with team",
+          "id": "WKF_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WKF_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["team_validation", "consensus_building", "priority_confirmation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a researcher, I want to develop the user research protocol for internal workflows, so that we can begin testing against a CMS prototype",
+    "output": {
+      "story_points": 17,
+      "tasks": [
+        {
+          "description": "Define research objectives and questions",
+          "id": "PRT_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["research_design", "objective_setting", "question_formulation"]
+        },
+        {
+          "description": "Create workflow testing scenarios",
+          "id": "PRT_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "PRT_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scenario_development", "workflow_design", "testing_scenarios"]
+        },
+        {
+          "description": "Develop interview guide and scripts",
+          "id": "PRT_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PRT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["interview_design", "script_writing", "guide_development"]
+        },
+        {
+          "description": "Design data collection methods",
+          "id": "PRT_004",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "PRT_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["data_collection", "methodology_design", "measurement_planning"]
+        },
+        {
+          "description": "Create analysis framework for results",
+          "id": "PRT_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PRT_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "PRT_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["analysis_framework", "results_processing", "insight_extraction"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a researcher, I want to recruit for the last round of user research, so that we can summarize findings and synthesize results",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Identify target participant criteria",
+          "id": "REC_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["participant_profiling", "criteria_definition", "target_identification"]
+        },
+        {
+          "description": "Create recruitment materials and outreach plan",
+          "id": "REC_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "REC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["recruitment_materials", "outreach_planning", "communication_design"]
+        },
+        {
+          "description": "Schedule and confirm participant sessions",
+          "id": "REC_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "REC_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scheduling", "participant_coordination", "session_management"]
+        },
+        {
+          "description": "Prepare final research session materials",
+          "id": "REC_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "REC_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "session_setup", "research_materials"]
+        },
+        {
+          "description": "Plan results synthesis methodology",
+          "id": "REC_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "REC_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["synthesis_planning", "analysis_methodology", "results_integration"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be prepared to test our first prototype",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Identify participants for hypothesis testing",
+          "id": "HYP_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["participant_identification", "hypothesis_matching", "criteria_selection"]
+        },
+        {
+          "description": "Schedule interview sessions",
+          "id": "HYP_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "HYP_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scheduling", "interview_coordination", "calendar_management"]
+        },
+        {
+          "description": "Prepare prototype testing materials",
+          "id": "HYP_003",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["testing_materials", "prototype_preparation", "session_setup"]
+        },
+        {
+          "description": "Create data collection templates",
+          "id": "HYP_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "HYP_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["template_design", "data_collection", "observation_tools"]
+        },
+        {
+          "description": "Confirm logistics and technology setup",
+          "id": "HYP_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "HYP_002",
+              "reward_effort": 1
+            },
+            {
+              "task_id": "HYP_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["logistics_coordination", "technology_setup", "session_preparation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to begin identifying interview participants, so that I can understand what educators and science influencers need from a future nsf.gov website",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Create participant persona profiles",
+          "id": "PAR_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["persona_development", "user_profiling", "target_audience_analysis"]
+        },
+        {
+          "description": "Develop recruitment criteria and screening questions",
+          "id": "PAR_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PAR_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["criteria_development", "screening_design", "qualification_assessment"]
+        },
+        {
+          "description": "Identify recruitment channels and networks",
+          "id": "PAR_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PAR_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["channel_identification", "network_mapping", "outreach_planning"]
+        },
+        {
+          "description": "Create outreach materials and templates",
+          "id": "PAR_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PAR_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "PAR_003",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["material_creation", "template_design", "communication_materials"]
+        },
+        {
+          "description": "Begin participant recruitment outreach",
+          "id": "PAR_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PAR_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["outreach_execution", "recruitment_communication", "participant_engagement"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to set up a website recruitment test, so that I can see if we can recruit users in real time from the website",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Design recruitment widget or popup",
+          "id": "WEB_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["widget_design", "popup_design", "user_interface"]
+        },
+        {
+          "description": "Create recruitment landing page",
+          "id": "WEB_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["landing_page_design", "conversion_optimization", "web_development"]
+        },
+        {
+          "description": "Implement tracking and analytics",
+          "id": "WEB_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WEB_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "WEB_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["analytics_implementation", "tracking_setup", "data_collection"]
+        },
+        {
+          "description": "Test recruitment flow and conversion rates",
+          "id": "WEB_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WEB_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["conversion_testing", "flow_analysis", "performance_measurement"]
+        },
+        {
+          "description": "Optimize recruitment messaging and placement",
+          "id": "WEB_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WEB_004",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["messaging_optimization", "placement_optimization", "conversion_improvement"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so that they can observe the interviews and make recommendations accordingly",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Identify relevant NSF stakeholders for each interview type",
+          "id": "STA_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["stakeholder_mapping", "interview_planning", "organizational_knowledge"]
+        },
+        {
+          "description": "Create interview observation guidelines",
+          "id": "STA_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["guideline_development", "observation_protocols", "documentation"]
+        },
+        {
+          "description": "Schedule stakeholder availability",
+          "id": "STA_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STA_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["scheduling", "availability_coordination", "calendar_management"]
+        },
+        {
+          "description": "Prepare observation materials and note-taking templates",
+          "id": "STA_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STA_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "template_design", "observation_tools"]
+        },
+        {
+          "description": "Brief observers on interview protocols",
+          "id": "STA_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STA_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "STA_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["training", "protocol_briefing", "observer_preparation"]
+        }
+      ]
+    }
+  },
+   {
+    "input": "As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting participants",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Define research objectives and questions",
+          "id": "PLN_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["research_design", "objective_setting", "question_formulation"]
+        },
+        {
+          "description": "Identify target user groups and criteria",
+          "id": "PLN_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PLN_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["user_segmentation", "criteria_development", "target_identification"]
+        },
+        {
+          "description": "Create research methodology and timeline",
+          "id": "PLN_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "PLN_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["methodology_design", "timeline_planning", "research_structure"]
+        },
+        {
+          "description": "Develop participant recruitment strategy",
+          "id": "PLN_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PLN_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "PLN_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["recruitment_strategy", "outreach_planning", "participant_acquisition"]
+        },
+        {
+          "description": "Prepare research materials and templates",
+          "id": "PLN_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "PLN_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "template_creation", "research_tools"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a potential research participant, I want to learn about the research and leave my contact information",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Create research information page",
+          "id": "INF_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["content_creation", "information_design", "web_development"]
+        },
+        {
+          "description": "Design contact information form",
+          "id": "INF_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["form_design", "user_interface", "data_collection"]
+        },
+        {
+          "description": "Implement form submission and storage",
+          "id": "INF_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "INF_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["backend_development", "data_storage", "form_processing"]
+        },
+        {
+          "description": "Add privacy notice and consent information",
+          "id": "INF_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "INF_001",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["privacy_compliance", "consent_management", "legal_content"]
+        },
+        {
+          "description": "Set up automated confirmation responses",
+          "id": "INF_005",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "INF_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["automation", "email_systems", "response_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better prepare them and the team for future research work",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Design workshop agenda and activities",
+          "id": "WOR_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["workshop_design", "agenda_planning", "activity_development"]
+        },
+        {
+          "description": "Create user persona templates and exercises",
+          "id": "WOR_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WOR_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["persona_development", "template_creation", "exercise_design"]
+        },
+        {
+          "description": "Prepare workshop materials and supplies",
+          "id": "WOR_003",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WOR_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "logistics", "workshop_setup"]
+        },
+        {
+          "description": "Schedule and coordinate NSF participant attendance",
+          "id": "WOR_004",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["scheduling", "participant_coordination", "attendance_management"]
+        },
+        {
+          "description": "Plan workshop documentation and follow-up",
+          "id": "WOR_005",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "WOR_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "WOR_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["documentation_planning", "follow_up_strategy", "outcome_tracking"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a designer, I want to have a new social media wireframe, so that I can begin implementing design",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Research social media design patterns",
+          "id": "SOC_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["design_research", "pattern_analysis", "social_media_ux"]
+        },
+        {
+          "description": "Create wireframe layouts for social features",
+          "id": "SOC_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "SOC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["wireframing", "layout_design", "social_feature_design"]
+        },
+        {
+          "description": "Define user interactions and flows",
+          "id": "SOC_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SOC_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["interaction_design", "user_flow", "flow_mapping"]
+        },
+        {
+          "description": "Review wireframes with stakeholders",
+          "id": "SOC_004",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "SOC_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["stakeholder_review", "feedback_collection", "presentation"]
+        },
+        {
+          "description": "Prepare wireframes for development handoff",
+          "id": "SOC_005",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "SOC_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["design_handoff", "specification_documentation", "developer_communication"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to have a prioritized list of features and elements of a future social element page, so that I can work with the engineers to determine feasibility",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Brainstorm social feature requirements",
+          "id": "FEA_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["feature_brainstorming", "requirement_gathering", "ideation"]
+        },
+        {
+          "description": "Research competitor social implementations",
+          "id": "FEA_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["competitive_analysis", "feature_research", "implementation_study"]
+        },
+        {
+          "description": "Prioritize features by user value and complexity",
+          "id": "FEA_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "FEA_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "FEA_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["feature_prioritization", "value_assessment", "complexity_analysis"]
+        },
+        {
+          "description": "Create technical feasibility assessment",
+          "id": "FEA_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "FEA_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["technical_assessment", "feasibility_analysis", "engineering_consultation"]
+        },
+        {
+          "description": "Document feature specifications for development",
+          "id": "FEA_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "FEA_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["specification_writing", "feature_documentation", "development_requirements"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to determine a design direction for the beta social page, so that we can implement a beta site quickly without established brand guidelines",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Create multiple design concept options",
+          "id": "DIR_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["concept_design", "visual_design", "design_exploration"]
+        },
+        {
+          "description": "Evaluate designs against project constraints",
+          "id": "DIR_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "DIR_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["design_evaluation", "constraint_analysis", "feasibility_assessment"]
+        },
+        {
+          "description": "Test design concepts with stakeholders",
+          "id": "DIR_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "DIR_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["stakeholder_testing", "concept_validation", "feedback_collection"]
+        },
+        {
+          "description": "Select design direction and document rationale",
+          "id": "DIR_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "DIR_003",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["decision_making", "rationale_documentation", "design_selection"]
+        },
+        {
+          "description": "Create implementation guidelines for development",
+          "id": "DIR_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "DIR_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["implementation_guidelines", "development_specifications", "design_system"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can discuss different design concepts with stakeholders",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Research NSF brand and visual identity",
+          "id": "STY_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["brand_research", "visual_identity_analysis", "brand_guidelines"]
+        },
+        {
+          "description": "Create multiple visual design concepts",
+          "id": "STY_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "STY_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["visual_design", "concept_development", "design_exploration"]
+        },
+        {
+          "description": "Develop style variations and themes",
+          "id": "STY_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STY_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["style_development", "theme_creation", "visual_variation"]
+        },
+        {
+          "description": "Prepare design presentation materials",
+          "id": "STY_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "STY_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation_design", "design_documentation", "visual_communication"]
+        },
+        {
+          "description": "Schedule stakeholder review sessions",
+          "id": "STY_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "STY_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["meeting_coordination", "stakeholder_management", "review_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov website, so that we can discuss different design concepts with stakeholders",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Collect visual inspiration and references",
+          "id": "MOO_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["visual_research", "inspiration_collection", "reference_gathering"]
+        },
+        {
+          "description": "Organize mood board themes and categories",
+          "id": "MOO_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MOO_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["content_organization", "theme_development", "categorization"]
+        },
+        {
+          "description": "Create digital mood board presentations",
+          "id": "MOO_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "MOO_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["moodboard_creation", "digital_design", "presentation_design"]
+        },
+        {
+          "description": "Align mood boards with project goals",
+          "id": "MOO_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MOO_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["goal_alignment", "project_focus", "strategic_design"]
+        },
+        {
+          "description": "Present mood boards to stakeholders for feedback",
+          "id": "MOO_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MOO_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "stakeholder_communication", "feedback_collection"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so that visual design is an integral part of a redesign",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Create before/after design comparisons",
+          "id": "VAL_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["comparative_design", "before_after_analysis", "visual_demonstration"]
+        },
+        {
+          "description": "Research visual design impact on user experience",
+          "id": "VAL_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["ux_research", "impact_analysis", "design_effectiveness"]
+        },
+        {
+          "description": "Prepare business case for design investment",
+          "id": "VAL_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VAL_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "VAL_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["business_case_development", "roi_analysis", "value_proposition"]
+        },
+        {
+          "description": "Create design value demonstration materials",
+          "id": "VAL_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "VAL_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["demonstration_materials", "presentation_design", "value_communication"]
+        },
+        {
+          "description": "Present design value proposition to team",
+          "id": "VAL_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "VAL_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "team_communication", "value_articulation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a designer, I want to have a style guide / design guide / content guide, so that we have a uniform way of delivering product",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Document visual design standards",
+          "id": "GUI_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["design_documentation", "standards_development", "visual_specifications"]
+        },
+        {
+          "description": "Create component library and specifications",
+          "id": "GUI_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "GUI_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["component_design", "library_development", "specification_writing"]
+        },
+        {
+          "description": "Define content style and tone guidelines",
+          "id": "GUI_003",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["content_guidelines", "tone_development", "style_definition"]
+        },
+        {
+          "description": "Create implementation guidelines",
+          "id": "GUI_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "GUI_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "GUI_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["implementation_documentation", "usage_guidelines", "process_definition"]
+        },
+        {
+          "description": "Build style guide documentation system",
+          "id": "GUI_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "GUI_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["documentation_systems", "guide_development", "reference_materials"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a site administrator, I want to understand how other similar organizations are handling visual design, so that I can make informed decisions about what appears to work well and what doesn't",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Identify comparable organizations and websites",
+          "id": "COM_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["organization_research", "competitive_identification", "market_analysis"]
+        },
+        {
+          "description": "Conduct visual design audit and analysis",
+          "id": "COM_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "COM_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["design_audit", "visual_analysis", "comparative_evaluation"]
+        },
+        {
+          "description": "Document design patterns and best practices",
+          "id": "COM_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "COM_002",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["pattern_documentation", "best_practices", "design_analysis"]
+        },
+        {
+          "description": "Create competitive analysis report",
+          "id": "COM_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "COM_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["report_writing", "competitive_analysis", "findings_synthesis"]
+        },
+        {
+          "description": "Extract actionable insights and recommendations",
+          "id": "COM_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "COM_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["insight_extraction", "recommendation_development", "strategic_analysis"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a site administrator, I want to understand how other similar organizations are handling content, so that I can make informed decisions about what appears to work well and what doesn't",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Analyze content strategies of similar organizations",
+          "id": "CNS_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["content_strategy_analysis", "organizational_research", "strategy_evaluation"]
+        },
+        {
+          "description": "Document content types and organizational approaches",
+          "id": "CNS_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CNS_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["content_documentation", "organizational_mapping", "approach_analysis"]
+        },
+        {
+          "description": "Evaluate content effectiveness and user engagement",
+          "id": "CNS_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CNS_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["effectiveness_evaluation", "engagement_analysis", "performance_assessment"]
+        },
+        {
+          "description": "Create content strategy recommendations",
+          "id": "CNS_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CNS_003",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["strategy_development", "recommendation_creation", "content_planning"]
+        },
+        {
+          "description": "Present competitive content analysis findings",
+          "id": "CNS_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "CNS_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "findings_communication", "strategic_reporting"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a CMS administrator, I want to have roles, so that I can assign them to my users",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Define user role types and permissions",
+          "id": "ROL_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["role_definition", "permission_design", "access_control"]
+        },
+        {
+          "description": "Create role management interface",
+          "id": "ROL_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "ROL_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["interface_design", "admin_ui", "role_management"]
+        },
+        {
+          "description": "Implement role assignment functionality",
+          "id": "ROL_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "ROL_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["backend_development", "role_assignment", "user_management"]
+        },
+        {
+          "description": "Add role-based access controls",
+          "id": "ROL_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "ROL_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["access_control", "security_implementation", "permission_enforcement"]
+        },
+        {
+          "description": "Test role permissions and security",
+          "id": "ROL_005",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "ROL_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["security_testing", "permission_testing", "role_validation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key considerations for getting to the next step",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Research available CMS platforms",
+          "id": "CMS_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["cms_research", "platform_analysis", "market_research"]
+        },
+        {
+          "description": "Create evaluation criteria and scoring matrix",
+          "id": "CMS_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CMS_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["criteria_development", "evaluation_frameworks", "scoring_systems"]
+        },
+        {
+          "description": "Assess CMS options against requirements",
+          "id": "CMS_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "CMS_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["requirements_analysis", "platform_evaluation", "comparative_assessment"]
+        },
+        {
+          "description": "Document pros and cons of top candidates",
+          "id": "CMS_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CMS_003",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["documentation", "pros_cons_analysis", "candidate_evaluation"]
+        },
+        {
+          "description": "Create CMS recommendation report",
+          "id": "CMS_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "CMS_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["report_writing", "recommendation_development", "decision_support"]
+        }
+      ]
+    }
+  },
+   {
+    "input": "As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might impact current direction",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Complete webmaster workflow analysis",
+          "id": "WMS_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["workflow_analysis", "process_mapping", "webmaster_operations"]
+        },
+        {
+          "description": "Document current workflow processes and pain points",
+          "id": "WMS_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WMS_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["process_documentation", "pain_point_analysis", "workflow_mapping"]
+        },
+        {
+          "description": "Identify workflow improvement opportunities",
+          "id": "WMS_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WMS_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["improvement_identification", "opportunity_analysis", "process_optimization"]
+        },
+        {
+          "description": "Assess impact on CMS selection criteria",
+          "id": "WMS_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WMS_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["impact_assessment", "criteria_evaluation", "cms_requirements"]
+        },
+        {
+          "description": "Update CMS requirements based on workflow findings",
+          "id": "WMS_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WMS_004",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["requirements_update", "findings_integration", "specification_revision"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to understand what the MVP should look like, so that I can begin understanding workflow needs as they pertain to any CMS decision",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Define MVP scope and core features",
+          "id": "MVP_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["mvp_definition", "scope_planning", "feature_prioritization"]
+        },
+        {
+          "description": "Map workflows to MVP requirements",
+          "id": "MVP_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "MVP_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workflow_mapping", "requirements_mapping", "process_analysis"]
+        },
+        {
+          "description": "Create MVP user stories and acceptance criteria",
+          "id": "MVP_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "MVP_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["user_story_writing", "acceptance_criteria", "requirements_documentation"]
+        },
+        {
+          "description": "Assess CMS capability requirements for MVP",
+          "id": "MVP_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "MVP_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["capability_assessment", "cms_evaluation", "technical_requirements"]
+        },
+        {
+          "description": "Document MVP specification and rationale",
+          "id": "MVP_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MVP_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["specification_writing", "rationale_documentation", "mvp_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototype is developed further",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Schedule regular CMS development shadowing sessions",
+          "id": "SHA_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["scheduling", "session_planning", "development_coordination"]
+        },
+        {
+          "description": "Create learning objectives and documentation templates",
+          "id": "SHA_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["learning_design", "template_creation", "objective_setting"]
+        },
+        {
+          "description": "Set up development environment access",
+          "id": "SHA_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SHA_001",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["environment_setup", "access_management", "development_tools"]
+        },
+        {
+          "description": "Plan hands-on learning activities",
+          "id": "SHA_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SHA_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "SHA_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["activity_planning", "hands_on_learning", "skill_development"]
+        },
+        {
+          "description": "Document lessons learned and insights",
+          "id": "SHA_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "SHA_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["documentation", "insight_capture", "lesson_recording"]
+        }
+      ]
+    }
+  },
+   {
+    "input": "As a team member, I want to understand how time off overlaps with plans around the user research",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Collect team member vacation schedules",
+          "id": "TIM_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["schedule_collection", "team_coordination", "calendar_management"]
+        },
+        {
+          "description": "Map time off against research timeline",
+          "id": "TIM_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "TIM_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["timeline_mapping", "schedule_analysis", "conflict_identification"]
+        },
+        {
+          "description": "Identify potential scheduling conflicts",
+          "id": "TIM_003",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "TIM_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["conflict_analysis", "scheduling_assessment", "risk_identification"]
+        },
+        {
+          "description": "Adjust research schedule as needed",
+          "id": "TIM_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "TIM_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["schedule_adjustment", "timeline_optimization", "research_planning"]
+        },
+        {
+          "description": "Create backup plans for key activities",
+          "id": "TIM_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "TIM_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["contingency_planning", "backup_strategies", "risk_mitigation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the content management system decision",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Design workshop agenda and objectives",
+          "id": "FWS_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["workshop_design", "agenda_planning", "objective_setting"]
+        },
+        {
+          "description": "Prepare workshop materials and activities",
+          "id": "FWS_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "FWS_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["material_preparation", "activity_design", "workshop_facilitation"]
+        },
+        {
+          "description": "Schedule stakeholder participation",
+          "id": "FWS_003",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["stakeholder_coordination", "scheduling", "participation_management"]
+        },
+        {
+          "description": "Facilitate workshop sessions",
+          "id": "FWS_004",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "FWS_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "FWS_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workshop_facilitation", "group_dynamics", "session_management"]
+        },
+        {
+          "description": "Document workshop outcomes and decisions",
+          "id": "FWS_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "FWS_004",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["documentation", "outcome_capture", "decision_recording"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to understand work performed, so that I can understand when and what I can use later",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Create comprehensive project documentation",
+          "id": "WRK_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["comprehensive_documentation", "project_recording", "work_cataloging"]
+        },
+        {
+          "description": "Organize deliverables and work products",
+          "id": "WRK_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WRK_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["deliverable_organization", "product_cataloging", "asset_management"]
+        },
+        {
+          "description": "Document reusable components and processes",
+          "id": "WRK_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WRK_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["component_documentation", "process_recording", "reusability_analysis"]
+        },
+        {
+          "description": "Create knowledge transfer materials",
+          "id": "WRK_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WRK_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["knowledge_transfer", "training_materials", "documentation_design"]
+        },
+        {
+          "description": "Plan handoff and transition activities",
+          "id": "WRK_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WRK_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["transition_planning", "handoff_coordination", "continuity_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction with the new CMS",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Analyze project findings and insights",
+          "id": "STR_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["findings_analysis", "insight_synthesis", "data_interpretation"]
+        },
+        {
+          "description": "Develop strategic recommendations",
+          "id": "STR_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "STR_001",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["strategy_development", "recommendation_creation", "strategic_thinking"]
+        },
+        {
+          "description": "Create implementation roadmap",
+          "id": "STR_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STR_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["roadmap_creation", "implementation_planning", "timeline_development"]
+        },
+        {
+          "description": "Identify resource and budget requirements",
+          "id": "STR_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "STR_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["resource_planning", "budget_estimation", "requirement_analysis"]
+        },
+        {
+          "description": "Present strategy recommendations to leadership",
+          "id": "STR_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "STR_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["executive_presentation", "leadership_communication", "strategic_presentation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how they might impact an eventual CMS / future web presence",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Analyze current editorial processes",
+          "id": "EDT_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["process_analysis", "editorial_assessment", "workflow_evaluation"]
+        },
+        {
+          "description": "Identify editorial planning improvements",
+          "id": "EDT_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "EDT_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["improvement_identification", "planning_optimization", "editorial_strategy"]
+        },
+        {
+          "description": "Assess CMS impact on editorial workflows",
+          "id": "EDT_003",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "EDT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["cms_impact_analysis", "workflow_assessment", "system_integration"]
+        },
+        {
+          "description": "Create editorial strategy recommendations",
+          "id": "EDT_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "EDT_003",
+              "reward_effort": 3
+            }
+          ],
+          "required_skills": ["strategy_development", "editorial_planning", "recommendation_creation"]
+        },
+        {
+          "description": "Document implementation considerations",
+          "id": "EDT_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "EDT_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["implementation_documentation", "consideration_analysis", "planning_documentation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can incorporate them throughout the project",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Research brand guideline development processes",
+          "id": "BRN_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["brand_research", "guideline_analysis", "process_study"]
+        },
+        {
+          "description": "Document NSF brand requirements and constraints",
+          "id": "BRN_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BRN_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["requirements_documentation", "brand_analysis", "constraint_identification"]
+        },
+        {
+          "description": "Create brand implementation checklist",
+          "id": "BRN_003",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "BRN_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["checklist_creation", "implementation_planning", "brand_compliance"]
+        },
+        {
+          "description": "Plan brand guideline integration approach",
+          "id": "BRN_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BRN_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["integration_planning", "brand_strategy", "implementation_design"]
+        },
+        {
+          "description": "Coordinate with NSF brand/communications team",
+          "id": "BRN_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "BRN_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["team_coordination", "stakeholder_management", "brand_collaboration"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to know how visual design directions were developed, so that I can make better design decisions in the future",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Document design decision-making process",
+          "id": "VDD_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["process_documentation", "decision_tracking", "design_methodology"]
+        },
+        {
+          "description": "Create design rationale documentation",
+          "id": "VDD_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VDD_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["rationale_documentation", "design_reasoning", "decision_justification"]
+        },
+        {
+          "description": "Identify design success factors and lessons learned",
+          "id": "VDD_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VDD_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["success_analysis", "lesson_extraction", "factor_identification"]
+        },
+        {
+          "description": "Create design decision framework",
+          "id": "VDD_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VDD_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["framework_development", "decision_structure", "design_methodology"]
+        },
+        {
+          "description": "Build design knowledge base for future use",
+          "id": "VDD_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "VDD_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["knowledge_base_creation", "documentation_systems", "future_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to know what the first hypothesis is, so that I can start developing a prototype to test",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Define and document first hypothesis",
+          "id": "HY1_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["hypothesis_definition", "research_design", "problem_formulation"]
+        },
+        {
+          "description": "Create hypothesis testing plan",
+          "id": "HY1_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "HY1_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["testing_methodology", "plan_development", "validation_design"]
+        },
+        {
+          "description": "Identify prototype requirements",
+          "id": "HY1_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "HY1_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["requirements_analysis", "prototype_planning", "feature_definition"]
+        },
+        {
+          "description": "Plan prototype development approach",
+          "id": "HY1_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "HY1_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["development_planning", "approach_design", "technical_strategy"]
+        },
+        {
+          "description": "Set success criteria for hypothesis testing",
+          "id": "HY1_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "HY1_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["criteria_setting", "success_metrics", "validation_criteria"]
+        }
+      ]
+    }
+  },
+ {
+    "input": "As a content designer, I want to develop a better understanding of NSF's content types and editorial plan, so that I can make more informed recommendations going forward",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Audit existing content types and categories",
+          "id": "CDN_001",
+          "story_points": 4,
+          "depends_on": [],
+          "required_skills": ["content_audit", "categorization_analysis", "content_inventory"]
+        },
+        {
+          "description": "Interview content creators and editors",
+          "id": "CDN_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["stakeholder_interviews", "editorial_research", "user_research"]
+        },
+        {
+          "description": "Map content workflows and approval processes",
+          "id": "CDN_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CDN_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workflow_mapping", "process_analysis", "approval_tracking"]
+        },
+        {
+          "description": "Analyze content performance and effectiveness",
+          "id": "CDN_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CDN_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["performance_analysis", "effectiveness_measurement", "content_evaluation"]
+        },
+        {
+          "description": "Document content strategy recommendations",
+          "id": "CDN_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CDN_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "CDN_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["strategy_documentation", "recommendation_development", "content_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to have a prototype strategy, so that I understand how we will gain understandings from tests that will drive recommendations",
+    "output": {
+      "story_points": 16,
+      "tasks": [
+        {
+          "description": "Define prototype objectives and success metrics",
+          "id": "PTS_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["objective_setting", "metrics_definition", "success_criteria"]
+        },
+        {
+          "description": "Create prototype testing methodology",
+          "id": "PTS_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "PTS_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["testing_methodology", "research_design", "validation_approach"]
+        },
+        {
+          "description": "Plan prototype iteration and refinement process",
+          "id": "PTS_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PTS_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["iteration_planning", "refinement_process", "development_cycles"]
+        },
+        {
+          "description": "Design feedback collection and analysis approach",
+          "id": "PTS_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PTS_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["feedback_design", "analysis_methodology", "data_collection"]
+        },
+        {
+          "description": "Document prototype-to-recommendation workflow",
+          "id": "PTS_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "PTS_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "PTS_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workflow_documentation", "process_design", "recommendation_framework"]
+        }
+      ]
+    }
+  },
+   {
+    "input": "As a content designer, I want to demonstrate the value of user-centered content design to ensure it's an integral part of our recommendations",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Create content design value proposition",
+          "id": "UCD_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["value_proposition", "content_strategy", "business_case_development"]
+        },
+        {
+          "description": "Develop before/after content examples",
+          "id": "UCD_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "UCD_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["content_examples", "comparative_analysis", "design_demonstration"]
+        },
+        {
+          "description": "Research content design impact on user experience",
+          "id": "UCD_003",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["ux_research", "impact_analysis", "content_effectiveness"]
+        },
+        {
+          "description": "Present content design business case",
+          "id": "UCD_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "UCD_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "UCD_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["presentation", "business_case_presentation", "stakeholder_communication"]
+        },
+        {
+          "description": "Integrate content design into project recommendations",
+          "id": "UCD_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "UCD_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["integration_planning", "recommendation_development", "strategic_planning"]
+        }
+      ]
+    }
+  },
+   {
+    "input": "As a developer, I want to know what the three initial hypotheses are, so that I can plan work around development of prototypes",
+    "output": {
+      "story_points": 15,
+      "tasks": [
+        {
+          "description": "Document all three initial hypotheses",
+          "id": "HY3_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["hypothesis_documentation", "research_design", "problem_definition"]
+        },
+        {
+          "description": "Define prototype requirements for each hypothesis",
+          "id": "HY3_002",
+          "story_points": 4,
+          "depends_on": [
+            {
+              "task_id": "HY3_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["requirements_analysis", "prototype_planning", "technical_specification"]
+        },
+        {
+          "description": "Create development timeline and resource plan",
+          "id": "HY3_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "HY3_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["timeline_planning", "resource_allocation", "project_management"]
+        },
+        {
+          "description": "Identify technical dependencies and constraints",
+          "id": "HY3_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "HY3_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["dependency_analysis", "constraint_identification", "technical_planning"]
+        },
+        {
+          "description": "Plan prototype development sequence",
+          "id": "HY3_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "HY3_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "HY3_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["sequence_planning", "development_strategy", "priority_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a designer, I want to know what early indications of hypotheses might be, so that I can start planning for the first prototype",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Analyze early research findings",
+          "id": "EIN_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["research_analysis", "findings_interpretation", "data_synthesis"]
+        },
+        {
+          "description": "Identify emerging hypothesis indicators",
+          "id": "EIN_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "EIN_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["indicator_identification", "pattern_recognition", "hypothesis_formation"]
+        },
+        {
+          "description": "Create design planning framework",
+          "id": "EIN_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "EIN_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["framework_development", "design_planning", "planning_methodology"]
+        },
+        {
+          "description": "Prepare prototype design concepts",
+          "id": "EIN_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "EIN_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["concept_development", "prototype_design", "design_ideation"]
+        },
+        {
+          "description": "Plan design iteration approach",
+          "id": "EIN_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "EIN_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["iteration_planning", "design_methodology", "improvement_cycles"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a new release to the next listserv on the priority list",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Set up outreach tracking and analytics",
+          "id": "OUT_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["tracking_setup", "analytics_implementation", "measurement_systems"]
+        },
+        {
+          "description": "Define success metrics for listserv outreach",
+          "id": "OUT_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["metrics_definition", "success_criteria", "measurement_design"]
+        },
+        {
+          "description": "Monitor response rates and engagement",
+          "id": "OUT_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OUT_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "OUT_002",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["monitoring", "engagement_analysis", "response_tracking"]
+        },
+        {
+          "description": "Create listserv prioritization criteria",
+          "id": "OUT_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OUT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["prioritization_framework", "criteria_development", "strategic_planning"]
+        },
+        {
+          "description": "Plan sequential outreach campaign strategy",
+          "id": "OUT_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "OUT_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "OUT_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["campaign_strategy", "sequential_planning", "outreach_optimization"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to communicate the goals of the project with our stakeholders",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Identify key stakeholders for regular check-ins",
+          "id": "CHK_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["stakeholder_identification", "relationship_mapping", "communication_planning"]
+        },
+        {
+          "description": "Schedule recurring meeting series",
+          "id": "CHK_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CHK_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["meeting_scheduling", "calendar_coordination", "recurring_events"]
+        },
+        {
+          "description": "Create check-in agenda templates",
+          "id": "CHK_003",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["agenda_design", "template_creation", "meeting_structure"]
+        },
+        {
+          "description": "Prepare project status and goals materials",
+          "id": "CHK_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CHK_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["status_reporting", "material_preparation", "project_communication"]
+        },
+        {
+          "description": "Plan stakeholder communication strategy",
+          "id": "CHK_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "CHK_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "CHK_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["communication_strategy", "stakeholder_engagement", "strategic_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a workshop attendee, I want to have a summary of what we learned, so that I can understand our next steps and how they apply to me",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Document workshop key findings and insights",
+          "id": "WSU_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["documentation", "insight_capture", "findings_synthesis"]
+        },
+        {
+          "description": "Create personalized action items for attendees",
+          "id": "WSU_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WSU_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["action_planning", "personalization", "task_assignment"]
+        },
+        {
+          "description": "Develop workshop summary report",
+          "id": "WSU_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WSU_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["report_writing", "summary_creation", "communication_design"]
+        },
+        {
+          "description": "Plan follow-up communications",
+          "id": "WSU_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WSU_002",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "WSU_003",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["follow_up_planning", "communication_strategy", "engagement_planning"]
+        },
+        {
+          "description": "Schedule next steps coordination meetings",
+          "id": "WSU_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WSU_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["meeting_coordination", "next_steps_planning", "scheduling"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem with the rest of the team on a more regular basis",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Survey team availability and preferences",
+          "id": "COW_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["survey_design", "availability_tracking", "preference_collection"]
+        },
+        {
+          "description": "Create coworking schedule template",
+          "id": "COW_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "COW_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["schedule_design", "template_creation", "time_management"]
+        },
+        {
+          "description": "Book regular coworking time slots",
+          "id": "COW_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "COW_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["booking_coordination", "time_slot_management", "calendar_coordination"]
+        },
+        {
+          "description": "Set up coworking collaboration tools",
+          "id": "COW_004",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["tool_setup", "collaboration_technology", "platform_configuration"]
+        },
+        {
+          "description": "Plan coworking session agendas and objectives",
+          "id": "COW_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "COW_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "COW_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["agenda_planning", "objective_setting", "session_design"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF person interested in attending user interviews, I want to know when they are scheduled and the type of user that will be interviewed",
+    "output": {
+      "story_points": 13,
+      "tasks": [
+        {
+          "description": "Create interview schedule and calendar",
+          "id": "INT_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["schedule_creation", "calendar_management", "interview_coordination"]
+        },
+        {
+          "description": "Document participant types and profiles",
+          "id": "INT_002",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["participant_documentation", "profile_creation", "user_categorization"]
+        },
+        {
+          "description": "Set up stakeholder notification system",
+          "id": "INT_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "INT_001",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "INT_002",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["notification_systems", "communication_automation", "stakeholder_management"]
+        },
+        {
+          "description": "Prepare interview observation guidelines",
+          "id": "INT_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "INT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["guideline_development", "observation_protocols", "interview_preparation"]
+        },
+        {
+          "description": "Coordinate stakeholder attendance logistics",
+          "id": "INT_005",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "INT_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "INT_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["logistics_coordination", "attendance_management", "stakeholder_coordination"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF member of the team, I want to have a place where I can access all the related reports and documentation, so that I can refer to it easily now and in the future",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Set up centralized document repository",
+          "id": "DOC_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["repository_setup", "document_management", "system_configuration"]
+        },
+        {
+          "description": "Organize documents by category and date",
+          "id": "DOC_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "DOC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["document_organization", "categorization", "information_architecture"]
+        },
+        {
+          "description": "Create search and navigation functionality",
+          "id": "DOC_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "DOC_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["search_implementation", "navigation_design", "user_interface"]
+        },
+        {
+          "description": "Set up access permissions and security",
+          "id": "DOC_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "DOC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["access_control", "security_configuration", "permission_management"]
+        },
+        {
+          "description": "Train team members on document system use",
+          "id": "DOC_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "DOC_003",
+              "reward_effort": 2
+            },
+            {
+              "task_id": "DOC_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["training_delivery", "user_education", "system_onboarding"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I can plan accordingly",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Schedule mid-point check-in meeting",
+          "id": "MID_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["meeting_scheduling", "calendar_coordination", "timing_management"]
+        },
+        {
+          "description": "Create check-in agenda and objectives",
+          "id": "MID_002",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["agenda_development", "objective_setting", "meeting_planning"]
+        },
+        {
+          "description": "Prepare project status and progress materials",
+          "id": "MID_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "MID_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["status_reporting", "progress_tracking", "material_preparation"]
+        },
+        {
+          "description": "Identify key discussion topics and decisions",
+          "id": "MID_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MID_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["topic_identification", "decision_planning", "discussion_facilitation"]
+        },
+        {
+          "description": "Communicate check-in logistics to team",
+          "id": "MID_005",
+          "story_points": 1,
+          "depends_on": [
+            {
+              "task_id": "MID_001",
+              "reward_effort": 1
+            },
+            {
+              "task_id": "MID_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["team_communication", "logistics_coordination", "information_distribution"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+    "output": [
+      "Create NSF employee Github accounts",
+      "Set up repository access and permissions",
+      "Provide Github orientation and training",
+      "Create issue assignment and workflow processes",
+      "Set up notifications and communication preferences"
+    ]
+  },
+    {
+    "input": "As an NSF employee, I want to join Github, so that I can participate in the issues as assigned",
+    "output": {
+      "story_points": 12,
+      "tasks": [
+        {
+          "description": "Create NSF employee Github accounts",
+          "id": "GIT_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["account_creation", "github_administration", "user_management"]
+        },
+        {
+          "description": "Set up repository access and permissions",
+          "id": "GIT_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "GIT_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["permission_management", "repository_access", "security_configuration"]
+        },
+        {
+          "description": "Provide Github orientation and training",
+          "id": "GIT_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "GIT_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["training_delivery", "github_education", "user_onboarding"]
+        },
+        {
+          "description": "Create issue assignment and workflow processes",
+          "id": "GIT_004",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "GIT_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["workflow_design", "process_documentation", "issue_management"]
+        },
+        {
+          "description": "Set up notifications and communication preferences",
+          "id": "GIT_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "GIT_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["notification_setup", "communication_configuration", "preference_management"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan on attending",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Confirm meeting location and logistics",
+          "id": "LOC_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["location_confirmation", "logistics_planning", "venue_coordination"]
+        },
+        {
+          "description": "Send location details and directions",
+          "id": "LOC_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "LOC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["communication", "direction_provision", "detail_sharing"]
+        },
+        {
+          "description": "Coordinate travel arrangements if needed",
+          "id": "LOC_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "LOC_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["travel_coordination", "arrangement_planning", "logistics_management"]
+        },
+        {
+          "description": "Plan meeting agenda and materials",
+          "id": "LOC_004",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["agenda_planning", "material_preparation", "meeting_organization"]
+        },
+        {
+          "description": "Set up meeting room and technology requirements",
+          "id": "LOC_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "LOC_001",
+              "reward_effort": 1
+            },
+            {
+              "task_id": "LOC_004",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["room_setup", "technology_configuration", "meeting_preparation"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to know when meetings are, so that I can plan accordingly",
+    "output": {
+      "story_points": 11,
+      "tasks": [
+        {
+          "description": "Create master meeting calendar",
+          "id": "MCL_001",
+          "story_points": 2,
+          "depends_on": [],
+          "required_skills": ["calendar_creation", "scheduling_systems", "time_management"]
+        },
+        {
+          "description": "Set up recurring meeting schedules",
+          "id": "MCL_002",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MCL_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["recurring_scheduling", "pattern_setup", "schedule_automation"]
+        },
+        {
+          "description": "Send calendar invitations to all participants",
+          "id": "MCL_003",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MCL_002",
+              "reward_effort": 1
+            }
+          ],
+          "required_skills": ["invitation_management", "participant_coordination", "calendar_distribution"]
+        },
+        {
+          "description": "Set up meeting reminders and notifications",
+          "id": "MCL_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "MCL_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["reminder_systems", "notification_setup", "automated_alerts"]
+        },
+        {
+          "description": "Coordinate across time zones and schedules",
+          "id": "MCL_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "MCL_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["timezone_coordination", "schedule_optimization", "global_planning"]
+        }
+      ]
+    }
+  },
+  {
+    "input": "As a team member, I want to understand how work moves between UX/content > visual design > front end dev for a sprint cycle",
+    "output": {
+      "story_points": 14,
+      "tasks": [
+        {
+          "description": "Document workflow handoff processes",
+          "id": "WFL_001",
+          "story_points": 3,
+          "depends_on": [],
+          "required_skills": ["workflow_documentation", "process_mapping", "handoff_design"]
+        },
+        {
+          "description": "Create workflow timeline and dependencies",
+          "id": "WFL_002",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WFL_001",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["timeline_creation", "dependency_mapping", "workflow_planning"]
+        },
+        {
+          "description": "Define deliverables and quality gates",
+          "id": "WFL_003",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WFL_002",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["deliverable_definition", "quality_standards", "gate_criteria"]
+        },
+        {
+          "description": "Set up workflow tracking and monitoring",
+          "id": "WFL_004",
+          "story_points": 3,
+          "depends_on": [
+            {
+              "task_id": "WFL_003",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["tracking_systems", "monitoring_setup", "progress_measurement"]
+        },
+        {
+          "description": "Train team on workflow processes and tools",
+          "id": "WFL_005",
+          "story_points": 2,
+          "depends_on": [
+            {
+              "task_id": "WFL_004",
+              "reward_effort": 2
+            }
+          ],
+          "required_skills": ["team_training", "process_education", "tool_instruction"]
+        }
+      ]
+    }
+  }
+]

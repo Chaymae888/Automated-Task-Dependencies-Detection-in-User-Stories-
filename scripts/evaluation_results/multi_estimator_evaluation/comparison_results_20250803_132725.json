@@ -1,0 +1,229 @@
+{
+  "ranking": {
+    "overall": [
+      [
+        "few_shots",
+        0.49192498958404635
+      ],
+      [
+        "agent_specific_evaluation",
+        0.0
+      ],
+      [
+        "chain_of_thought",
+        0.0
+      ],
+      [
+        "few_shots2",
+        0.0
+      ],
+      [
+        "few_shot_cot",
+        0.0
+      ],
+      [
+        "meta_prompting",
+        0.0
+      ],
+      [
+        "reflexion",
+        0.0
+      ],
+      [
+        "self_consistency",
+        0.0
+      ],
+      [
+        "storypointestimator_evaluation",
+        0.0
+      ],
+      [
+        "tree_of_thought",
+        0.0
+      ],
+      [
+        "zero_shots",
+        0.0
+      ]
+    ]
+  },
+  "best_performers": {
+    "lowest_mae": [
+      "few_shots",
+      {
+        "mae": 2.857142857142857,
+        "relative_error": 0.20683192157982075,
+        "r2_score": -3.8853674983142277,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.27650429799426934,
+        "distribution_similarity": 0.9580378245911606,
+        "fibonacci_compliance": 99.76525821596243
+      }
+    ],
+    "highest_r2": [
+      "few_shots",
+      {
+        "mae": 2.857142857142857,
+        "relative_error": 0.20683192157982075,
+        "r2_score": -3.8853674983142277,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.27650429799426934,
+        "distribution_similarity": 0.9580378245911606,
+        "fibonacci_compliance": 99.76525821596243
+      }
+    ],
+    "highest_perfect_rate": [
+      "few_shots",
+      {
+        "mae": 2.857142857142857,
+        "relative_error": 0.20683192157982075,
+        "r2_score": -3.8853674983142277,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.27650429799426934,
+        "distribution_similarity": 0.9580378245911606,
+        "fibonacci_compliance": 99.76525821596243
+      }
+    ],
+    "best_fibonacci_compliance": [
+      "few_shots",
+      {
+        "mae": 2.857142857142857,
+        "relative_error": 0.20683192157982075,
+        "r2_score": -3.8853674983142277,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.27650429799426934,
+        "distribution_similarity": 0.9580378245911606,
+        "fibonacci_compliance": 99.76525821596243
+      }
+    ],
+    "best_task_distribution": [
+      "few_shots",
+      {
+        "mae": 2.857142857142857,
+        "relative_error": 0.20683192157982075,
+        "r2_score": -3.8853674983142277,
+        "perfect_percentage": 10.0,
+        "acceptable_percentage": 100.0,
+        "task_error": 0.27650429799426934,
+        "distribution_similarity": 0.9580378245911606,
+        "fibonacci_compliance": 99.76525821596243
+      }
+    ]
+  },
+  "metrics_comparison": {
+    "agent_specific_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "chain_of_thought": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "few_shots": {
+      "mae": 2.857142857142857,
+      "relative_error": 0.20683192157982075,
+      "r2_score": -3.8853674983142277,
+      "perfect_percentage": 10.0,
+      "acceptable_percentage": 100.0,
+      "task_error": 0.27650429799426934,
+      "distribution_similarity": 0.9580378245911606,
+      "fibonacci_compliance": 99.76525821596243
+    },
+    "few_shots2": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "few_shot_cot": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "meta_prompting": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "reflexion": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "self_consistency": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "storypointestimator_evaluation": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "tree_of_thought": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    },
+    "zero_shots": {
+      "mae": 13.914285714285715,
+      "relative_error": 1.0,
+      "r2_score": -79.96257585974377,
+      "perfect_percentage": 0.0,
+      "acceptable_percentage": 0.0,
+      "task_error": 1.0,
+      "distribution_similarity": 0.0,
+      "fibonacci_compliance": 0
+    }
+  }
+}

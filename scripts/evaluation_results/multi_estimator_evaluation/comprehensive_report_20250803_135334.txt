@@ -1,0 +1,242 @@
+====================================================================================================
+MULTI-ESTIMATOR STORY POINT EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Estimators Evaluated: 10
+  • Estimators: agent_specific_evaluation, chain_of_thought, few_shots2, few_shot_cot, meta_prompting, reflexion, self_consistency, storypointestimator_evaluation, tree_of_thought, zero_shots
+  • Test Stories: 71
+  • Coverage: 0.0%
+
+==================================================
+INDIVIDUAL ESTIMATOR RESULTS
+==================================================
+
+🔍 AGENT_SPECIFIC_EVALUATION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 CHAIN_OF_THOUGHT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 FEW_SHOTS2:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 FEW_SHOT_COT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 META_PROMPTING:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 REFLEXION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 SELF_CONSISTENCY:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 STORYPOINTESTIMATOR_EVALUATION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 TREE_OF_THOUGHT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 ZERO_SHOTS:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+==================================================
+COMPARISON AND RANKING
+==================================================
+
+🏆 BEST PERFORMERS:
+  • Lowest Mae: agent_specific_evaluation
+  • Highest R2: agent_specific_evaluation
+  • Highest Perfect Rate: agent_specific_evaluation
+  • Best Fibonacci Compliance: agent_specific_evaluation
+  • Best Task Distribution: agent_specific_evaluation
+
+🥇 OVERALL RANKING:
+  1. agent_specific_evaluation (Composite Score: 0.000)
+  2. chain_of_thought (Composite Score: 0.000)
+  3. few_shots2 (Composite Score: 0.000)
+  4. few_shot_cot (Composite Score: 0.000)
+  5. meta_prompting (Composite Score: 0.000)
+  6. reflexion (Composite Score: 0.000)
+  7. self_consistency (Composite Score: 0.000)
+  8. storypointestimator_evaluation (Composite Score: 0.000)
+  9. tree_of_thought (Composite Score: 0.000)
+  10. zero_shots (Composite Score: 0.000)
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For lowest prediction error: Use agent_specific_evaluation
+    (MAE: 13.91)
+  • For best correlation with actual values: Use agent_specific_evaluation
+    (R²: -79.963)
+  • For Fibonacci compliance: Use agent_specific_evaluation
+    (Compliance: 0.0%)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

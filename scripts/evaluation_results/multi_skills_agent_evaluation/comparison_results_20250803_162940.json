@@ -1,0 +1,228 @@
+{
+  "ranking": {
+    "overall": [
+      [
+        "few_shots2",
+        0.22378277855199552
+      ],
+      [
+        "zero_shots",
+        0.15892493551687076
+      ],
+      [
+        "tree_of_thought",
+        0.09680175221993631
+      ],
+      [
+        "chain_of_thought",
+        0.0
+      ],
+      [
+        "few_shot_cot",
+        0.0
+      ],
+      [
+        "meta_prompting",
+        0.0
+      ],
+      [
+        "reflexion",
+        0.0
+      ],
+      [
+        "self_consistency",
+        0.0
+      ]
+    ]
+  },
+  "best_performers": {
+    "highest_f1": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ],
+    "highest_precision": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ],
+    "highest_recall": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ],
+    "highest_bleu": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ],
+    "highest_semantic": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ],
+    "best_coverage": [
+      "few_shots2",
+      {
+        "f1_score": 0.15624195624195625,
+        "precision": 0.1545045045045045,
+        "recall": 0.15855855855855855,
+        "exact_match_rate": 0.0,
+        "bleu_score": 0.016805730055735702,
+        "rouge_score": 0.17884367884367885,
+        "meteor_score": 0.38038226077962783,
+        "semantic_similarity": "0.68293244",
+        "skill_coverage": 0.16821192052980133,
+        "skill_precision": 0.36079545454545453
+      }
+    ]
+  },
+  "metrics_comparison": {
+    "chain_of_thought": {
+      "f1_score": 0,
+      "precision": 0,
+      "recall": 0,
+      "exact_match_rate": 0,
+      "bleu_score": 0,
+      "rouge_score": 0,
+      "meteor_score": 0,
+      "semantic_similarity": 0,
+      "skill_coverage": 0.0,
+      "skill_precision": 0
+    },
+    "few_shots2": {
+      "f1_score": 0.15624195624195625,
+      "precision": 0.1545045045045045,
+      "recall": 0.15855855855855855,
+      "exact_match_rate": 0.0,
+      "bleu_score": 0.016805730055735702,
+      "rouge_score": 0.17884367884367885,
+      "meteor_score": 0.38038226077962783,
+      "semantic_similarity": "0.68293244",
+      "skill_coverage": 0.16821192052980133,
+      "skill_precision": 0.36079545454545453
+    },
+    "few_shot_cot": {
+      "f1_score": 0,
+      "precision": 0,
+      "recall": 0,
+      "exact_match_rate": 0,
+      "bleu_score": 0,
+      "rouge_score": 0,
+      "meteor_score": 0,
+      "semantic_similarity": 0,
+      "skill_coverage": 0.0,
+      "skill_precision": 0
+    },
+    "meta_prompting": {
+      "f1_score": 0,
+      "precision": 0,
+      "recall": 0,
+      "exact_match_rate": 0,
+      "bleu_score": 0,
+      "rouge_score": 0,
+      "meteor_score": 0,
+      "semantic_similarity": 0,
+      "skill_coverage": 0.0,
+      "skill_precision": 0
+    },
+    "reflexion": {
+      "f1_score": 0,
+      "precision": 0,
+      "recall": 0,
+      "exact_match_rate": 0,
+      "bleu_score": 0,
+      "rouge_score": 0,
+      "meteor_score": 0,
+      "semantic_similarity": 0,
+      "skill_coverage": 0.0,
+      "skill_precision": 0
+    },
+    "self_consistency": {
+      "f1_score": 0,
+      "precision": 0,
+      "recall": 0,
+      "exact_match_rate": 0,
+      "bleu_score": 0,
+      "rouge_score": 0,
+      "meteor_score": 0,
+      "semantic_similarity": 0,
+      "skill_coverage": 0.0,
+      "skill_precision": 0
+    },
+    "tree_of_thought": {
+      "f1_score": 0.012380952380952383,
+      "precision": 0.010952380952380951,
+      "recall": 0.014285714285714285,
+      "exact_match_rate": 0.0,
+      "bleu_score": 0.0011260094646633443,
+      "rouge_score": 0.01619047619047619,
+      "meteor_score": 0.21403722776676895,
+      "semantic_similarity": "0.53867716",
+      "skill_coverage": 0.045033112582781455,
+      "skill_precision": 0.10967741935483871
+    },
+    "zero_shots": {
+      "f1_score": 0.07773987206823028,
+      "precision": 0.07283582089552239,
+      "recall": 0.08457711442786069,
+      "exact_match_rate": 0.0,
+      "bleu_score": 0.008121453427074198,
+      "rouge_score": 0.09589688918047128,
+      "meteor_score": 0.2187571594155715,
+      "semantic_similarity": "0.5869734",
+      "skill_coverage": 0.13509933774834437,
+      "skill_precision": 0.2217391304347826
+    }
+  }
+}

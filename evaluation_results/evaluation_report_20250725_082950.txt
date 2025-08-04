@@ -1,0 +1,49 @@
+================================================================================
+TASK DECOMPOSITION EVALUATION REPORT
+================================================================================
+
+📊 DATASET OVERVIEW:
+  • Total Test Stories: 73
+  • Processed Stories: 73
+  • Coverage: 100.00%
+
+🧠 SEMANTIC SIMILARITY:
+  • Mean Similarity: 0.512
+  • Standard Deviation: 0.091
+
+  📈 Quality Distribution:
+    • Excellent (>0.8): 0.0%
+    • Good (0.6-0.8): 16.4%
+    • Fair (0.4-0.6): 72.6%
+    • Poor (<0.4): 11.0%
+
+📝 OVERLAP METRICS:
+  • BLEU Score: 0.053
+  • ROUGE Score: 0.358
+  • METEOR Score: 0.239
+  • Word Overlap: 0.149
+
+🏆 BEST PREDICTIONS:
+  1. Similarity: 0.719 | Quality: good
+     Story: As a CMS administrator, I want to have roles, so that I can assign them to my users
+  2. Similarity: 0.687 | Quality: good
+     Story: As a team member, I want to know what visual design related tasks we might need to plan for this spr...
+  3. Similarity: 0.677 | Quality: good
+     Story: As a team member, I want to understand what the MVP should look like, so that I can begin understand...
+
+💔 WORST PREDICTIONS:
+  1. Similarity: 0.310 | Quality: poor
+     Story: As an NSF member of the team, I want to have a place where I can access all the related reports and ...
+  2. Similarity: 0.296 | Quality: poor
+     Story: As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototy...
+  3. Similarity: 0.292 | Quality: poor
+     Story: As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...
+
+================================================================================
+EVALUATION TECHNIQUES USED:
+✅ Semantic Similarity - Meaning comparison using embeddings
+✅ BLEU Score - Precision-focused n-gram overlap
+✅ ROUGE Score - Recall-focused word overlap
+✅ METEOR Score - Balanced overlap with stemming
+✅ Word Overlap - Jaccard similarity
+================================================================================

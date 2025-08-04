@@ -1,0 +1,82 @@
+====================================================================================================
+MULTI-ESTIMATOR STORY POINT EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Estimators Evaluated: 2
+  • Estimators: agent_specific_evaluation, storypointestimator_evaluation
+  • Test Stories: 71
+  • Coverage: 0.0%
+
+==================================================
+INDIVIDUAL ESTIMATOR RESULTS
+==================================================
+
+🔍 AGENT_SPECIFIC_EVALUATION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+🔍 STORYPOINTESTIMATOR_EVALUATION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+==================================================
+COMPARISON AND RANKING
+==================================================
+
+🏆 BEST PERFORMERS:
+  • Lowest Mae: agent_specific_evaluation
+  • Highest R2: agent_specific_evaluation
+  • Highest Perfect Rate: agent_specific_evaluation
+  • Best Fibonacci Compliance: agent_specific_evaluation
+  • Best Task Distribution: agent_specific_evaluation
+
+🥇 OVERALL RANKING:
+  1. agent_specific_evaluation (Composite Score: 0.000)
+  2. storypointestimator_evaluation (Composite Score: 0.000)
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For lowest prediction error: Use agent_specific_evaluation
+    (MAE: 13.91)
+  • For best correlation with actual values: Use agent_specific_evaluation
+    (R²: -79.963)
+  • For Fibonacci compliance: Use agent_specific_evaluation
+    (Compliance: 0.0%)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

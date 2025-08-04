@@ -1,0 +1,624 @@
+{
+  "estimator_name": "few_shot_cot",
+  "overall_metrics": {
+    "mean_absolute_error": 2.58,
+    "mean_squared_error": 14.38,
+    "root_mean_squared_error": 3.792097045171708,
+    "r2_score": -22.966666666666665,
+    "mean_relative_error": 1.025,
+    "median_relative_error": 0.5
+  },
+  "accuracy_breakdown": {
+    "perfect_predictions": 10,
+    "close_predictions": 10,
+    "acceptable_predictions": 27,
+    "perfect_percentage": 20.0,
+    "close_percentage": 20.0,
+    "acceptable_percentage": 54.0
+  },
+  "fibonacci_compliance": {
+    "compliant_predictions": 50,
+    "compliance_percentage": 100.0,
+    "non_compliant_values": []
+  },
+  "distribution_analysis": {
+    "prediction_distribution": {
+      "1": 2,
+      "2": 13,
+      "3": 9,
+      "5": 11,
+      "8": 12,
+      "13": 3
+    },
+    "actual_distribution": {
+      "1": 1,
+      "2": 18,
+      "3": 21,
+      "4": 10
+    },
+    "by_point_analysis": {
+      "1": {
+        "count": 1,
+        "mean_predicted": 2.0,
+        "mean_error": 1.0,
+        "perfect_predictions": 0
+      },
+      "2": {
+        "count": 18,
+        "mean_predicted": 4.888888888888889,
+        "mean_error": 3.111111111111111,
+        "perfect_predictions": 5
+      },
+      "3": {
+        "count": 21,
+        "mean_predicted": 4.9523809523809526,
+        "mean_error": 2.4285714285714284,
+        "perfect_predictions": 5
+      },
+      "4": {
+        "count": 10,
+        "mean_predicted": 5.1,
+        "mean_error": 2.1,
+        "perfect_predictions": 0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "task_description": "Set up cloud.gov account and project space",
+      "task_id": "CLD_001",
+      "actual_points": 3,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 0.3333333333333333,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Configure deployment pipeline",
+      "task_id": "CLD_002",
+      "actual_points": 4,
+      "predicted_points": 5,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Deploy beta version to cloud.gov",
+      "task_id": "CLD_003",
+      "actual_points": 3,
+      "predicted_points": 5,
+      "absolute_error": 2,
+      "relative_error": 0.6666666666666666,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Test deployment and verify functionality",
+      "task_id": "CLD_004",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Share access credentials with team members",
+      "task_id": "CLD_005",
+      "actual_points": 1,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 1.0,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Request subdomain creation through NSF IT",
+      "task_id": "SUB_001",
+      "actual_points": 2,
+      "predicted_points": 2,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Configure DNS settings for beta.nsf.gov",
+      "task_id": "SUB_002",
+      "actual_points": 3,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 0.3333333333333333,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Set up SSL certificate for subdomain",
+      "task_id": "SUB_003",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Configure deployment pipeline to use subdomain",
+      "task_id": "SUB_004",
+      "actual_points": 3,
+      "predicted_points": 5,
+      "absolute_error": 2,
+      "relative_error": 0.6666666666666666,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Test subdomain accessibility and routing",
+      "task_id": "SUB_005",
+      "actual_points": 2,
+      "predicted_points": 5,
+      "absolute_error": 3,
+      "relative_error": 1.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Research FISMA low requirements documentation",
+      "task_id": "FIS_001",
+      "actual_points": 4,
+      "predicted_points": 2,
+      "absolute_error": 2,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Schedule meeting with cloud.gov support team",
+      "task_id": "FIS_002",
+      "actual_points": 2,
+      "predicted_points": 1,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Document current prototype configuration",
+      "task_id": "FIS_003",
+      "actual_points": 3,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 0.3333333333333333,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Create migration checklist and timeline",
+      "task_id": "FIS_004",
+      "actual_points": 4,
+      "predicted_points": 5,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Prepare compliance documentation",
+      "task_id": "FIS_005",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Schedule meeting with DIS and cloud.gov teams",
+      "task_id": "ATO_001",
+      "actual_points": 2,
+      "predicted_points": 1,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Prepare list of ATO-related questions",
+      "task_id": "ATO_002",
+      "actual_points": 3,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 0.3333333333333333,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Document ATO requirements and timeline",
+      "task_id": "ATO_003",
+      "actual_points": 4,
+      "predicted_points": 2,
+      "absolute_error": 2,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Create compliance action plan",
+      "task_id": "ATO_004",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Assign responsibility for ATO tasks",
+      "task_id": "ATO_005",
+      "actual_points": 2,
+      "predicted_points": 2,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Evaluate current blog aggregator functionality",
+      "task_id": "BLG_001",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,..."
+    },
+    {
+      "task_description": "Test aggregator with NSF content requirements",
+      "task_id": "BLG_002",
+      "actual_points": 4,
+      "predicted_points": 5,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,..."
+    },
+    {
+      "task_description": "Document pros and cons of aggregator approach",
+      "task_id": "BLG_003",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,..."
+    },
+    {
+      "task_description": "Research alternative blog solutions",
+      "task_id": "BLG_004",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,..."
+    },
+    {
+      "task_description": "Present recommendation with rationale",
+      "task_id": "BLG_005",
+      "actual_points": 2,
+      "predicted_points": 5,
+      "absolute_error": 3,
+      "relative_error": 1.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta,..."
+    },
+    {
+      "task_description": "Design content search interface",
+      "task_id": "CNT_001",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to easily find content, so that I can edit it..."
+    },
+    {
+      "task_description": "Implement content filtering and categorization",
+      "task_id": "CNT_002",
+      "actual_points": 4,
+      "predicted_points": 8,
+      "absolute_error": 4,
+      "relative_error": 1.0,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to easily find content, so that I can edit it..."
+    },
+    {
+      "task_description": "Add content tagging system",
+      "task_id": "CNT_003",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to easily find content, so that I can edit it..."
+    },
+    {
+      "task_description": "Create content organization hierarchy",
+      "task_id": "CNT_004",
+      "actual_points": 2,
+      "predicted_points": 5,
+      "absolute_error": 3,
+      "relative_error": 1.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to easily find content, so that I can edit it..."
+    },
+    {
+      "task_description": "Add bulk content management tools",
+      "task_id": "CNT_005",
+      "actual_points": 2,
+      "predicted_points": 13,
+      "absolute_error": 11,
+      "relative_error": 5.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to easily find content, so that I can edit it..."
+    },
+    {
+      "task_description": "Design video upload interface",
+      "task_id": "VID_001",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a user, I want to add a video to my article..."
+    },
+    {
+      "task_description": "Integrate with video hosting service",
+      "task_id": "VID_002",
+      "actual_points": 4,
+      "predicted_points": 5,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a user, I want to add a video to my article..."
+    },
+    {
+      "task_description": "Add video embed functionality",
+      "task_id": "VID_003",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a user, I want to add a video to my article..."
+    },
+    {
+      "task_description": "Implement video preview in editor",
+      "task_id": "VID_004",
+      "actual_points": 2,
+      "predicted_points": 13,
+      "absolute_error": 11,
+      "relative_error": 5.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a user, I want to add a video to my article..."
+    },
+    {
+      "task_description": "Add video metadata management",
+      "task_id": "VID_005",
+      "actual_points": 2,
+      "predicted_points": 8,
+      "absolute_error": 6,
+      "relative_error": 3.0,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a user, I want to add a video to my article..."
+    },
+    {
+      "task_description": "Integrate Brightcove API",
+      "task_id": "BCO_001",
+      "actual_points": 4,
+      "predicted_points": 8,
+      "absolute_error": 4,
+      "relative_error": 1.0,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to add videos from Brightcove..."
+    },
+    {
+      "task_description": "Create Brightcove video browser interface",
+      "task_id": "BCO_002",
+      "actual_points": 4,
+      "predicted_points": 8,
+      "absolute_error": 4,
+      "relative_error": 1.0,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to add videos from Brightcove..."
+    },
+    {
+      "task_description": "Add video selection and embed functionality",
+      "task_id": "BCO_003",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to add videos from Brightcove..."
+    },
+    {
+      "task_description": "Implement video preview and metadata display",
+      "task_id": "BCO_004",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to add videos from Brightcove..."
+    },
+    {
+      "task_description": "Add video management and organization tools",
+      "task_id": "BCO_005",
+      "actual_points": 2,
+      "predicted_points": 13,
+      "absolute_error": 11,
+      "relative_error": 5.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a content editor, I want to be able to add videos from Brightcove..."
+    },
+    {
+      "task_description": "Add indent/outdent buttons to editor toolbar",
+      "task_id": "IND_001",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an author, I want to be able to indent / outdent content..."
+    },
+    {
+      "task_description": "Implement keyboard shortcuts for indentation",
+      "task_id": "IND_002",
+      "actual_points": 2,
+      "predicted_points": 5,
+      "absolute_error": 3,
+      "relative_error": 1.5,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an author, I want to be able to indent / outdent content..."
+    },
+    {
+      "task_description": "Create nested content structure support",
+      "task_id": "IND_003",
+      "actual_points": 3,
+      "predicted_points": 8,
+      "absolute_error": 5,
+      "relative_error": 1.6666666666666667,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an author, I want to be able to indent / outdent content..."
+    },
+    {
+      "task_description": "Add visual indentation indicators",
+      "task_id": "IND_004",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an author, I want to be able to indent / outdent content..."
+    },
+    {
+      "task_description": "Ensure proper HTML output formatting",
+      "task_id": "IND_005",
+      "actual_points": 2,
+      "predicted_points": 2,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an author, I want to be able to indent / outdent content..."
+    },
+    {
+      "task_description": "Compile user research findings into report",
+      "task_id": "RES_001",
+      "actual_points": 4,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ..."
+    },
+    {
+      "task_description": "Create executive summary of key insights",
+      "task_id": "RES_002",
+      "actual_points": 3,
+      "predicted_points": 2,
+      "absolute_error": 1,
+      "relative_error": 0.3333333333333333,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ..."
+    },
+    {
+      "task_description": "Develop CMS recommendation based on research",
+      "task_id": "RES_003",
+      "actual_points": 3,
+      "predicted_points": 5,
+      "absolute_error": 2,
+      "relative_error": 0.6666666666666666,
+      "accuracy_category": "poor",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ..."
+    },
+    {
+      "task_description": "Present findings to stakeholders",
+      "task_id": "RES_004",
+      "actual_points": 2,
+      "predicted_points": 2,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ..."
+    },
+    {
+      "task_description": "Document decision rationale",
+      "task_id": "RES_005",
+      "actual_points": 2,
+      "predicted_points": 2,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is ..."
+    }
+  ],
+  "summary_stats": {
+    "total_tasks_evaluated": 50,
+    "mean_actual_points": 2.8,
+    "mean_predicted_points": 4.9,
+    "prediction_bias": 2.1000000000000005
+  }
+}

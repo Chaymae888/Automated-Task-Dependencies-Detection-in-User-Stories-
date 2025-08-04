@@ -1,0 +1,202 @@
+====================================================================================================
+MULTI-ESTIMATOR STORY POINT EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Estimators Evaluated: 8
+  • Estimators: chain_of_thought, few_shots2, few_shot_cot, meta_prompting, reflexion, self_consistency, tree_of_thought, zero_shots
+  • Test Stories: 71
+  • Coverage: 98.6%
+
+==================================================
+INDIVIDUAL ESTIMATOR RESULTS
+==================================================
+
+🔍 CHAIN_OF_THOUGHT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 6.71
+    • Mean Relative Error: 0.487
+    • R² Score: -33.752
+    • Perfect Predictions: 5.7%
+    • Acceptable Predictions: 64.3%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.614
+    • Distribution Similarity: 0.937
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 85.7%
+    • Total Violations: 61
+  📈 Prediction Statistics:
+    • Average Total Points: 20.2
+    • Median Total Points: 19.0
+    • Stories Predicted: 71
+
+🔍 FEW_SHOTS2:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 4.06
+    • Mean Relative Error: 0.295
+    • R² Score: -10.753
+    • Perfect Predictions: 10.0%
+    • Acceptable Predictions: 82.9%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.452
+    • Distribution Similarity: 0.933
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 86.4%
+    • Total Violations: 58
+  📈 Prediction Statistics:
+    • Average Total Points: 17.2
+    • Median Total Points: 17.0
+    • Stories Predicted: 71
+
+🔍 FEW_SHOT_COT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 6.71
+    • Mean Relative Error: 0.485
+    • R² Score: -35.522
+    • Perfect Predictions: 5.7%
+    • Acceptable Predictions: 61.4%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.634
+    • Distribution Similarity: 0.930
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 85.0%
+    • Total Violations: 64
+  📈 Prediction Statistics:
+    • Average Total Points: 20.0
+    • Median Total Points: 18.0
+    • Stories Predicted: 71
+
+🔍 META_PROMPTING:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 9.17
+    • Mean Relative Error: 0.665
+    • R² Score: -54.981
+    • Perfect Predictions: 1.4%
+    • Acceptable Predictions: 45.7%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.785
+    • Distribution Similarity: 0.942
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 85.7%
+    • Total Violations: 61
+  📈 Prediction Statistics:
+    • Average Total Points: 22.9
+    • Median Total Points: 22.0
+    • Stories Predicted: 71
+
+🔍 REFLEXION:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 4.01
+    • Mean Relative Error: 0.291
+    • R² Score: -24.164
+    • Perfect Predictions: 12.9%
+    • Acceptable Predictions: 84.3%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.386
+    • Distribution Similarity: 0.969
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 84.7%
+    • Total Violations: 65
+  📈 Prediction Statistics:
+    • Average Total Points: 17.4
+    • Median Total Points: 15.0
+    • Stories Predicted: 71
+
+🔍 SELF_CONSISTENCY:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 1.54
+    • Mean Relative Error: 0.121
+    • R² Score: -0.510
+    • Perfect Predictions: 15.7%
+    • Acceptable Predictions: 100.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.217
+    • Distribution Similarity: 0.977
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 83.3%
+    • Total Violations: 71
+  📈 Prediction Statistics:
+    • Average Total Points: 15.0
+    • Median Total Points: 15.0
+    • Stories Predicted: 71
+
+🔍 TREE_OF_THOUGHT:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 1.50
+    • Mean Relative Error: 0.117
+    • R² Score: -0.446
+    • Perfect Predictions: 17.1%
+    • Acceptable Predictions: 100.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 0.215
+    • Distribution Similarity: 0.977
+    • Sum Consistency: 100.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 83.3%
+    • Total Violations: 71
+  📈 Prediction Statistics:
+    • Average Total Points: 15.0
+    • Median Total Points: 15.0
+    • Stories Predicted: 71
+
+🔍 ZERO_SHOTS:
+  🎯 Total Story Points Accuracy:
+    • Mean Absolute Error: 13.91
+    • Mean Relative Error: 1.000
+    • R² Score: -79.963
+    • Perfect Predictions: 0.0%
+    • Acceptable Predictions: 0.0%
+  📊 Task Distribution Accuracy:
+    • Mean Task Error: 1.000
+    • Distribution Similarity: 0.000
+    • Sum Consistency: 0.0%
+  📐 Fibonacci Compliance:
+    • Compliance Rate: 0.0%
+    • Total Violations: 0
+  📈 Prediction Statistics:
+    • Average Total Points: 0.0
+    • Median Total Points: 0.0
+    • Stories Predicted: 0
+
+==================================================
+COMPARISON AND RANKING
+==================================================
+
+🏆 BEST PERFORMERS:
+  • Lowest Mae: tree_of_thought
+  • Highest R2: tree_of_thought
+  • Highest Perfect Rate: tree_of_thought
+  • Best Fibonacci Compliance: few_shots2
+  • Best Task Distribution: self_consistency
+
+🥇 OVERALL RANKING:
+  1. tree_of_thought (Composite Score: 0.518)
+  2. self_consistency (Composite Score: 0.514)
+  3. reflexion (Composite Score: 0.448)
+  4. few_shots2 (Composite Score: 0.438)
+  5. chain_of_thought (Composite Score: 0.363)
+  6. few_shot_cot (Composite Score: 0.360)
+  7. meta_prompting (Composite Score: 0.293)
+  8. zero_shots (Composite Score: 0.000)
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For lowest prediction error: Use tree_of_thought
+    (MAE: 1.50)
+  • For best correlation with actual values: Use tree_of_thought
+    (R²: -0.446)
+  • For Fibonacci compliance: Use few_shots2
+    (Compliance: 86.4%)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

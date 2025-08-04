@@ -1,0 +1,49 @@
+========================================================================================================================
+COMPARATIVE DEPENDENCY DETECTION EVALUATION REPORT
+========================================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Number of Agents Evaluated: 8
+
+🏆 PERFORMANCE RANKING (by F1-Score):
+Rank   Agent                     F1-Score   Precision  Recall     Accuracy   Perfect%  
+-------------------------------------------------------------------------------------
+🥇      chain_of_thought          0.000      0.000      0.000      0.000      0.0       
+🥈      few_shots2                0.000      0.000      0.000      0.000      0.0       
+🥉      few_shot_cot              0.000      0.000      0.000      0.000      0.0       
+4.     meta_prompting            0.000      0.000      0.000      0.000      0.0       
+5.     reflexion                 0.000      0.000      0.000      0.000      0.0       
+6.     self_consistency          0.000      0.000      0.000      0.000      0.0       
+7.     tree_of_thought           0.000      0.000      0.000      0.000      0.0       
+8.     zero_shots                0.000      0.000      0.000      0.000      0.0       
+
+🎯 CATEGORY LEADERS:
+  • Best Precision: chain_of_thought (0.000)
+  • Best Recall: chain_of_thought (0.000)
+  • Best F1-Score: chain_of_thought (0.000)
+  • Best Accuracy: chain_of_thought (0.000)
+  • Best Perfect Matches: chain_of_thought (0.0%)
+
+📈 STATISTICAL ANALYSIS:
+  • Precision - Mean: 0.000, Std: 0.000
+  • Recall - Mean: 0.000, Std: 0.000
+  • F1-Score - Mean: 0.000, Std: 0.000
+
+📊 PERFORMANCE GAPS:
+  • F1-Score Gap: 0.000
+  • Precision Gap: 0.000
+  • Recall Gap: 0.000
+
+==================================================
+COMPARATIVE RECOMMENDATIONS
+==================================================
+
+💡 KEY INSIGHTS:
+
+🎯 RECOMMENDED AGENT: chain_of_thought
+   • Balanced performance with F1-Score: 0.000
+   • Precision: 0.000, Recall: 0.000
+
+========================================================================================================================
+COMPARATIVE EVALUATION COMPLETED
+========================================================================================================================

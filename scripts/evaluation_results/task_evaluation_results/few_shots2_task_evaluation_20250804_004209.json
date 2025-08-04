@@ -1,0 +1,299 @@
+{
+  "estimator_name": "few_shots2",
+  "overall_metrics": {
+    "mean_absolute_error": 0.5,
+    "mean_squared_error": 0.5,
+    "root_mean_squared_error": 0.7071067811865476,
+    "r2_score": 0.24242424242424243,
+    "mean_relative_error": 0.2,
+    "median_relative_error": 0.125
+  },
+  "accuracy_breakdown": {
+    "perfect_predictions": 10,
+    "close_predictions": 10,
+    "acceptable_predictions": 20,
+    "perfect_percentage": 50.0,
+    "close_percentage": 50.0,
+    "acceptable_percentage": 100.0
+  },
+  "fibonacci_compliance": {
+    "compliant_predictions": 20,
+    "compliance_percentage": 100.0,
+    "non_compliant_values": []
+  },
+  "distribution_analysis": {
+    "prediction_distribution": {
+      "1": 1,
+      "3": 19
+    },
+    "actual_distribution": {
+      "1": 1,
+      "2": 6,
+      "3": 9,
+      "4": 4
+    },
+    "by_point_analysis": {
+      "1": {
+        "count": 1,
+        "mean_predicted": 1.0,
+        "mean_error": 0.0,
+        "perfect_predictions": 1
+      },
+      "2": {
+        "count": 6,
+        "mean_predicted": 3.0,
+        "mean_error": 1.0,
+        "perfect_predictions": 0
+      },
+      "3": {
+        "count": 9,
+        "mean_predicted": 3.0,
+        "mean_error": 0.0,
+        "perfect_predictions": 9
+      },
+      "4": {
+        "count": 4,
+        "mean_predicted": 3.0,
+        "mean_error": 1.0,
+        "perfect_predictions": 0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "task_description": "Set up cloud.gov account and project space",
+      "task_id": "CLD_001",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Configure deployment pipeline",
+      "task_id": "CLD_002",
+      "actual_points": 4,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499963, Requested 396. Please try again in 1m2.005799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Deploy beta version to cloud.gov",
+      "task_id": "CLD_003",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Test deployment and verify functionality",
+      "task_id": "CLD_004",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499969, Requested 398. Please try again in 1m3.398999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Share access credentials with team members",
+      "task_id": "CLD_005",
+      "actual_points": 1,
+      "predicted_points": 1,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov..."
+    },
+    {
+      "task_description": "Request subdomain creation through NSF IT",
+      "task_id": "SUB_001",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499977, Requested 407. Please try again in 1m6.2746s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Configure DNS settings for beta.nsf.gov",
+      "task_id": "SUB_002",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499946, Requested 406. Please try again in 1m0.740799999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Set up SSL certificate for subdomain",
+      "task_id": "SUB_003",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Configure deployment pipeline to use subdomain",
+      "task_id": "SUB_004",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499985, Requested 408. Please try again in 1m7.8078s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Test subdomain accessibility and routing",
+      "task_id": "SUB_005",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit..."
+    },
+    {
+      "task_description": "Research FISMA low requirements documentation",
+      "task_id": "FIS_001",
+      "actual_points": 4,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Schedule meeting with cloud.gov support team",
+      "task_id": "FIS_002",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Document current prototype configuration",
+      "task_id": "FIS_003",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Create migration checklist and timeline",
+      "task_id": "FIS_004",
+      "actual_points": 4,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "acceptable",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Prepare compliance documentation",
+      "task_id": "FIS_005",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr..."
+    },
+    {
+      "task_description": "Schedule meeting with DIS and cloud.gov teams",
+      "task_id": "ATO_001",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499959, Requested 411. Please try again in 1m3.864599999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Prepare list of ATO-related questions",
+      "task_id": "ATO_002",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "perfect",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ..."
+    },
+    {
+      "task_description": "Document ATO requirements and timeline",
+      "task_id": "ATO_003",
+      "actual_points": 4,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.25,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500030, Requested 409. Please try again in 1m15.9766s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Create compliance action plan",
+      "task_id": "ATO_004",
+      "actual_points": 3,
+      "predicted_points": 3,
+      "absolute_error": 0,
+      "relative_error": 0.0,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 500000, Requested 407. Please try again in 1m10.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "task_description": "Assign responsibility for ATO tasks",
+      "task_id": "ATO_005",
+      "actual_points": 2,
+      "predicted_points": 3,
+      "absolute_error": 1,
+      "relative_error": 0.5,
+      "accuracy_category": "error",
+      "fibonacci_compliant": true,
+      "original_user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama3-70b-8192` in organization `org_01jz0z0ad4fvsamy73qj8ntvaw` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499968, Requested 408. Please try again in 1m4.9568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    }
+  ],
+  "summary_stats": {
+    "total_tasks_evaluated": 20,
+    "mean_actual_points": 2.8,
+    "mean_predicted_points": 2.9,
+    "prediction_bias": 0.10000000000000009
+  }
+}

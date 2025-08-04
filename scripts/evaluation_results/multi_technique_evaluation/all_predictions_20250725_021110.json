@@ -1,0 +1,10 @@
+{
+  "few_shots": {},
+  "meta_prompting": {},
+  "chain_of_thought": {},
+  "few_shot_cot": {},
+  "reflexion": {},
+  "self_consistency": {},
+  "tree_of_thought": {},
+  "zero_shots": {}
+}

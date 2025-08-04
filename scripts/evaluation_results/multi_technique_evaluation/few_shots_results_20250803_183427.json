@@ -1,0 +1,253 @@
+{
+  "technique_name": "few_shots",
+  "semantic_similarity": {
+    "mean_similarity": "0.5193902",
+    "std_similarity": "0.08543531",
+    "median_similarity": "0.5236734",
+    "min_similarity": "0.33866054",
+    "max_similarity": "0.62720644",
+    "excellent_percentage": 0.0,
+    "good_percentage": 20.0,
+    "fair_percentage": 70.0,
+    "poor_percentage": 10.0,
+    "total_comparisons": 10,
+    "detailed_scores": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "expected_count": 5,
+        "predicted_count": 9,
+        "precision_like": "0.6068416",
+        "recall_like": "0.6015657",
+        "f1_like": "0.60419214",
+        "overall_similarity": "0.6042037",
+        "similarity_quality": "good"
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "expected_count": 5,
+        "predicted_count": 6,
+        "precision_like": "0.66179615",
+        "recall_like": "0.59261674",
+        "f1_like": "0.62529886",
+        "overall_similarity": "0.62720644",
+        "similarity_quality": "good"
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "expected_count": 5,
+        "predicted_count": 10,
+        "precision_like": "0.5239407",
+        "recall_like": "0.40984836",
+        "f1_like": "0.4599245",
+        "overall_similarity": "0.4668945",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "expected_count": 5,
+        "predicted_count": 9,
+        "precision_like": "0.5539175",
+        "recall_like": "0.5406242",
+        "f1_like": "0.5471901",
+        "overall_similarity": "0.5472709",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can disc...",
+        "expected_count": 5,
+        "predicted_count": 10,
+        "precision_like": "0.4987437",
+        "recall_like": "0.40723386",
+        "f1_like": "0.4483672",
+        "overall_similarity": "0.4529888",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As an NSF employee, I want to have a final workshop to identify key lessons and features for the con...",
+        "expected_count": 5,
+        "predicted_count": 10,
+        "precision_like": "0.6817476",
+        "recall_like": "0.5138277",
+        "f1_like": "0.5859954",
+        "overall_similarity": "0.5977876",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand work performed, so that I can understand when and what I ca...",
+        "expected_count": 5,
+        "predicted_count": 8,
+        "precision_like": "0.32040897",
+        "recall_like": "0.35691208",
+        "f1_like": "0.33767685",
+        "overall_similarity": "0.33866054",
+        "similarity_quality": "poor"
+      },
+      {
+        "user_story": "As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction w...",
+        "expected_count": 5,
+        "predicted_count": 9,
+        "precision_like": "0.47019807",
+        "recall_like": "0.52995396",
+        "f1_like": "0.49829093",
+        "overall_similarity": "0.500076",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can ...",
+        "expected_count": 5,
+        "predicted_count": 9,
+        "precision_like": "0.58254206",
+        "recall_like": "0.59330964",
+        "f1_like": "0.58787656",
+        "overall_similarity": "0.58792585",
+        "similarity_quality": "fair"
+      },
+      {
+        "user_story": "As a team member, I want to know when the mid-point checkin is and what will be covered, so that I c...",
+        "expected_count": 5,
+        "predicted_count": 9,
+        "precision_like": "0.4341894",
+        "recall_like": "0.50758713",
+        "f1_like": "0.46802816",
+        "overall_similarity": "0.47088826",
+        "similarity_quality": "fair"
+      }
+    ]
+  },
+  "overlap_metrics": {
+    "bleu": {
+      "mean": 0.0566687546992178,
+      "std": 0.025414949282444255,
+      "min": 0.03494125338320588,
+      "max": 0.12719454837235128,
+      "scores": [
+        0.05215265501083832,
+        0.0650091061212661,
+        0.037488232967546296,
+        0.12719454837235128,
+        0.04048955009973929,
+        0.05897000354839195,
+        0.03494125338320588,
+        0.058417752651877146,
+        0.051403455552694245,
+        0.04062098928426746
+      ]
+    },
+    "rouge": {
+      "mean": 0.4418849247624991,
+      "std": 0.1928028108364282,
+      "min": 0.15,
+      "max": 0.75,
+      "scores": [
+        0.5652173913043478,
+        0.6086956521739131,
+        0.5454545454545454,
+        0.75,
+        0.3333333333333333,
+        0.625,
+        0.15,
+        0.3684210526315789,
+        0.2,
+        0.2727272727272727
+      ]
+    },
+    "meteor": {
+      "mean": 0.25237125572355273,
+      "std": 0.0985282459045569,
+      "min": 0.13988783610876634,
+      "max": 0.4737207716628449,
+      "scores": [
+        0.2509018749814192,
+        0.3241563246792926,
+        0.14582815455843606,
+        0.3355135718180061,
+        0.24374113443819945,
+        0.22776783445415524,
+        0.1473828543879908,
+        0.23481220014641663,
+        0.4737207716628449,
+        0.13988783610876634
+      ]
+    },
+    "word_overlap": {
+      "mean": 0.20263579545845736,
+      "std": 0.09989470230800321,
+      "min": 0.06818181818181818,
+      "max": 0.36,
+      "scores": [
+        0.30952380952380953,
+        0.35,
+        0.2222222222222222,
+        0.36,
+        0.14,
+        0.19607843137254902,
+        0.06818181818181818,
+        0.16279069767441862,
+        0.0975609756097561,
+        0.12
+      ]
+    },
+    "total_comparisons": 10
+  },
+  "task_statistics": {
+    "expected_tasks": {
+      "mean": 5.0,
+      "std": 0.0,
+      "min": "5",
+      "max": "5",
+      "total": "355"
+    },
+    "predicted_tasks": {
+      "mean": 1.2535211267605635,
+      "std": 3.1251740677567073,
+      "min": "0",
+      "max": "10",
+      "total": "89"
+    },
+    "count_differences": {
+      "mean": -3.7464788732394365,
+      "std": 3.1251740677567073,
+      "min": "-5",
+      "max": "5"
+    },
+    "count_ratios": {
+      "mean": 0.2507042253521126,
+      "std": 0.6250348135513418,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "over_predictions": 10,
+    "under_predictions": 61,
+    "exact_predictions": 0,
+    "total_stories": 71
+  },
+  "summary": {
+    "technique_name": "few_shots",
+    "dataset_info": {
+      "total_test_stories": 71,
+      "processed_stories": 70,
+      "coverage": 0.9859154929577465
+    },
+    "semantic_summary": {
+      "mean_similarity": "0.5193902",
+      "excellent_percentage": 0.0,
+      "good_percentage": 20.0,
+      "fair_percentage": 70.0,
+      "poor_percentage": 10.0
+    },
+    "overlap_summary": {
+      "bleu_mean": 0.0566687546992178,
+      "rouge_mean": 0.4418849247624991,
+      "meteor_mean": 0.25237125572355273,
+      "word_overlap_mean": 0.20263579545845736
+    },
+    "task_summary": {
+      "expected_mean": 5.0,
+      "predicted_mean": 1.2535211267605635,
+      "count_ratio_mean": 0.2507042253521126,
+      "exact_predictions": 0,
+      "over_predictions": 10,
+      "under_predictions": 61
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "zero_shot": {
+    "agent_name": "zero_shot",
+    "dependency_accuracy": {
+      "total_expected_dependencies": 101,
+      "total_predicted_dependencies": 85,
+      "correct_dependencies": 49,
+      "missing_dependencies": 52,
+      "false_dependencies": 36,
+      "overall_precision": 0.5793703830389003,
+      "overall_recall": 0.45625749944814853,
+      "overall_f1_score": 0.5104962635514024,
+      "accuracy": 0.5010260208761331,
+      "detection_rate": 0.8415841584158416
+    },
+    "detection_statistics": {
+      "total_stories": 50,
+      "stories_with_dependencies": 43,
+      "stories_detected_dependencies": 45,
+      "avg_dependencies_per_story": 2.02,
+      "avg_predicted_dependencies_per_story": 1.7,
+      "detection_coverage": 0.6753363756209683
+    },
+    "precision_recall": {
+      "mean_precision": 0.5793703830389003,
+      "mean_recall": 0.45625749944814853,
+      "mean_f1_score": 0.5104962635514024,
+      "perfect_matches": 18,
+      "partial_matches": 14,
+      "no_matches": 18,
+      "perfect_match_percentage": 36.0
+    },
+    "summary": {
+      "agent_name": "zero_shot",
+      "dataset_info": {
+        "total_test_stories": 50,
+        "processed_stories": 50,
+        "coverage": 1.0,
+        "stories_with_dependencies": 35
+      },
+      "detection_performance": {
+        "overall_precision": 0.5793703830389003,
+        "overall_recall": 0.45625749944814853,
+        "overall_f1_score": 0.5104962635514024,
+        "accuracy": 0.5010260208761331,
+        "detection_rate": 0.8415841584158416
+      },
+      "dependency_counts": {
+        "total_expected": 101,
+        "total_predicted": 85,
+        "correct_predictions": 49,
+        "missing_dependencies": 52,
+        "false_dependencies": 36
+      },
+      "match_quality": {
+        "perfect_matches": 18,
+        "partial_matches": 14,
+        "no_matches": 18,
+        "perfect_match_percentage": 36.0
+      }
+    }
+  },
+  "few_shot": {
+    "agent_name": "few_shot",
+    "dependency_accuracy": {
+      "total_expected_dependencies": 120,
+      "total_predicted_dependencies": 166,
+      "correct_dependencies": 86,
+      "missing_dependencies": 34,
+      "false_dependencies": 80,
+      "overall_precision": 0.7176680223972252,
+      "overall_recall": 0.6304254826905339,
+      "overall_f1_score": 0.6712237804333588,
+      "accuracy": 0.6922570923587077,
+      "detection_rate": 1.3833333333333333
+    },
+    "detection_statistics": {
+      "total_stories": 50,
+      "stories_with_dependencies": 41,
+      "stories_detected_dependencies": 47,
+      "avg_dependencies_per_story": 2.4,
+      "avg_predicted_dependencies_per_story": 3.32,
+      "detection_coverage": 0.602900909882502
+    },
+    "precision_recall": {
+      "mean_precision": 0.7176680223972252,
+      "mean_recall": 0.6304254826905339,
+      "mean_f1_score": 0.6712237804333588,
+      "perfect_matches": 22,
+      "partial_matches": 18,
+      "no_matches": 10,
+      "perfect_match_percentage": 44.0
+    },
+    "summary": {
+      "agent_name": "few_shot",
+      "dataset_info": {
+        "total_test_stories": 50,
+        "processed_stories": 50,
+        "coverage": 1.0,
+        "stories_with_dependencies": 36
+      },
+      "detection_performance": {
+        "overall_precision": 0.7176680223972252,
+        "overall_recall": 0.6304254826905339,
+        "overall_f1_score": 0.6712237804333588,
+        "accuracy": 0.6922570923587077,
+        "detection_rate": 1.3833333333333333
+      },
+      "dependency_counts": {
+        "total_expected": 120,
+        "total_predicted": 166,
+        "correct_predictions": 86,
+        "missing_dependencies": 34,
+        "false_dependencies": 80
+      },
+      "match_quality": {
+        "perfect_matches": 22,
+        "partial_matches": 18,
+        "no_matches": 10,
+        "perfect_match_percentage": 44.0
+      }
+    }
+  },
+  "chain_of_thought": {
+    "agent_name": "chain_of_thought",
+    "dependency_accuracy": {
+      "total_expected_dependencies": 82,
+      "total_predicted_dependencies": 105,
+      "correct_dependencies": 56,
+      "missing_dependencies": 26,
+      "false_dependencies": 49,
+      "overall_precision": 0.6851637535425926,
+      "overall_recall": 0.5734854946516454,
+      "overall_f1_score": 0.6243700930683964,
+      "accuracy": 0.5274155858836571,
+      "detection_rate": 1.2804878048780488
+    },
+    "detection_statistics": {
+      "total_stories": 50,
+      "stories_with_dependencies": 37,
+      "stories_detected_dependencies": 43,
+      "avg_dependencies_per_story": 1.64,
+      "avg_predicted_dependencies_per_story": 2.1,
+      "detection_coverage": 0.6382336557846416
+    },
+    "precision_recall": {
+      "mean_precision": 0.6851637535425926,
+      "mean_recall": 0.5734854946516454,
+      "mean_f1_score": 0.6243700930683964,
+      "perfect_matches": 17,
+      "partial_matches": 18,
+      "no_matches": 15,
+      "perfect_match_percentage": 34.0
+    },
+    "summary": {
+      "agent_name": "chain_of_thought",
+      "dataset_info": {
+        "total_test_stories": 50,
+        "processed_stories": 50,
+        "coverage": 1.0,
+        "stories_with_dependencies": 39
+      },
+      "detection_performance": {
+        "overall_precision": 0.6851637535425926,
+        "overall_recall": 0.5734854946516454,
+        "overall_f1_score": 0.6243700930683964,
+        "accuracy": 0.5274155858836571,
+        "detection_rate": 1.2804878048780488
+      },
+      "dependency_counts": {
+        "total_expected": 82,
+        "total_predicted": 105,
+        "correct_predictions": 56,
+        "missing_dependencies": 26,
+        "false_dependencies": 49
+      },
+      "match_quality": {
+        "perfect_matches": 17,
+        "partial_matches": 18,
+        "no_matches": 15,
+        "perfect_match_percentage": 34.0
+      }
+    }
+  },
+  "tree_of_thought": {
+    "agent_name": "tree_of_thought",
+    "dependency_accuracy": {
+      "total_expected_dependencies": 95,
+      "total_predicted_dependencies": 110,
+      "correct_dependencies": 66,
+      "missing_dependencies": 29,
+      "false_dependencies": 44,
+      "overall_precision": 0.6961074771024165,
+      "overall_recall": 0.5063831804977948,
+      "overall_f1_score": 0.5862783481859055,
+      "accuracy": 0.5319554202435586,
+      "detection_rate": 1.1578947368421053
+    },
+    "detection_statistics": {
+      "total_stories": 50,
+      "stories_with_dependencies": 41,
+      "stories_detected_dependencies": 34,
+      "avg_dependencies_per_story": 1.9,
+      "avg_predicted_dependencies_per_story": 2.2,
+      "detection_coverage": 0.877729146770867
+    },
+    "precision_recall": {
+      "mean_precision": 0.6961074771024165,
+      "mean_recall": 0.5063831804977948,
+      "mean_f1_score": 0.5862783481859055,
+      "perfect_matches": 13,
+      "partial_matches": 18,
+      "no_matches": 19,
+      "perfect_match_percentage": 26.0
+    },
+    "summary": {
+      "agent_name": "tree_of_thought",
+      "dataset_info": {
+        "total_test_stories": 50,
+        "processed_stories": 50,
+        "coverage": 1.0,
+        "stories_with_dependencies": 38
+      },
+      "detection_performance": {
+        "overall_precision": 0.6961074771024165,
+        "overall_recall": 0.5063831804977948,
+        "overall_f1_score": 0.5862783481859055,
+        "accuracy": 0.5319554202435586,
+        "detection_rate": 1.1578947368421053
+      },
+      "dependency_counts": {
+        "total_expected": 95,
+        "total_predicted": 110,
+        "correct_predictions": 66,
+        "missing_dependencies": 29,
+        "false_dependencies": 44
+      },
+      "match_quality": {
+        "perfect_matches": 13,
+        "partial_matches": 18,
+        "no_matches": 19,
+        "perfect_match_percentage": 26.0
+      }
+    }
+  },
+  "self_consistency": {
+    "agent_name": "self_consistency",
+    "dependency_accuracy": {
+      "total_expected_dependencies": 101,
+      "total_predicted_dependencies": 126,
+      "correct_dependencies": 65,
+      "missing_dependencies": 36,
+      "false_dependencies": 61,
+      "overall_precision": 0.6497234751904635,
+      "overall_recall": 0.6186549168393984,
+      "overall_f1_score": 0.6338086883824773,
+      "accuracy": 0.5117598941633212,
+      "detection_rate": 1.2475247524752475
+    },
+    "detection_statistics": {
+      "total_stories": 50,
+      "stories_with_dependencies": 38,
+      "stories_detected_dependencies": 38,
+      "avg_dependencies_per_story": 2.02,
+      "avg_predicted_dependencies_per_story": 2.52,
+      "detection_coverage": 0.6477593528942194
+    },
+    "precision_recall": {
+      "mean_precision": 0.6497234751904635,
+      "mean_recall": 0.6186549168393984,
+      "mean_f1_score": 0.6338086883824773,
+      "perfect_matches": 14,
+      "partial_matches": 20,
+      "no_matches": 16,
+      "perfect_match_percentage": 28.000000000000004
+    },
+    "summary": {
+      "agent_name": "self_consistency",
+      "dataset_info": {
+        "total_test_stories": 50,
+        "processed_stories": 50,
+        "coverage": 1.0,
+        "stories_with_dependencies": 36
+      },
+      "detection_performance": {
+        "overall_precision": 0.6497234751904635,
+        "overall_recall": 0.6186549168393984,
+        "overall_f1_score": 0.6338086883824773,
+        "accuracy": 0.5117598941633212,
+        "detection_rate": 1.2475247524752475
+      },
+      "dependency_counts": {
+        "total_expected": 101,
+        "total_predicted": 126,
+        "correct_predictions": 65,
+        "missing_dependencies": 36,
+        "false_dependencies": 61
+      },
+      "match_quality": {
+        "perfect_matches": 14,
+        "partial_matches": 20,
+        "no_matches": 16,
+        "perfect_match_percentage": 28.000000000000004
+      }
+    }
+  }
+}

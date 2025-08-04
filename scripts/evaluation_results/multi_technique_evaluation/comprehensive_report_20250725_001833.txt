@@ -1,0 +1,46 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 1
+  • Techniques: zero_shots
+  • Test Stories: 73
+  • Coverage: 100.0%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 ZERO_SHOTS:
+  🧠 Semantic Similarity:
+    • Mean: 0.510
+    • Excellent: 0.0%
+    • Good: 13.7%
+    • Poor: 8.2%
+  📝 Overlap Metrics:
+    • BLEU: 0.023
+    • ROUGE: 0.388
+    • METEOR: 0.209
+    • Word Overlap: 0.093
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 10.8
+    • Count Ratio: 2.17
+    • Exact Predictions: 0
+    • Over-predictions: 73
+    • Under-predictions: 0
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use zero_shots
+    (Semantic similarity: 0.510)
+  • For task count accuracy: Use zero_shots
+    (Count ratio: 2.170, deviation from ideal: 1.170)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

@@ -1,0 +1,169 @@
+====================================================================================================
+MULTI-TECHNIQUE TASK DECOMPOSITION EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Techniques Evaluated: 8
+  • Techniques: few_shots, meta_prompting, chain_of_thought, few_shot_cot, reflexion, self_consistency, tree_of_thought, zero_shots
+  • Test Stories: 73
+  • Coverage: 100.0%
+
+==================================================
+INDIVIDUAL TECHNIQUE RESULTS
+==================================================
+
+🔍 FEW_SHOTS:
+  🧠 Semantic Similarity:
+    • Mean: 0.513
+    • Excellent: 0.0%
+    • Good: 19.2%
+    • Poor: 12.3%
+  📝 Overlap Metrics:
+    • BLEU: 0.051
+    • ROUGE: 0.352
+    • METEOR: 0.237
+    • Word Overlap: 0.146
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 8.8
+    • Count Ratio: 1.77
+    • Exact Predictions: 1
+    • Over-predictions: 72
+    • Under-predictions: 0
+
+🔍 META_PROMPTING:
+  🧠 Semantic Similarity:
+    • Mean: 0.422
+    • Excellent: 0.0%
+    • Good: 4.5%
+    • Poor: 40.9%
+  📝 Overlap Metrics:
+    • BLEU: 0.044
+    • ROUGE: 0.136
+    • METEOR: 0.132
+    • Word Overlap: 0.074
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 4.8
+    • Count Ratio: 0.97
+    • Exact Predictions: 5
+    • Over-predictions: 27
+    • Under-predictions: 41
+
+🔍 CHAIN_OF_THOUGHT:
+  🧠 Semantic Similarity:
+    • Mean: 0.441
+    • Excellent: 0.0%
+    • Good: 6.9%
+    • Poor: 33.3%
+  📝 Overlap Metrics:
+    • BLEU: 0.045
+    • ROUGE: 0.267
+    • METEOR: 0.175
+    • Word Overlap: 0.113
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 8.7
+    • Count Ratio: 1.75
+    • Exact Predictions: 3
+    • Over-predictions: 68
+    • Under-predictions: 2
+
+🔍 FEW_SHOT_COT:
+  🧠 Semantic Similarity:
+    • Mean: 0.511
+    • Excellent: 0.0%
+    • Good: 15.1%
+    • Poor: 6.8%
+  📝 Overlap Metrics:
+    • BLEU: 0.057
+    • ROUGE: 0.315
+    • METEOR: 0.231
+    • Word Overlap: 0.147
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 7.3
+    • Count Ratio: 1.46
+    • Exact Predictions: 6
+    • Over-predictions: 67
+    • Under-predictions: 0
+
+🔍 REFLEXION:
+  🧠 Semantic Similarity:
+    • Mean: 0.476
+    • Excellent: 0.0%
+    • Good: 9.6%
+    • Poor: 15.1%
+  📝 Overlap Metrics:
+    • BLEU: 0.023
+    • ROUGE: 0.346
+    • METEOR: 0.177
+    • Word Overlap: 0.080
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 11.7
+    • Count Ratio: 2.35
+    • Exact Predictions: 38
+    • Over-predictions: 35
+    • Under-predictions: 0
+
+🔍 SELF_CONSISTENCY:
+  🧠 Semantic Similarity:
+    • Mean: 0.523
+    • Excellent: 0.0%
+    • Good: 25.7%
+    • Poor: 8.6%
+  📝 Overlap Metrics:
+    • BLEU: 0.044
+    • ROUGE: 0.208
+    • METEOR: 0.258
+    • Word Overlap: 0.116
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 1.8
+    • Count Ratio: 0.36
+    • Exact Predictions: 3
+    • Over-predictions: 5
+    • Under-predictions: 65
+
+🔍 TREE_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 73
+
+🔍 ZERO_SHOTS:
+  📝 Overlap Metrics:
+    • BLEU: 0.000
+    • ROUGE: 0.000
+    • METEOR: 0.000
+    • Word Overlap: 0.000
+  📊 Task Statistics:
+    • Expected Tasks (avg): 5.0
+    • Predicted Tasks (avg): 0.0
+    • Count Ratio: 0.00
+    • Exact Predictions: 0
+    • Over-predictions: 0
+    • Under-predictions: 73
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For semantic quality: Use self_consistency
+    (Semantic similarity: 0.523)
+  • For task count accuracy: Use meta_prompting
+    (Count ratio: 0.970, deviation from ideal: 0.030)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

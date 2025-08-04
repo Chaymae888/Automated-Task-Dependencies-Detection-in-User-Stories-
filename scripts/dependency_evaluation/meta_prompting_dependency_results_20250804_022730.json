@@ -1,0 +1,149 @@
+{
+  "agent_name": "meta_prompting",
+  "dependency_accuracy": {
+    "total_expected_dependencies": 16,
+    "total_predicted_dependencies": 0,
+    "correct_dependencies": 0,
+    "missing_dependencies": 16,
+    "false_dependencies": 0,
+    "overall_precision": 0,
+    "overall_recall": 0.0,
+    "overall_f1_score": 0,
+    "accuracy": 0.0,
+    "detection_rate": 0.0,
+    "detailed_comparisons": [
+      {
+        "user_story": "As a team member, I want to see the first iteration of beta up on cloud.gov",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Configure deployment pipeline": "{'Set up cloud.gov account and project space'}",
+          "Deploy beta version to cloud.gov": "{'Configure deployment pipeline'}",
+          "Test deployment and verify functionality": "{'Deploy beta version to cloud.gov'}",
+          "Share access credentials with team members": "{'Test deployment and verify functionality'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta sit...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Configure DNS settings for beta.nsf.gov": "{'Request subdomain creation through NSF IT'}",
+          "Set up SSL certificate for subdomain": "{'Configure DNS settings for beta.nsf.gov'}",
+          "Configure deployment pipeline to use subdomain": "{'Set up SSL certificate for subdomain'}",
+          "Test subdomain accessibility and routing": "{'Configure deployment pipeline to use subdomain'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over fr...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Create migration checklist and timeline": "{'Research FISMA low requirements documentation', 'Document current prototype configuration', 'Schedule meeting with cloud.gov support team'}",
+          "Prepare compliance documentation": "{'Create migration checklist and timeline'}"
+        },
+        "predicted_detailed": {}
+      },
+      {
+        "user_story": "As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for ...",
+        "expected_dependencies": 4,
+        "predicted_dependencies": 0,
+        "correct_dependencies": 0,
+        "missing_dependencies": 4,
+        "false_dependencies": 0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "expected_detailed": {
+          "Document ATO requirements and timeline": "{'Schedule meeting with DIS and cloud.gov teams', 'Prepare list of ATO-related questions'}",
+          "Create compliance action plan": "{'Document ATO requirements and timeline'}",
+          "Assign responsibility for ATO tasks": "{'Create compliance action plan'}"
+        },
+        "predicted_detailed": {}
+      }
+    ]
+  },
+  "detection_statistics": {
+    "total_stories": 4,
+    "stories_with_dependencies": 4,
+    "stories_detected_dependencies": 0,
+    "avg_dependencies_per_story": 4.0,
+    "avg_predicted_dependencies_per_story": 0.0,
+    "dependency_distribution": {
+      "4": 4
+    },
+    "predicted_distribution": {},
+    "detection_coverage": 0.0,
+    "rework_effort_stats": {
+      "mean": 2.1875,
+      "median": 2.0,
+      "std": 0.5266343608235224,
+      "min": "1",
+      "max": "3"
+    }
+  },
+  "precision_recall": {
+    "mean_precision": 0.0,
+    "mean_recall": 0.0,
+    "mean_f1_score": 0.0,
+    "median_precision": 0.0,
+    "median_recall": 0.0,
+    "median_f1_score": 0.0,
+    "perfect_matches": 0,
+    "partial_matches": 0,
+    "no_matches": 4,
+    "perfect_match_percentage": 0.0,
+    "partial_match_percentage": 0.0,
+    "no_match_percentage": 100.0
+  },
+  "detailed_comparisons": [],
+  "summary": {
+    "agent_name": "meta_prompting",
+    "dataset_info": {
+      "total_test_stories": 4,
+      "processed_stories": 4,
+      "coverage": 1.0,
+      "stories_with_dependencies": 4
+    },
+    "detection_performance": {
+      "overall_precision": 0,
+      "overall_recall": 0.0,
+      "overall_f1_score": 0,
+      "accuracy": 0.0,
+      "detection_rate": 0.0
+    },
+    "dependency_counts": {
+      "total_expected": 16,
+      "total_predicted": 0,
+      "correct_predictions": 0,
+      "missing_dependencies": 16,
+      "false_dependencies": 0
+    },
+    "match_quality": {
+      "perfect_matches": 0,
+      "partial_matches": 0,
+      "no_matches": 4,
+      "perfect_match_percentage": 0.0
+    }
+  }
+}

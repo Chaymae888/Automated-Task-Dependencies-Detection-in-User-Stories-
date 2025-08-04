@@ -1,0 +1,487 @@
+{
+  "zero_shot": {
+    "agent_name": "zero_shot",
+    "overall_metrics": {
+      "mean_f1_score": 0.6254297566589554,
+      "mean_precision": 0.6793322731259686,
+      "mean_recall": 0.6536604098043524,
+      "mean_jaccard_similarity": 0.44457688415097735,
+      "exact_match_rate": 0.3102360791017465,
+      "std_f1_score": 0.1391590072141654
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 31,
+      "excellent_predictions": 7,
+      "good_predictions": 20,
+      "acceptable_predictions": 22,
+      "poor_predictions": 49,
+      "perfect_percentage": 31.02360791017465,
+      "excellent_percentage": 7.733285345897614,
+      "good_percentage": 20.606126740770137,
+      "acceptable_percentage": 22.282135884411826,
+      "poor_percentage": 49.37845202892042
+    },
+    "skill_analysis": {
+      "total_actual_skills": 48,
+      "total_predicted_skills": 47,
+      "skills_intersection": 31,
+      "skill_coverage_rate": 0.6458333333333334,
+      "skill_precision_rate": 0.6595744680851063,
+      "missing_skills": [
+        "data_visualization",
+        "microservices",
+        "kubernetes"
+      ],
+      "extra_skills": [
+        "legacy_systems"
+      ],
+      "most_common_actual": [
+        [
+          "backend",
+          15
+        ],
+        [
+          "frontend",
+          12
+        ],
+        [
+          "database",
+          10
+        ],
+        [
+          "api",
+          8
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "backend",
+          13
+        ],
+        [
+          "frontend",
+          11
+        ],
+        [
+          "database",
+          9
+        ],
+        [
+          "api",
+          7
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.3927926899873489,
+        "std": 0.11834880357872334
+      },
+      "rouge": {
+        "mean": 0.6136488236768737,
+        "std": 0.207448595407058
+      },
+      "meteor": {
+        "mean": 0.44723042013960757,
+        "std": 0.19080222447317025
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": 0.6074132383800877,
+      "std_similarity": 0.15979087282016002
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_skills_per_task": 0.48,
+      "mean_predicted_skills_per_task": 0.47,
+      "prediction_bias": -0.01
+    }
+  },
+  "few_shot": {
+    "agent_name": "few_shot",
+    "overall_metrics": {
+      "mean_f1_score": 0.587386080919734,
+      "mean_precision": 0.6173058288580549,
+      "mean_recall": 0.4429515712991301,
+      "mean_jaccard_similarity": 0.42212650796347734,
+      "exact_match_rate": 0.30900599071264656,
+      "std_f1_score": 0.1258635399972179
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 30,
+      "excellent_predictions": 1,
+      "good_predictions": 24,
+      "acceptable_predictions": 19,
+      "poor_predictions": 54,
+      "perfect_percentage": 30.900599071264658,
+      "excellent_percentage": 1.7330989514041937,
+      "good_percentage": 24.064140579524718,
+      "acceptable_percentage": 19.813584179710396,
+      "poor_percentage": 54.3891762893607
+    },
+    "skill_analysis": {
+      "total_actual_skills": 57,
+      "total_predicted_skills": 68,
+      "skills_intersection": 35,
+      "skill_coverage_rate": 0.6140350877192983,
+      "skill_precision_rate": 0.5147058823529411,
+      "missing_skills": [
+        "data_visualization",
+        "microservices"
+      ],
+      "extra_skills": [],
+      "most_common_actual": [
+        [
+          "backend",
+          15
+        ],
+        [
+          "frontend",
+          12
+        ],
+        [
+          "database",
+          10
+        ],
+        [
+          "api",
+          8
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "backend",
+          13
+        ],
+        [
+          "frontend",
+          11
+        ],
+        [
+          "database",
+          9
+        ],
+        [
+          "api",
+          7
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.46818298860050594,
+        "std": 0.1265203058172152
+      },
+      "rouge": {
+        "mean": 0.4585528485820761,
+        "std": 0.16550083673391433
+      },
+      "meteor": {
+        "mean": 0.46086399852290805,
+        "std": 0.20573176408596733
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": 0.5868483512237285,
+      "std_similarity": 0.20557683234056182
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_skills_per_task": 0.57,
+      "mean_predicted_skills_per_task": 0.68,
+      "prediction_bias": 0.11
+    }
+  },
+  "chain_of_thought": {
+    "agent_name": "chain_of_thought",
+    "overall_metrics": {
+      "mean_f1_score": 0.5993134895533387,
+      "mean_precision": 0.5478634285493316,
+      "mean_recall": 0.49934156509891287,
+      "mean_jaccard_similarity": 0.5356315606638702,
+      "exact_match_rate": 0.2839272152168841,
+      "std_f1_score": 0.17028503829195135
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 28,
+      "excellent_predictions": 5,
+      "good_predictions": 27,
+      "acceptable_predictions": 15,
+      "poor_predictions": 51,
+      "perfect_percentage": 28.392721521688408,
+      "excellent_percentage": 5.387626491409679,
+      "good_percentage": 27.479755603790643,
+      "acceptable_percentage": 15.571652729074831,
+      "poor_percentage": 51.560965175724846
+    },
+    "skill_analysis": {
+      "total_actual_skills": 63,
+      "total_predicted_skills": 55,
+      "skills_intersection": 30,
+      "skill_coverage_rate": 0.47619047619047616,
+      "skill_precision_rate": 0.5454545454545454,
+      "missing_skills": [
+        "data_visualization",
+        "microservices",
+        "kubernetes"
+      ],
+      "extra_skills": [],
+      "most_common_actual": [
+        [
+          "backend",
+          15
+        ],
+        [
+          "frontend",
+          12
+        ],
+        [
+          "database",
+          10
+        ],
+        [
+          "api",
+          8
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "backend",
+          13
+        ],
+        [
+          "frontend",
+          11
+        ],
+        [
+          "database",
+          9
+        ],
+        [
+          "api",
+          7
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.3664058336143083,
+        "std": 0.15078284969934186
+      },
+      "rouge": {
+        "mean": 0.5270064677873582,
+        "std": 0.12685213327037922
+      },
+      "meteor": {
+        "mean": 0.42766541512389367,
+        "std": 0.19618192019701292
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": 0.527848418574047,
+      "std_similarity": 0.24415961272290893
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_skills_per_task": 0.63,
+      "mean_predicted_skills_per_task": 0.55,
+      "prediction_bias": -0.08
+    }
+  },
+  "tree_of_thought": {
+    "agent_name": "tree_of_thought",
+    "overall_metrics": {
+      "mean_f1_score": 0.7155740328110548,
+      "mean_precision": 0.7678919057507211,
+      "mean_recall": 0.6339741662289065,
+      "mean_jaccard_similarity": 0.5126348621864487,
+      "exact_match_rate": 0.35579195975232675,
+      "std_f1_score": 0.14656145125313538
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 35,
+      "excellent_predictions": 11,
+      "good_predictions": 23,
+      "acceptable_predictions": 17,
+      "poor_predictions": 47,
+      "perfect_percentage": 35.57919597523267,
+      "excellent_percentage": 11.430970878993634,
+      "good_percentage": 23.16369845976727,
+      "acceptable_percentage": 17.60765695603633,
+      "poor_percentage": 47.79767370520276
+    },
+    "skill_analysis": {
+      "total_actual_skills": 55,
+      "total_predicted_skills": 47,
+      "skills_intersection": 36,
+      "skill_coverage_rate": 0.6545454545454545,
+      "skill_precision_rate": 0.7659574468085106,
+      "missing_skills": [
+        "data_visualization"
+      ],
+      "extra_skills": [
+        "legacy_systems",
+        "documentation"
+      ],
+      "most_common_actual": [
+        [
+          "backend",
+          15
+        ],
+        [
+          "frontend",
+          12
+        ],
+        [
+          "database",
+          10
+        ],
+        [
+          "api",
+          8
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "backend",
+          13
+        ],
+        [
+          "frontend",
+          11
+        ],
+        [
+          "database",
+          9
+        ],
+        [
+          "api",
+          7
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.5217251402168877,
+        "std": 0.14572245725704522
+      },
+      "rouge": {
+        "mean": 0.6838714196594371,
+        "std": 0.21357342874448232
+      },
+      "meteor": {
+        "mean": 0.5022350027777659,
+        "std": 0.17211592554930927
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": 0.6530319529402157,
+      "std_similarity": 0.15999812489245885
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_skills_per_task": 0.55,
+      "mean_predicted_skills_per_task": 0.47,
+      "prediction_bias": -0.08
+    }
+  },
+  "self_consistency": {
+    "agent_name": "self_consistency",
+    "overall_metrics": {
+      "mean_f1_score": 0.7930107523281302,
+      "mean_precision": 0.8204707755239011,
+      "mean_recall": 0.7305965256293174,
+      "mean_jaccard_similarity": 0.610461078386566,
+      "exact_match_rate": 0.254268901213352,
+      "std_f1_score": 0.15025171429788897
+    },
+    "accuracy_breakdown": {
+      "perfect_predictions": 25,
+      "excellent_predictions": 12,
+      "good_predictions": 22,
+      "acceptable_predictions": 19,
+      "poor_predictions": 45,
+      "perfect_percentage": 25.426890121335198,
+      "excellent_percentage": 12.093381781487825,
+      "good_percentage": 22.84987391216657,
+      "acceptable_percentage": 19.3818457300771,
+      "poor_percentage": 45.674898576268504
+    },
+    "skill_analysis": {
+      "total_actual_skills": 62,
+      "total_predicted_skills": 62,
+      "skills_intersection": 50,
+      "skill_coverage_rate": 0.8064516129032258,
+      "skill_precision_rate": 0.8064516129032258,
+      "missing_skills": [
+        "data_visualization",
+        "microservices",
+        "kubernetes"
+      ],
+      "extra_skills": [
+        "legacy_systems",
+        "documentation"
+      ],
+      "most_common_actual": [
+        [
+          "backend",
+          15
+        ],
+        [
+          "frontend",
+          12
+        ],
+        [
+          "database",
+          10
+        ],
+        [
+          "api",
+          8
+        ]
+      ],
+      "most_common_predicted": [
+        [
+          "backend",
+          13
+        ],
+        [
+          "frontend",
+          11
+        ],
+        [
+          "database",
+          9
+        ],
+        [
+          "api",
+          7
+        ]
+      ]
+    },
+    "overlap_metrics": {
+      "bleu": {
+        "mean": 0.4770472130145334,
+        "std": 0.18171041351154618
+      },
+      "rouge": {
+        "mean": 0.6500947433648173,
+        "std": 0.18633887149660772
+      },
+      "meteor": {
+        "mean": 0.7040238443892286,
+        "std": 0.12342911143933677
+      }
+    },
+    "semantic_similarity": {
+      "mean_similarity": 0.6527158372163618,
+      "std_similarity": 0.16070359777094176
+    },
+    "summary_stats": {
+      "total_tasks_evaluated": 100,
+      "mean_actual_skills_per_task": 0.62,
+      "mean_predicted_skills_per_task": 0.62,
+      "prediction_bias": 0.0
+    }
+  }
+}

@@ -1,0 +1,209 @@
+====================================================================================================
+MULTI-AGENT REQUIRED SKILLS EVALUATION REPORT
+====================================================================================================
+
+📊 EVALUATION OVERVIEW:
+  • Skills Agents Evaluated: 8
+  • Agents: chain_of_thought, few_shots2, few_shot_cot, meta_prompting, reflexion, self_consistency, tree_of_thought, zero_shots
+  • Test Stories: 71
+  • Coverage: 98.6%
+
+==================================================
+INDIVIDUAL AGENT RESULTS
+==================================================
+
+🔍 CHAIN_OF_THOUGHT:
+  📝 Overlap Metrics:
+    • BLEU Score: 0.000
+    • ROUGE Score: 0.000
+    • METEOR Score: 0.000
+    • Skill Overlap: 0.000
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.000
+    • Skill Precision Rate: 0.000
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 0
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (2 stories)
+
+🔍 FEW_SHOTS2:
+  🎯 Skill Accuracy Metrics:
+    • Mean F1 Score: 0.156
+    • Mean Precision: 0.155
+    • Mean Recall: 0.159
+    • Exact Match Rate: 0.000
+    • Jaccard Similarity: 0.102
+  📝 Overlap Metrics:
+    • BLEU Score: 0.017
+    • ROUGE Score: 0.179
+    • METEOR Score: 0.380
+    • Skill Overlap: 0.105
+  🧠 Semantic Similarity:
+    • Mean Similarity: 0.683
+    • Excellent Predictions: 5.4%
+    • Good Predictions: 83.8%
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.168
+    • Skill Precision Rate: 0.361
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 352
+  🏷️  Top Category Performance:
+    • security: F1=0.500 (2 stories)
+    • design: F1=0.429 (7 stories)
+    • frontend: F1=0.400 (7 stories)
+
+🔍 FEW_SHOT_COT:
+  📝 Overlap Metrics:
+    • BLEU Score: 0.000
+    • ROUGE Score: 0.000
+    • METEOR Score: 0.000
+    • Skill Overlap: 0.000
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.000
+    • Skill Precision Rate: 0.000
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 0
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (2 stories)
+
+🔍 META_PROMPTING:
+  📝 Overlap Metrics:
+    • BLEU Score: 0.000
+    • ROUGE Score: 0.000
+    • METEOR Score: 0.000
+    • Skill Overlap: 0.000
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.000
+    • Skill Precision Rate: 0.000
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 0
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (2 stories)
+
+🔍 REFLEXION:
+  📝 Overlap Metrics:
+    • BLEU Score: 0.000
+    • ROUGE Score: 0.000
+    • METEOR Score: 0.000
+    • Skill Overlap: 0.000
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.000
+    • Skill Precision Rate: 0.000
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 0
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (2 stories)
+
+🔍 SELF_CONSISTENCY:
+  📝 Overlap Metrics:
+    • BLEU Score: 0.000
+    • ROUGE Score: 0.000
+    • METEOR Score: 0.000
+    • Skill Overlap: 0.000
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.000
+    • Skill Precision Rate: 0.000
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 0
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (2 stories)
+
+🔍 TREE_OF_THOUGHT:
+  🎯 Skill Accuracy Metrics:
+    • Mean F1 Score: 0.012
+    • Mean Precision: 0.011
+    • Mean Recall: 0.014
+    • Exact Match Rate: 0.000
+    • Jaccard Similarity: 0.007
+  📝 Overlap Metrics:
+    • BLEU Score: 0.001
+    • ROUGE Score: 0.016
+    • METEOR Score: 0.214
+    • Skill Overlap: 0.008
+  🧠 Semantic Similarity:
+    • Mean Similarity: 0.539
+    • Excellent Predictions: 2.9%
+    • Good Predictions: 58.6%
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.045
+    • Skill Precision Rate: 0.110
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 310
+  🏷️  Top Category Performance:
+    • frontend: F1=0.000 (5 stories)
+    • backend: F1=0.000 (1 stories)
+    • devops: F1=0.000 (4 stories)
+
+🔍 ZERO_SHOTS:
+  🎯 Skill Accuracy Metrics:
+    • Mean F1 Score: 0.078
+    • Mean Precision: 0.073
+    • Mean Recall: 0.085
+    • Exact Match Rate: 0.000
+    • Jaccard Similarity: 0.047
+  📝 Overlap Metrics:
+    • BLEU Score: 0.008
+    • ROUGE Score: 0.096
+    • METEOR Score: 0.219
+    • Skill Overlap: 0.052
+  🧠 Semantic Similarity:
+    • Mean Similarity: 0.587
+    • Excellent Predictions: 0.0%
+    • Good Predictions: 55.2%
+  📊 Coverage Analysis:
+    • Skill Coverage Rate: 0.135
+    • Skill Precision Rate: 0.222
+    • Total Expected Skills: 755
+    • Total Predicted Skills: 460
+  🏷️  Top Category Performance:
+    • devops: F1=0.250 (2 stories)
+    • security: F1=0.250 (4 stories)
+    • design: F1=0.188 (16 stories)
+
+==================================================
+COMPARISON AND RANKING
+==================================================
+
+🏆 BEST PERFORMERS:
+  • Highest F1: few_shots2
+  • Highest Precision: few_shots2
+  • Highest Recall: few_shots2
+  • Highest Bleu: few_shots2
+  • Highest Semantic: few_shots2
+  • Best Coverage: few_shots2
+
+🥇 OVERALL RANKING:
+  1. few_shots2 (Composite Score: 0.224)
+  2. zero_shots (Composite Score: 0.159)
+  3. tree_of_thought (Composite Score: 0.097)
+  4. chain_of_thought (Composite Score: 0.000)
+  5. few_shot_cot (Composite Score: 0.000)
+  6. meta_prompting (Composite Score: 0.000)
+  7. reflexion (Composite Score: 0.000)
+  8. self_consistency (Composite Score: 0.000)
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 RECOMMENDATIONS:
+  • For overall skill accuracy: Use few_shots2
+    (F1 Score: 0.156)
+  • For skill overlap quality: Use few_shots2
+    (BLEU Score: 0.017)
+  • For skill coverage: Use few_shots2
+    (Coverage Rate: 0.168)
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

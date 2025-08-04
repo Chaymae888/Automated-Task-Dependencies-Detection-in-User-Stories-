@@ -1,0 +1,91 @@
+{
+  "technique_name": "few_shot_cot",
+  "semantic_similarity": {
+    "error": "No valid semantic similarity computations"
+  },
+  "overlap_metrics": {
+    "bleu": {
+      "mean": 0,
+      "std": 0,
+      "min": 0,
+      "max": 0,
+      "scores": []
+    },
+    "rouge": {
+      "mean": 0,
+      "std": 0,
+      "min": 0,
+      "max": 0,
+      "scores": []
+    },
+    "meteor": {
+      "mean": 0,
+      "std": 0,
+      "min": 0,
+      "max": 0,
+      "scores": []
+    },
+    "word_overlap": {
+      "mean": 0,
+      "std": 0,
+      "min": 0,
+      "max": 0,
+      "scores": []
+    },
+    "total_comparisons": 0
+  },
+  "task_statistics": {
+    "expected_tasks": {
+      "mean": 5.0,
+      "std": 0.0,
+      "min": "5",
+      "max": "5",
+      "total": "355"
+    },
+    "predicted_tasks": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": "0",
+      "max": "0",
+      "total": "0"
+    },
+    "count_differences": {
+      "mean": -5.0,
+      "std": 0.0,
+      "min": "-5",
+      "max": "-5"
+    },
+    "count_ratios": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "over_predictions": 0,
+    "under_predictions": 71,
+    "exact_predictions": 0,
+    "total_stories": 71
+  },
+  "summary": {
+    "technique_name": "few_shot_cot",
+    "dataset_info": {
+      "total_test_stories": 71,
+      "processed_stories": 70,
+      "coverage": 0.9859154929577465
+    },
+    "overlap_summary": {
+      "bleu_mean": 0,
+      "rouge_mean": 0,
+      "meteor_mean": 0,
+      "word_overlap_mean": 0
+    },
+    "task_summary": {
+      "expected_mean": 5.0,
+      "predicted_mean": 0.0,
+      "count_ratio_mean": 0.0,
+      "exact_predictions": 0,
+      "over_predictions": 0,
+      "under_predictions": 71
+    }
+  }
+}

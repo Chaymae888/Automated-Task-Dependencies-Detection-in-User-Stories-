@@ -1,0 +1,101 @@
+====================================================================================================
+DEPENDENCY DETECTION EVALUATION REPORT
+====================================================================================================
+
+🤖 Agent: few_shots2
+
+📊 EVALUATION OVERVIEW:
+  • Test Stories: 4
+  • Stories with Dependencies: 4
+  • Coverage: 100.0%
+
+🎯 PERFORMANCE METRICS:
+  • Overall Precision: 0.000
+  • Overall Recall: 0.000
+  • Overall F1-Score: 0.000
+  • Accuracy: 0.000
+  • Detection Rate: 0.000
+
+🔢 DEPENDENCY ANALYSIS:
+  • Total Expected Dependencies: 16
+  • Total Predicted Dependencies: 0
+  • Correctly Identified: 0
+  • Missing Dependencies: 16
+  • False Dependencies: 0
+
+📈 DETECTION STATISTICS:
+  • Average Dependencies per Story: 4.00
+  • Average Predicted Dependencies per Story: 0.00
+  • Detection Coverage: 0.0%
+
+🎯 MATCH QUALITY:
+  • Perfect Matches: 0 (0.0%)
+  • Partial Matches: 0
+  • No Matches: 4
+
+📊 PRECISION/RECALL ANALYSIS:
+  • Mean Precision: 0.000
+  • Mean Recall: 0.000
+  • Mean F1-Score: 0.000
+  • Median Precision: 0.000
+  • Median Recall: 0.000
+
+📋 SAMPLE DETAILED COMPARISONS:
+
+  📝 Story 1: As a team member, I want to see the first iteration of beta up on cloud.gov...
+    • Expected Dependencies: 4
+    • Predicted Dependencies: 0
+    • Correct: 0
+    • Missing: 4
+    • False: 0
+    • Precision: 0.000
+    • Recall: 0.000
+    • F1-Score: 0.000
+
+  📝 Story 2: As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I c...
+    • Expected Dependencies: 4
+    • Predicted Dependencies: 0
+    • Correct: 0
+    • Missing: 4
+    • False: 0
+    • Precision: 0.000
+    • Recall: 0.000
+    • F1-Score: 0.000
+
+  📝 Story 3: As an NSF employee, I want to understand the process of switching the cloud.gov ...
+    • Expected Dependencies: 4
+    • Predicted Dependencies: 0
+    • Correct: 0
+    • Missing: 4
+    • False: 0
+    • Precision: 0.000
+    • Recall: 0.000
+    • F1-Score: 0.000
+
+==================================================
+RECOMMENDATIONS
+==================================================
+
+💡 IMPROVEMENT RECOMMENDATIONS:
+  🔴 CRITICAL: Overall F1-Score is low (0.000)
+    • Review dependency detection algorithm
+    • Consider improving task relationship analysis
+    • Validate training data or rule-based logic
+  🟡 LOW PRECISION (0.000): Too many false dependencies
+    • Tighten dependency detection criteria
+    • Improve task similarity matching
+    • Add more restrictive filters
+  🟡 LOW RECALL (0.000): Missing many dependencies
+    • Expand dependency detection patterns
+    • Consider more relationship types
+    • Review task parsing logic
+  🟡 LOW PERFECT MATCHES (0.0%)
+    • Focus on exact dependency identification
+    • Improve task description matching
+    • Validate dependency ordering logic
+
+✅ STRENGTHS:
+
+====================================================================================================
+EVALUATION COMPLETED
+====================================================================================================

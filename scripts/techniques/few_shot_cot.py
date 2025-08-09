@@ -284,9 +284,8 @@ Return ONLY the final number from the Fibonacci scale:
         
         return 3  # Default
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+class RequiredSkillsAgent:
     """Step 3: Map required skills using Chain of Thought"""
     
     def __init__(self):
@@ -381,8 +380,13 @@ Required Skills:
         for task in tasks:
             skills = await self.map_skills(task)
             skills_map[task] = skills
-        return self._ensure_valid_output(skills_map, tasks)
-    
+        
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+        
+        return skills_map
+
     async def map_skills(self, task: str) -> List[str]:
         prompt = f"""
 Identify the specific skills required to complete this task. Consider both technical and non-technical skills.

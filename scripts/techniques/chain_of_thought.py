@@ -86,7 +86,6 @@ class TokenTracker:
             }
         }
 
-# Global token tracker
 token_tracker = TokenTracker()
 
 
@@ -283,9 +282,9 @@ Return ONLY the final number from the Fibonacci scale.
         
         return 3  # Default
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+
+class RequiredSkillsAgent:
     """Step 3: Map required skills using Chain of Thought"""
     
     async def map_skills(self, task: str) -> List[str]:
@@ -341,10 +340,15 @@ Required Skills:
         """Required method for evaluation system"""
         skills_map = {}
         for task in tasks:
-            skills = await self.map_skills(task)  # Use your existing method
+            skills = await self.map_skills(task)
             skills_map[task] = skills
-        return self._ensure_valid_output(skills_map, tasks)
-    
+        
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+        
+        return skills_map
+
     def _parse_skills(self, content: str) -> List[str]:
         """Extract clean skills list from LLM response"""
         lines = content.split('\n')
@@ -394,7 +398,6 @@ Required Skills:
         
         # Comprehensive skill mapping with technical and non-technical skills
         skill_mappings = {
-            # CORE TECHNICAL SKILLS
             'frontend_development': [
                 'frontend', 'front-end', 'front end', 'ui development', 'client-side', 
                 'client side', 'html', 'css', 'responsive design', 'web development', 

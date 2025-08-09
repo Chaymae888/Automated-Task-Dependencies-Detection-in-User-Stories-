@@ -8,7 +8,6 @@ different techniques can estimate story points for each task.
 
 import json
 import asyncio
-import sys
 import os
 from typing import Dict, List, Any, Tuple
 from datetime import datetime
@@ -18,10 +17,6 @@ import warnings
 import importlib.util
 import traceback
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import statistics
 
 warnings.filterwarnings('ignore')
 
@@ -365,7 +360,7 @@ class EstimatorLoader:
     
     def auto_register_estimators(self):
         """Auto-register estimators found in techniques directory"""
-        techniques_dir = "techniques"
+        techniques_dir = "../techniques"
         if not os.path.exists(techniques_dir):
             print(f"⚠️ No techniques directory found: {techniques_dir}")
             return

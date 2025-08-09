@@ -288,17 +288,20 @@ Task 3: Z points"""
         
         return points
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+class RequiredSkillsAgent:
     """Step 2b: Identify required skills for each task"""
     
     def __init__(self):
         pass
-        
-    async def identify_skills(self, user_story: str, tasks: List[str]) -> Dict[str, List[str]]:
-        tasks_str = "\n".join([f"{i+1}. {task}" for i, task in enumerate(tasks)])
-        
+
+    async def map_skills(self, task: str) -> List[str]:
+        """Map skills for individual task using few-shot examples"""
+        # Create a mini user story context and single task for the existing prompt
+        user_story = "General task completion"
+        tasks = [task]
+        tasks_str = "1. " + task
+    
         prompt = f"""
 You are a technical skills analyst. Identify specific skills required for each task.
 
@@ -342,22 +345,35 @@ Tasks:
 {tasks_str}
 
 Return ONLY this format:
-Task 1: skill1, skill2, skill3
-Task 2: skill1, skill2
-Task 3: skill1, skill2, skill3"""
-        
+Task 1: skill1, skill2, skill3"""
+    
         response = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
             model="llama3-70b-8192",
             temperature=0.3
         )
-        
+    
         output_text = response.choices[0].message.content.strip()
         token_tracker.track_api_call('required_skills', prompt, output_text)
+    
+        # Parse for single task
+        skills_map = self._parse_skills(output_text, tasks)
+        return skills_map.get(task, ["general_development"])
+
+    async def identify_skills(self, user_story: str, tasks: List[str]) -> Dict[str, List[str]]:
+        """Required method for evaluation system"""
+        skills_map = {}
+        for task in tasks:
+            skills = await self.map_skills(task)
+            skills_map[task] = skills
+    
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+    
+        print(f"✓ Identified skills for {len(skills_map)} tasks")
+        return skills_map
         
-        skills = self._parse_skills(output_text, tasks)
-        print(f"✓ Identified skills for {len(skills)} tasks")
-        return skills
     
     def _parse_skills(self, content: str, tasks: List[str]) -> Dict[str, List[str]]:
         skills_map = {}

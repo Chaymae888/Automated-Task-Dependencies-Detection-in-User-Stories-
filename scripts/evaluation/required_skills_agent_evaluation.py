@@ -24,11 +24,6 @@ import warnings
 import importlib.util
 import traceback
 import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import statistics
-import re
 
 warnings.filterwarnings('ignore')
 
@@ -637,7 +632,7 @@ class SkillsAgentLoader:
     
     def auto_register_agents(self):
         """Auto-register agents found in techniques directory"""
-        techniques_dir = "techniques"
+        techniques_dir = "../techniques"
         if not os.path.exists(techniques_dir):
             print(f"⚠️ No techniques directory found: {techniques_dir}")
             return

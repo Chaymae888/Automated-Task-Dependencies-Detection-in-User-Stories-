@@ -15,7 +15,7 @@ import os
 from typing import Dict, List, Any, Tuple, Set
 from datetime import datetime
 import numpy as np
-from collections import Counter, defaultdict
+from collections import defaultdict
 import warnings
 import importlib.util
 import traceback

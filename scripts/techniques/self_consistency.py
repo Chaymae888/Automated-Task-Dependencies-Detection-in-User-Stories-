@@ -286,9 +286,8 @@ Reasoning: Let me assess the complexity of this task:
         
         return None
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+class RequiredSkillsAgent:
     """Enhanced skills mapping with standardized skill taxonomy"""
     
     def __init__(self):
@@ -343,11 +342,11 @@ Required Skills:
 - event_handling
 """
     
-    async def map_skills(self, task: str, num_samples: int = 3) -> List[str]:
+    async def map_skills(self, task: str) -> List[str]:
         """Map skills using consistency and standardized taxonomy"""
         all_skill_samples = []
         
-        for i in range(num_samples):
+        for i in range(3):
             temperature = 0.3 + (i * 0.15)
             
             prompt = f"""
@@ -390,10 +389,15 @@ Reasoning: This task requires:
         """Required method for evaluation system"""
         skills_map = {}
         for task in tasks:
-            skills = await self.map_skills(task)  # Use your existing method
+            skills = await self.map_skills(task)
             skills_map[task] = skills
-        return self._ensure_valid_output(skills_map, tasks)
-    
+        
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+        
+        return skills_map
+
     def _parse_and_normalize_skills(self, content: str) -> List[str]:
         """Parse skills and normalize to taxonomy"""
         lines = content.split('\n')
@@ -495,14 +499,14 @@ Dependencies:
 - Task 5 depends on Task 4 (rework_effort: 2)
 """
     
-    async def analyze_dependencies(self, tasks: List[str], num_samples: int = 3) -> Dict[str, List[Dict[str, Any]]]:
+    async def analyze_dependencies(self, tasks: List[str]) -> Dict[str, List[Dict[str, Any]]]:
         """Analyze task dependencies with rework effort estimation"""
         if len(tasks) <= 1:
             return {}
         
         all_dependency_samples = []
         
-        for i in range(num_samples):
+        for i in range(3):
             temperature = 0.2 + (i * 0.1)
             
             tasks_str = "\n".join([f"{i+1}. {task}" for i, task in enumerate(tasks)])

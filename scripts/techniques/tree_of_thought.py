@@ -573,49 +573,55 @@ class StoryPointEstimatorAgent:
         
         return points
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+class RequiredSkillsAgent:
     """Enhanced Required Skills Agent using Tree of Thoughts"""
     
     def __init__(self):
         self.tot_framework = OptimizedTreeOfThoughts(max_depth=1, branching_factor=2, timeout_seconds=15)
         
-    async def identify_skills(self, user_story: str, tasks: List[str]) -> Dict[str, List[str]]:
-        print(f"🛠️ Identifying skills for {len(tasks)} tasks...")
-        
+    async def map_skills(self, task: str) -> List[str]:
+        """Map skills for individual task using Tree of Thoughts"""
         try:
-            context = {'tasks': tasks}
+            context = {'tasks': [task]}
             thought_solutions = await self.tot_framework.explore_tree(
-                f"Identify skills for tasks related to: {user_story}",
+                f"Identify skills for task: {task}",
                 "required_skills",
                 context
             )
-            
+        
             # Extract skills from all solutions
-            all_skills = {}
+            all_skills = []
             for solution in thought_solutions:
-                skills = self._extract_skills_from_solution(solution, tasks)
-                for task, skill_list in skills.items():
-                    if task not in all_skills:
-                        all_skills[task] = []
-                    all_skills[task].extend(skill_list)
-            
-            # Deduplicate and normalize skills
-            for task in tasks:
-                if task in all_skills:
-                    unique_skills = list(dict.fromkeys(all_skills[task]))  # Remove duplicates
-                    all_skills[task] = [self._normalize_skill(skill) for skill in unique_skills[:4]]
-                else:
-                    all_skills[task] = ["general_development"]
-            
-            print(f"  ✅ Identified skills for {len(all_skills)} tasks")
-            return all_skills
+                skills = self._extract_skills_from_solution(solution, [task])
+                if task in skills:
+                    all_skills.extend(skills[task])
+        
+        # Deduplicate and normalize skills
+            if all_skills:
+                unique_skills = list(dict.fromkeys(all_skills))  # Remove duplicates
+                return [self._normalize_skill(skill) for skill in unique_skills[:4]]
+            else:
+                return ["general_development"]
             
         except Exception as e:
-            print(f"  ❌ Error in skills identification: {str(e)}")
-            return {task: ["general_development"] for task in tasks}
+            print(f"  ❌ Error in skill mapping: {str(e)}")
+            return ["general_development"]
+
+    async def identify_skills(self, user_story: str, tasks: List[str]) -> Dict[str, List[str]]:
+        """Required method for evaluation system"""
+        print(f"🛠️ Identifying skills for {len(tasks)} tasks...")
+        skills_map = {}
+        for task in tasks:
+            skills = await self.map_skills(task)
+            skills_map[task] = skills
     
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+    
+        print(f"  ✅ Identified skills for {len(skills_map)} tasks")
+        return skills_map
     def _extract_skills_from_solution(self, solution: str, tasks: List[str]) -> Dict[str, List[str]]:
         """Extract skills from Tree of Thoughts solution"""
         skills_map = {}

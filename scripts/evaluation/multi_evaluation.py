@@ -22,10 +22,6 @@ from nltk.translate.meteor_score import meteor_score
 import warnings
 import importlib.util
 import traceback
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 warnings.filterwarnings('ignore')
 
@@ -502,7 +498,7 @@ class MultiTechniqueEvaluationPipeline:
     def _auto_register_techniques(self):
         print("🔍 Looking for technique files in techniques/ directory...")
     
-        techniques_dir = "techniques"
+        techniques_dir = "../techniques"
         if not os.path.exists(techniques_dir):
             print(f"❌ Techniques directory not found: {techniques_dir}")
             return
@@ -532,7 +528,7 @@ class MultiTechniqueEvaluationPipeline:
     def _scan_for_technique_files(self):
         """Scan techniques directory for Python files"""
     
-        techniques_dir = "techniques"
+        techniques_dir = "../techniques"
         if not os.path.exists(techniques_dir):
             print(f"⚠️  Techniques directory not found: {techniques_dir}")
             return

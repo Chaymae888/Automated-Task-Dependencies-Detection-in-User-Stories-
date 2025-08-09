@@ -211,9 +211,8 @@ Return ONLY the number from the Fibonacci scale, nothing else:
                 return num
         return 3
 
-from unified_skills_agent import BaseRequiredSkillsAgent
 
-class RequiredSkillsAgent(BaseRequiredSkillsAgent):
+class RequiredSkillsAgent:
     """Skills mapping with clean output"""
     
     async def map_skills(self, task: str) -> List[str]:
@@ -260,10 +259,15 @@ Return ONLY a simple list with dashes, nothing else:
         """Required method for evaluation system"""
         skills_map = {}
         for task in tasks:
-            skills = await self.map_skills(task)  # Use your existing method
+            skills = await self.map_skills(task)
             skills_map[task] = skills
-        return self._ensure_valid_output(skills_map, tasks)
-    
+        
+        for task in tasks:
+            if task not in skills_map:
+                skills_map[task] = ["general_development"]
+        
+        return skills_map
+
     def _parse_skills(self, content: str) -> List[str]:
         """Extract skills from response"""
         lines = content.split('\n')

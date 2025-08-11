@@ -86,7 +86,7 @@ class TokenTracker:
             }
         }
 
-# Global token tracker
+
 token_tracker = TokenTracker()
 
 class TaskExtractorAgent:

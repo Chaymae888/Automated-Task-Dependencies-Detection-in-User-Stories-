@@ -10,7 +10,6 @@ This system evaluates dependency detection accuracy by:
 
 import json
 import asyncio
-import sys
 import os
 from typing import Dict, List, Any, Tuple, Set
 from datetime import datetime
